@@ -1,0 +1,1824 @@
+<frozen runpy>:128: RuntimeWarning: 'scrapers.runner' found in sys.modules after import of package 'scrapers', but prior to execution of 'scrapers.runner'; this may result in unpredictable behaviour
+21:08:24 INFO     === SG scrape run starting [mode=full] ===
+21:08:24 INFO     [runner] Switching IVPN to Singapore exit node...
+21:08:25 INFO     [ivpn] Already on sg.wg.ivpn.net — no switch needed
+21:08:25 INFO     [runner] IVPN now on Singapore exit node
+21:08:25 INFO     --- Starting sgcarmart ---
+21:08:26 INFO     [sgcarmart] VPN confirmed (37.120.151.123)
+21:08:27 INFO     [sgcarmart] Browser started
+21:08:27 INFO     [sgcarmart] Searching make=Ferrari mdl=None
+21:08:33 INFO     [sgcarmart] Saved 1319460 — Ferrari F8 Tributo 2580000.0
+21:08:58 INFO     [sgcarmart] Saved 1493972 — Ferrari F8 Spider 1100000.0
+21:09:16 INFO     [sgcarmart] Saved 1475660 — Ferrari California 4.3A (COE till 08/2030) 203800.0
+21:09:42 INFO     [sgcarmart] Saved 1420303 — Ferrari F8 Tributo 1145000.0
+21:10:15 INFO     [sgcarmart] Saved 1464079 — Ferrari 812 Superfast 928000.0
+21:10:48 INFO     [sgcarmart] Saved 1399654 — Ferrari F430 F1 (COE till 06/2027) 180000.0
+21:11:13 INFO     [sgcarmart] Saved 1493728 — Ferrari F430 F1 (COE till 11/2035) 300800.0
+21:11:28 INFO     [sgcarmart] Saved 1457417 — Ferrari 296 GTB Plug-in Hybrid 1168888.0
+21:11:43 INFO     [sgcarmart] Saved 1457338 — Ferrari F8 Tributo 1180000.0
+21:12:08 INFO     [sgcarmart] Saved 1472742 — Ferrari 458 Italia (COE till 01/2033) 468000.0
+21:12:31 INFO     [sgcarmart] Saved 1493296 — Ferrari Roma 788800.0
+21:12:48 INFO     [sgcarmart] Saved 1478230 — Ferrari Portofino M 3.9A 829800.0
+21:13:04 INFO     [sgcarmart] Saved 1492491 — Ferrari 488 Spider 618000.0
+21:13:35 INFO     [sgcarmart] Saved 1472810 — Ferrari 488 Spider 738800.0
+21:14:06 INFO     [sgcarmart] Saved 1400965 — Ferrari F430 F1 (New 10-yr COE) 270000.0
+21:14:29 INFO     [sgcarmart] Saved 1492183 — Ferrari SF90 Spider Plug-in Hybrid 4.0A 1488000.0
+21:14:53 INFO     [sgcarmart] Saved 1492355 — Ferrari 488 GTB (COE till 02/2036) 688000.0
+21:15:16 INFO     [sgcarmart] Saved 1488275 — Ferrari 488 GTB 565800.0
+21:15:45 INFO     [sgcarmart] Saved 1457018 — Ferrari GTC4Lusso T 699000.0
+21:16:07 INFO     [sgcarmart] Saved 1457012 — Ferrari 348 TS (COE till 05/2028) 239000.0
+21:16:44 INFO     [sgcarmart] Saved 1484271 — Ferrari F430 F1 (COE till 11/2027) 196888.0
+21:17:00 INFO     [sgcarmart] Saved 1388270 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1550000.0
+21:17:14 INFO     [sgcarmart] Saved 1454719 — Ferrari F8 Spider 1210000.0
+21:17:35 INFO     [sgcarmart] Saved 1455505 — Ferrari 488 Pista 1000888.0
+21:17:51 INFO     [sgcarmart] Saved 1164549 — Ferrari California 4.3A (COE till 04/2033) 368000.0
+21:18:04 INFO     [sgcarmart] Saved 1491870 — Ferrari California H30 4.3A (COE till 04/2032) 320000.0
+21:18:15 INFO     [sgcarmart] Saved 1491753 — Ferrari 812 GTS 1480000.0
+21:18:43 INFO     [sgcarmart] Saved 1409201 — Ferrari Portofino M 3.9A 1029888.0
+21:19:28 WARNING  [sgcarmart] goto failed (attempt 1/3): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sgcarmart.com/used-cars/info/ferrari-812-competizione-1491662/", waiting until "domcontentloaded"
+ — retrying in 5s
+21:20:03 WARNING  [sgcarmart] goto failed (attempt 2/3): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sgcarmart.com/used-cars/info/ferrari-812-competizione-1491662/", waiting until "domcontentloaded"
+ — retrying in 15s
+21:20:48 ERROR    [sgcarmart] Failed to load https://www.sgcarmart.com/used-cars/info/ferrari-812-competizione-1491662/ after 3 attempts: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sgcarmart.com/used-cars/info/ferrari-812-competizione-1491662/", waiting until "domcontentloaded"
+
+21:21:24 INFO     [sgcarmart] Saved 1473537 — Ferrari Portofino 3.9A 540000.0
+21:21:37 INFO     [sgcarmart] Saved 1467060 — Ferrari 360 Challenge Stradale (COE till 01/2035) 850000.0
+21:22:05 INFO     [sgcarmart] Saved 1401147 — Ferrari 488 GTB 729888.0
+21:22:22 INFO     [sgcarmart] Saved 1253780 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1708800.0
+21:22:50 INFO     [sgcarmart] Saved 1443086 — Ferrari Portofino 3.9A 695800.0
+21:23:23 INFO     [sgcarmart] Saved 1437869 — Ferrari F430 F1 Spider (New 10-yr COE) 278888.0
+21:23:44 INFO     [sgcarmart] Saved 1365203 — Ferrari California 4.3A (COE till 06/2030) 227800.0
+21:23:56 INFO     [sgcarmart] Saved 1491144 — Ferrari 458 Italia (COE till 09/2031) 388500.0
+21:24:25 INFO     [sgcarmart] Saved 1491204 — Ferrari Roma 920800.0
+21:24:44 INFO     [sgcarmart] Saved 1437632 — Ferrari California 4.3A (COE till 04/2032) 320000.0
+21:24:59 INFO     [sgcarmart] Saved 1431692 — Ferrari F8 Tributo 958000.0
+21:25:40 INFO     [sgcarmart] Saved 1256459 — Ferrari 458 Italia (COE till 10/2031) 360000.0
+21:25:58 INFO     [sgcarmart] Saved 1464994 — Ferrari 488 Pista 1320000.0
+21:26:24 INFO     [sgcarmart] Saved 1410583 — Ferrari 296 GTS Plug-in Hybrid 1568000.0
+21:26:37 INFO     [sgcarmart] Saved 1490670 — Ferrari 296 GTB Plug-in Hybrid 1380000.0
+21:27:12 INFO     [sgcarmart] Saved 1474032 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1888888.0
+21:27:46 INFO     [sgcarmart] Saved 1423916 — Ferrari F612S F1 (New 10-yr COE) 315000.0
+21:28:15 INFO     [sgcarmart] Saved 1437462 — Ferrari 348 Spider (COE till 08/2033) 298000.0
+21:28:36 INFO     [sgcarmart] Saved 1476360 — Ferrari 488 GTB 660997.0
+21:28:52 INFO     [sgcarmart] Saved 1476155 — Ferrari 812 Superfast 958000.0
+21:29:04 INFO     [sgcarmart] Saved 1309760 — Ferrari California T 3.8A (COE till 01/2035) 439888.0
+21:29:22 INFO     [sgcarmart] Saved 1490259 — Ferrari F8 Spider 995800.0
+21:29:40 INFO     [sgcarmart] Saved 1490034 — Ferrari 488 GTB (COE till 08/2035) 618800.0
+21:29:58 INFO     [sgcarmart] Saved 1454761 — Ferrari 488 GTB 720000.0
+21:30:15 INFO     [sgcarmart] Saved 1471999 — Ferrari 458 Italia (COE till 08/2030) 328000.0
+21:30:35 INFO     [sgcarmart] Saved 1471780 — Ferrari 458 Italia (COE till 01/2031) 428800.0
+21:30:48 INFO     [sgcarmart] Saved 1436477 — Ferrari 488 GTB 580000.0
+21:31:19 INFO     [sgcarmart] Saved 1253268 — Ferrari F8 Spider 1000000.0
+21:31:52 INFO     [sgcarmart] Saved 1234442 — Ferrari California 4.3A (COE till 11/2031) 260000.0
+21:32:24 INFO     [sgcarmart] Saved 1489598 — Ferrari F430 F1 Spider (COE till 08/2028) 288888.0
+21:32:38 INFO     [sgcarmart] Saved 1383925 — Ferrari California T 3.8A (COE till 06/2035) 459800.0
+21:33:13 INFO     [sgcarmart] Saved 1489258 — Ferrari 488 GTB 658000.0
+21:33:37 INFO     [sgcarmart] Saved 1471741 — Ferrari F430 F1 (COE till 01/2028) 198000.0
+21:33:54 INFO     [sgcarmart] Saved 1418093 — Ferrari California 4.3A (COE till 05/2031) 240000.0
+21:34:15 INFO     [sgcarmart] Saved 1305590 — Ferrari F12berlinetta 6.3A (COE till 10/2034) 729000.0
+21:34:33 INFO     [sgcarmart] Saved 1459377 — Ferrari 812 GTS 1480000.0
+21:34:48 INFO     [sgcarmart] Saved 1471434 — Ferrari F430 F1 Spider (COE till 09/2027) 210800.0
+21:35:00 INFO     [sgcarmart] Saved 1471141 — Ferrari F8 Tributo 858000.0
+21:35:32 INFO     [sgcarmart] Saved 1436158 — Ferrari F8 Spider 1020000.0
+21:35:50 INFO     [sgcarmart] Saved 1333164 — Ferrari 575M Maranello (COE till 08/2034) 398000.0
+21:36:20 INFO     [sgcarmart] Saved 1470787 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1700000.0
+21:36:44 INFO     [sgcarmart] Saved 1470427 — Ferrari F430 F1 Spider (COE till 05/2028) 229800.0
+21:37:02 INFO     [sgcarmart] Saved 1464294 — Ferrari F8 Tributo 1080000.0
+21:37:19 INFO     [sgcarmart] Saved 1488240 — Ferrari 812 GTS 2500000.0
+21:37:39 INFO     [sgcarmart] Saved 1488060 — Ferrari 458 Spider (COE till 04/2035) 628000.0
+21:37:55 INFO     [sgcarmart] Saved 1488061 — Ferrari 458 Speciale (COE till 11/2034) 1100000.0
+21:38:25 INFO     [sgcarmart] Saved 1461165 — Ferrari F12berlinetta 6.3A (COE till 05/2033) 798800.0
+21:38:53 INFO     [sgcarmart] Saved 1487958 — Ferrari 458 Italia (COE till 09/2031) 460000.0
+21:39:20 INFO     [sgcarmart] Saved 1352719 — Ferrari California 4.3A (COE till 03/2033) 299995.0
+21:39:43 INFO     [sgcarmart] Saved 1452001 — Ferrari SF90 Spider Plug-in Hybrid 4.0A 1788888.0
+21:40:10 INFO     [sgcarmart] Saved 1468905 — Ferrari 458 Italia (COE till 04/2031) 350888.0
+21:41:05 INFO     [sgcarmart] Saved 1345387 — Ferrari F12berlinetta 6.3A (COE till 03/2034) 750000.0
+21:41:19 INFO     [sgcarmart] Saved 1432786 — Ferrari F430 M (COE till 05/2029) 488800.0
+21:41:47 INFO     [sgcarmart] Saved 1371086 — Ferrari Portofino 3.9A 645600.0
+21:42:20 INFO     [sgcarmart] Saved 1479559 — Ferrari 488 GTB (COE till 03/2036) 668000.0
+21:42:36 INFO     [sgcarmart] Saved 1305513 — Ferrari F355 Spider (COE till 09/2034) 450000.0
+21:42:47 INFO     [sgcarmart] Saved 1485729 — Ferrari F430 F1 (New 10-yr COE) 338800.0
+21:43:16 INFO     [sgcarmart] Saved 1381536 — Ferrari 458 Speciale (COE till 01/2035) 1150000.0
+21:43:42 INFO     [sgcarmart] Saved 1330905 — Ferrari 488 Pista 1100000.0
+21:44:14 INFO     [sgcarmart] Saved 1414605 — Ferrari F430 F1 Spider (COE till 09/2027) 192800.0
+21:44:46 INFO     [sgcarmart] Saved 1376959 — Ferrari 599 F1 GTB Fiorano (COE till 01/2029) 252800.0
+21:44:57 INFO     [sgcarmart] Saved 1022696 — Ferrari F355 Spider (COE till 02/2026) 450000.0
+21:45:21 INFO     [sgcarmart] Saved 1485558 — Ferrari 488 GTB (COE till 03/2036) 658000.0
+21:45:52 INFO     [sgcarmart] Saved 1443281 — Ferrari 458 Spider (COE till 01/2033) 475888.0
+21:46:04 INFO     [sgcarmart] Saved 1485460 — Ferrari F430 Spider (COE till 08/2029) 159800.0
+21:46:18 INFO     [sgcarmart] Saved 1467890 — Ferrari 599 F1 GTB Fiorano (COE till 06/2028) 168888.0
+21:46:43 INFO     [sgcarmart] Saved 1386057 — Ferrari F430 F1 (New 10-yr COE) 299000.0
+21:47:07 INFO     [sgcarmart] Saved 1467504 — Ferrari California 4.3A (COE till 04/2032) 308800.0
+21:47:25 INFO     [sgcarmart] Saved 1349214 — Ferrari 296 GTB Plug-in Hybrid 1100000.0
+21:47:48 INFO     [sgcarmart] Saved 1200724 — Ferrari F430 F1 (New 10-yr COE) 313800.0
+21:48:10 INFO     [sgcarmart] Saved 1484414 — Ferrari F355B (COE till 08/2034) 480000.0
+21:49:10 INFO     [sgcarmart] Saved 1484625 — Ferrari California T 3.8A (New 10-yr COE) 498500.0
+21:49:27 INFO     [sgcarmart] Saved 1466429 — Ferrari California 4.3A (COE till 09/2031) 248888.0
+21:50:00 INFO     [sgcarmart] Saved 1303460 — Ferrari 488 Spider 665000.0
+21:50:19 INFO     [sgcarmart] Saved 1303457 — Ferrari F12berlinetta 6.3A 645000.0
+21:50:34 INFO     [sgcarmart] Saved 1431434 — Ferrari 488 GTB 765000.0
+21:50:54 INFO     [sgcarmart] Saved 1336330 — Ferrari F430 Scuderia (COE till 06/2031) 620000.0
+21:51:14 INFO     [sgcarmart] Saved 1483909 — Ferrari California 4.3A (COE till 03/2033) 299999.0
+21:51:47 INFO     [sgcarmart] Saved 1412206 — Ferrari 458 Spider (COE till 03/2033) 495888.0
+21:52:01 INFO     [sgcarmart] Saved 1411944 — Ferrari California 4.3A (COE till 04/2032) 308000.0
+21:52:25 INFO     [sgcarmart] Saved 1342409 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1700000.0
+21:52:50 INFO     [sgcarmart] Saved 1411720 — Ferrari FF (COE till 01/2032) 350800.0
+21:53:05 INFO     [sgcarmart] Saved 1482494 — Ferrari 458 Italia (COE till 05/2032) 439800.0
+21:53:24 INFO     [sgcarmart] Saved 1442434 — Ferrari 488 GTB (New 10-yr COE) 690000.0
+21:53:52 INFO     [sgcarmart] Saved 1482128 — Ferrari 488 Pista 1250000.0
+21:54:18 INFO     [sgcarmart] Saved 1464548 — Ferrari F430 F1 Spider (COE till 01/2036) 298000.0
+21:54:29 INFO     [sgcarmart] Saved 1464113 — Ferrari California 4.3A (COE till 02/2030) 198888.0
+21:54:56 INFO     [sgcarmart] Saved 1428072 — Ferrari F12berlinetta 6.3A (COE till 04/2033) 610000.0
+21:55:19 INFO     [sgcarmart] Saved 1447633 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1780000.0
+21:55:52 INFO     [sgcarmart] Saved 1429484 — Ferrari F430 F1 Spider (COE till 10/2027) 198000.0
+21:56:24 INFO     [sgcarmart] Saved 1397572 — Ferrari Portofino M 3.9A 1000000.0
+21:57:14 INFO     [sgcarmart] Saved 1481442 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1760000.0
+21:57:29 INFO     [sgcarmart] Saved 1210854 — Ferrari SF90 Spider Plug-in Hybrid 4.0A 1550000.0
+21:57:56 INFO     [sgcarmart] Saved 1446655 — Ferrari Mondial Quattrovalvole (COE till 03/2029) 150000.0
+21:58:27 INFO     [sgcarmart] Saved 1463363 — Ferrari 812 Superfast 989000.0
+21:58:47 INFO     [sgcarmart] Saved 1462820 — Ferrari 488 GTB 730000.0
+21:59:07 INFO     [sgcarmart] Saved 1462026 — Ferrari F612S F1 (COE till 08/2035) 268000.0
+21:59:36 INFO     [sgcarmart] Saved 1462534 — Ferrari 458 Spider (COE till 04/2033) 599888.0
+22:00:07 INFO     [sgcarmart] Saved 1408763 — Ferrari 599 GTO (COE till 04/2033) 1800000.0
+22:00:35 INFO     [sgcarmart] Saved 1225836 — Ferrari 812 GTS 1580000.0
+22:01:07 INFO     [sgcarmart] Saved 1416189 — Ferrari F430 F1 Spider (COE till 04/2031) 208888.0
+22:01:23 INFO     [sgcarmart] Saved 1477827 — Ferrari F8 Spider 1068888.0
+22:01:47 INFO     [sgcarmart] Saved 1461090 — Ferrari Portofino 3.9A 538000.0
+22:02:07 INFO     [sgcarmart] Saved 1306428 — Ferrari F430 F1 Spider (New 10-yr COE) 306000.0
+22:02:21 INFO     [sgcarmart] Saved 1354495 — Ferrari 360 Spider F1 (COE till 10/2031) 180000.0
+22:02:51 INFO     [sgcarmart] Saved 1460724 — Ferrari 458 Italia (COE till 04/2031) 425888.0
+22:03:09 INFO     [sgcarmart] Saved 1460617 — Ferrari 488 Spider (New 10-yr COE) 745000.0
+22:03:36 INFO     [sgcarmart] Saved 1476834 — Ferrari 488 GTB (New 10-yr COE) 648000.0
+22:03:53 INFO     [sgcarmart] Saved 1335098 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1650000.0
+22:04:16 INFO     [sgcarmart] Saved 1460537 — Ferrari 488 GTB (New 10-yr COE) 655800.0
+22:04:43 INFO     [sgcarmart] Saved 1460530 — Ferrari 458 Italia (COE till 04/2029) 290000.0
+22:05:22 INFO     [sgcarmart] Saved 1421350 — Ferrari 488 GTB (New 10-yr COE) 658800.0
+22:05:42 INFO     [sgcarmart] Saved 1459682 — Ferrari F430 Scuderia (COE till 04/2029) 700000.0
+22:05:57 INFO     [sgcarmart] Saved 1294884 — Ferrari F430 F1 (New 10-yr COE) 319800.0
+22:06:28 INFO     [sgcarmart] Saved 1264371 — Ferrari F430 Spider (COE till 12/2030) 259000.0
+22:06:55 INFO     [sgcarmart] Saved 1476381 — Ferrari 458 Italia (New 10-yr COE) 568888.0
+22:07:20 INFO     [sgcarmart] Saved 1470929 — Ferrari Portofino 3.9A 680000.0
+22:07:44 INFO     [sgcarmart] Saved 1441729 — Ferrari California T 3.8A 520000.0
+22:08:06 INFO     [sgcarmart] Saved 1368343 — Ferrari SF90 Stradale Plug-in Hybrid 4.0A 1690000.0
+22:08:36 INFO     [sgcarmart] Saved 1399880 — Ferrari F430 F1 (COE till 02/2029) 217997.0
+22:09:00 INFO     [sgcarmart] Saved 1368320 — Ferrari F8 Spider 1270000.0
+22:09:42 INFO     [sgcarmart] Searching make=Lamborghini mdl=None
+22:09:50 INFO     [sgcarmart] Saved 1489128 — Lamborghini Aventador LP700-4 (COE till 03/2032) 25.0
+22:10:08 INFO     [sgcarmart] Saved 1493940 — Lamborghini Huracan LP610-4 (COE till 08/2034) 510000.0
+22:10:35 INFO     [sgcarmart] Saved 1493839 — Lamborghini Huracan LP640-4 Performante 680000.0
+22:10:51 INFO     [sgcarmart] Saved 1491213 — Lamborghini Urus S 1150000.0
+22:11:11 INFO     [sgcarmart] Saved 1487255 — Lamborghini Huracan LP610-4 (COE till 01/2035) 528500.0
+22:11:38 INFO     [sgcarmart] Saved 1493998 — Lamborghini Aventador SVJ 63 Roadster 2550000.0
+22:12:00 INFO     [sgcarmart] Saved 1475820 — Lamborghini Huracan LP580-2 450000.0
+22:12:20 INFO     [sgcarmart] Saved 1493759 — Lamborghini Huracan LP610-4 (New 10-yr COE) 628000.0
+22:12:35 INFO     [sgcarmart] Saved 1271134 — Lamborghini Aventador LP700-4 (COE till 11/2031) 392388.0
+22:12:59 INFO     [sgcarmart] Saved 1439802 — Lamborghini Aventador LP700-4 (COE till 03/2032) 530000.0
+22:13:17 INFO     [sgcarmart] Saved 1421472 — Lamborghini Aventador Roadster LP700-4 (COE till 04/2033) 779000.0
+22:13:28 INFO     [sgcarmart] Saved 1457323 — Lamborghini Gallardo LP560-4 (COE till 03/2032) 253000.0
+22:13:57 INFO     [sgcarmart] Saved 1398061 — Lamborghini Gallardo LP550-2 (COE till 09/2030) 178800.0
+22:14:24 INFO     [sgcarmart] Saved 1474828 — Lamborghini Huracan EVO RWD 858888.0
+22:14:56 INFO     [sgcarmart] Saved 1393216 — Lamborghini Huracan Spyder LP580-2 599888.0
+22:15:20 INFO     [sgcarmart] Saved 1493075 — Lamborghini Gallardo LP560-4 (COE till 10/2031) 188800.0
+22:15:47 INFO     [sgcarmart] Saved 1480915 — Lamborghini Gallardo LP570-4 Superleggera (COE till 03/2030) 208888.0
+22:15:59 INFO     [sgcarmart] Saved 1480621 — Lamborghini Huracan LP580-2 (New 10-yr COE) 539888.0
+22:16:12 INFO     [sgcarmart] Saved 1486345 — Lamborghini Gallardo LP570-4 Superleggera (COE till 03/2030) 210000.0
+22:16:26 INFO     [sgcarmart] Saved 1416110 — Lamborghini Huracan LP640-4 Performante 638888.0
+22:17:15 INFO     [sgcarmart] Saved 1485909 — Lamborghini Gallardo LP550-2 (COE till 06/2031) 194800.0
+22:17:44 INFO     [sgcarmart] Saved 1474330 — Lamborghini Urus 699000.0
+22:17:59 INFO     [sgcarmart] Saved 1492424 — Lamborghini Gallardo Spyder LP560-4 (New 10-yr COE) 308800.0
+22:18:23 INFO     [sgcarmart] Saved 1475138 — Lamborghini Gallardo LP570-4 Superleggera (COE till 09/2030) 235997.0
+22:18:45 INFO     [sgcarmart] Saved 1488131 — Lamborghini Gallardo LP560-4 (COE till 07/2031) 185800.0
+22:19:14 INFO     [sgcarmart] Saved 1456171 — Lamborghini Murcielago LP640 (COE till 10/2028) 559000.0
+22:19:36 INFO     [sgcarmart] Saved 1491889 — Lamborghini Urus S 1188000.0
+22:20:07 INFO     [sgcarmart] Saved 1466061 — Lamborghini Gallardo Spyder LP560-4 (COE till 06/2030) 181800.0
+22:20:34 INFO     [sgcarmart] Saved 1484316 — Lamborghini Huracan LP580-2 516800.0
+22:20:58 INFO     [sgcarmart] Saved 1330475 — Lamborghini Aventador LP700-4 (COE till 10/2032) 600000.0
+22:21:14 INFO     [sgcarmart] Saved 1408785 — Lamborghini Huracan LP610-4 (COE till 08/2035) 538880.0
+22:21:26 INFO     [sgcarmart] Saved 1464125 — Lamborghini Huracan STO 958000.0
+22:21:55 INFO     [sgcarmart] Saved 1410572 — Lamborghini Aventador S Roadster 989000.0
+22:22:15 INFO     [sgcarmart] Saved 1406643 — Lamborghini Huracan LP610-4 (New 10-yr COE) 563300.0
+22:22:33 INFO     [sgcarmart] Saved 1456611 — Lamborghini Huracan LP580-2 (New 10-yr COE) 529800.0
+22:22:54 INFO     [sgcarmart] Saved 1436626 — Lamborghini Aventador LP700-4 (COE till 06/2031) 369800.0
+22:23:20 INFO     [sgcarmart] Saved 1454467 — Lamborghini Aventador SVJ 1788000.0
+22:23:36 INFO     [sgcarmart] Saved 1489548 — Lamborghini Gallardo LP560-4 (COE till 11/2031) 218000.0
+22:24:06 INFO     [sgcarmart] Saved 1471673 — Lamborghini Gallardo LP570-4 Superleggera (COE till 06/2030) 246000.0
+22:24:18 INFO     [sgcarmart] Saved 1470811 — Lamborghini Aventador LP750-4 Superveloce 1200000.0
+22:25:11 INFO     [sgcarmart] Saved 1453602 — Lamborghini Gallardo LP550-2 (New 10-yr COE) 299999.0
+22:25:28 INFO     [sgcarmart] Saved 1168230 — Lamborghini Gallardo LP550-2 (COE till 09/2030) 198000.0
+22:25:56 INFO     [sgcarmart] Saved 1470288 — Lamborghini Aventador LP700-4 (COE till 03/2033) 578000.0
+22:26:16 INFO     [sgcarmart] Saved 1470279 — Lamborghini Murcielago LP640 (COE till 08/2029) 680000.0
+22:26:47 INFO     [sgcarmart] Saved 1479596 — Lamborghini Gallardo LP550-2 (COE till 06/2030) 190000.0
+22:27:09 INFO     [sgcarmart] Saved 1488003 — Lamborghini Huracan STO 1138000.0
+22:27:27 INFO     [sgcarmart] Saved 1481062 — Lamborghini Aventador LP700-4 (COE till 11/2031) 408888.0
+22:27:41 INFO     [sgcarmart] Saved 1480988 — Lamborghini Aventador S 715000.0
+22:28:05 INFO     [sgcarmart] Saved 1469892 — Lamborghini Gallardo LP560-4 (COE till 03/2029) 150800.0
+22:28:19 INFO     [sgcarmart] Saved 1436669 — Lamborghini Gallardo LP550-2 (COE till 09/2031) 215000.0
+22:28:44 INFO     [sgcarmart] Saved 1487408 — Lamborghini Aventador LP700-4 (COE till 01/2032) 520000.0
+22:28:56 INFO     [sgcarmart] Saved 1451912 — Lamborghini Urus 1088888.0
+22:29:23 INFO     [sgcarmart] Saved 1486989 — Lamborghini Murcielago LP640 (New 10-yr COE) 720000.0
+22:29:40 INFO     [sgcarmart] Saved 1263093 — Lamborghini Gallardo Spyder LP560-4 (COE till 05/2033) 278888.0
+22:30:08 INFO     [sgcarmart] Saved 1486715 — Lamborghini Urus 668888.0
+22:30:30 INFO     [sgcarmart] Saved 1450530 — Lamborghini Aventador LP700-4 (COE till 08/2032) 508000.0
+22:30:54 INFO     [sgcarmart] Saved 1414898 — Lamborghini Gallardo LP550-2 (COE till 06/2031) 205800.0
+22:31:18 INFO     [sgcarmart] Saved 1485529 — Lamborghini Revuelto Plug-in Hybrid 2750000.0
+22:31:46 INFO     [sgcarmart] Saved 1432975 — Lamborghini Urus 688000.0
+22:32:16 INFO     [sgcarmart] Saved 1473950 — Lamborghini Aventador LP750-4 Superveloce (New 10-yr COE) 1050000.0
+22:33:02 INFO     [sgcarmart] Saved 1485344 — Lamborghini Urus 708800.0
+22:33:19 INFO     [sgcarmart] Saved 1485356 — Lamborghini Huracan EVO RWD 715000.0
+22:33:42 INFO     [sgcarmart] Saved 1450040 — Lamborghini Huracan LP610-4 (COE till 08/2034) 618800.0
+22:34:05 INFO     [sgcarmart] Saved 1344318 — Lamborghini Gallardo LP560-4 (COE till 02/2030) 196888.0
+22:34:32 INFO     [sgcarmart] Saved 1484788 — Lamborghini Gallardo LP550-2 SLE (COE till 03/2030) 178777.0
+22:34:53 INFO     [sgcarmart] Saved 1465802 — Lamborghini Gallardo Spyder (New 10-yr COE) 258000.0
+22:35:06 INFO     [sgcarmart] Saved 1484581 — Lamborghini Huracan EVO 5.2A V10 750000.0
+22:35:40 INFO     [sgcarmart] Saved 1484617 — Lamborghini Urus 688888.0
+22:36:06 INFO     [sgcarmart] Saved 1484310 — Lamborghini Aventador LP700-4 (COE till 10/2032) 588800.0
+22:36:21 INFO     [sgcarmart] Saved 1431963 — Lamborghini Gallardo LP570-4 Superleggera (COE till 08/2030) 222500.0
+22:36:39 INFO     [sgcarmart] Saved 1466050 — Lamborghini Huracan LP610-4 (COE till 10/2034) 599800.0
+22:37:12 INFO     [sgcarmart] Saved 1431563 — Lamborghini Gallardo Spyder LP570-4 Performante (COE till 01/2031) 315888.0
+22:37:35 INFO     [sgcarmart] Saved 1449128 — Lamborghini Gallardo LP550-2 (COE till 07/2032) 238000.0
+22:37:47 INFO     [sgcarmart] Saved 1448971 — Lamborghini Urus 800000.0
+22:38:17 INFO     [sgcarmart] Saved 1448547 — Lamborghini Aventador LP750-4 Superveloce (COE till 09/2035) 955000.0
+22:38:43 INFO     [sgcarmart] Saved 1392950 — Lamborghini Huracan LP580-2 500000.0
+22:39:10 INFO     [sgcarmart] Saved 1482371 — Lamborghini Aventador LP700-4 (COE till 04/2032) 448800.0
+22:39:42 INFO     [sgcarmart] Saved 1408065 — Lamborghini Huracan LP640-4 Performante 830997.0
+22:40:12 INFO     [sgcarmart] Saved 1441182 — Lamborghini Gallardo LP560-4 (COE till 07/2030) None
+22:40:42 INFO     [sgcarmart] Saved 1480954 — Lamborghini Huracan LP640-4 Performante 620800.0
+22:41:19 INFO     [sgcarmart] Saved 1396714 — Lamborghini Gallardo Spyder LP560-4 (COE till 07/2030) 163888.0
+22:41:49 INFO     [sgcarmart] Saved 1480803 — Lamborghini Urus 738000.0
+22:42:01 INFO     [sgcarmart] Saved 1403537 — Lamborghini Gallardo LP560-4 (COE till 03/2032) 288000.0
+22:42:21 INFO     [sgcarmart] Saved 1461369 — Lamborghini Aventador Roadster LP700-4 (COE till 03/2033) 739000.0
+22:42:36 INFO     [sgcarmart] Saved 1428502 — Lamborghini Huracan LP610-4 (COE till 02/2035) 538800.0
+22:43:09 INFO     [sgcarmart] Saved 1480511 — Lamborghini Huracan EVO 5.2A V10 798000.0
+22:43:22 INFO     [sgcarmart] Saved 1371742 — Lamborghini Gallardo LP550-2 (COE till 03/2030) 200000.0
+22:43:37 INFO     [sgcarmart] Saved 1480065 — Lamborghini Aventador LP700-4 (COE till 03/2033) 588000.0
+22:43:50 INFO     [sgcarmart] Saved 1479902 — Lamborghini Urus Plug-in Hybrid SE 4.0A 1358888.0
+22:44:08 INFO     [sgcarmart] Saved 1392646 — Lamborghini Huracan LP610-4 (COE till 01/2035) 555555.0
+22:44:20 INFO     [sgcarmart] Saved 1479380 — Lamborghini Gallardo LP560-4 (COE till 03/2030) 205900.0
+22:44:40 INFO     [sgcarmart] Saved 1462533 — Lamborghini Urus S 1150000.0
+22:45:11 INFO     [sgcarmart] Saved 1414822 — Lamborghini Aventador LP700-4 (COE till 12/2031) 398888.0
+22:45:23 INFO     [sgcarmart] Saved 1261480 — Lamborghini Gallardo LP560-4 (New 10-yr COE) 338000.0
+22:45:45 INFO     [sgcarmart] Saved 1426982 — Lamborghini Aventador LP750-4 Superveloce (COE till 11/2035) 970000.0
+22:46:13 INFO     [sgcarmart] Saved 1426833 — Lamborghini Aventador LP700-4 (COE till 07/2030) 388888.0
+22:46:28 INFO     [sgcarmart] Saved 1478452 — Lamborghini Urus S 1150000.0
+22:46:59 INFO     [sgcarmart] Saved 1461723 — Lamborghini Gallardo LP550-2 (COE till 10/2031) 238000.0
+22:47:14 INFO     [sgcarmart] Saved 1371347 — Lamborghini Huracan LP610-4 (COE till 01/2035) 538500.0
+22:47:41 INFO     [sgcarmart] Saved 1461378 — Lamborghini Gallardo LP560-4 (COE till 04/2031) 175800.0
+22:48:16 INFO     [sgcarmart] Saved 1477059 — Lamborghini Urus 838000.0
+22:48:46 INFO     [sgcarmart] Saved 1385417 — Lamborghini Aventador LP720-4 50th Anniversary (COE till 07/2034) 838000.0
+22:49:16 INFO     [sgcarmart] Saved 1183426 — Lamborghini Huracan STO 1228000.0
+22:49:49 INFO     [sgcarmart] Saved 1368194 — Lamborghini Huracan LP610-4 (COE till 03/2035) 538500.0
+22:50:07 INFO     [sgcarmart] Saved 1422215 — Lamborghini Huracan EVO RWD 698000.0
+22:50:54 INFO     [sgcarmart] Searching make=McLaren mdl=None
+22:51:01 INFO     [sgcarmart] Saved 1469464 — McLaren 12C (COE till 08/2032) 315000.0
+22:51:30 INFO     [sgcarmart] Saved 1112968 — McLaren 720S 818000.0
+22:51:56 INFO     [sgcarmart] Saved 1486384 — McLaren 720S (New 10-yr COE) 699777.0
+22:52:16 INFO     [sgcarmart] Saved 1370816 — McLaren 720S 788000.0
+22:52:28 INFO     [sgcarmart] Saved 1357251 — McLaren 720S Spider 759800.0
+22:52:39 INFO     [sgcarmart] Saved 1183035 — McLaren 12C (COE till 06/2032) 278800.0
+22:52:51 INFO     [sgcarmart] Saved 1474385 — McLaren 720S 588000.0
+22:53:21 INFO     [sgcarmart] Saved 1485680 — McLaren 12C (COE till 03/2032) 260000.0
+22:53:34 INFO     [sgcarmart] Saved 1455841 — McLaren GT 4.0A 750800.0
+22:53:59 INFO     [sgcarmart] Saved 1420836 — McLaren 750S Spider 1568800.0
+22:54:26 INFO     [sgcarmart] Saved 1492446 — McLaren 750S Coupe 1188000.0
+22:54:44 INFO     [sgcarmart] Saved 1217041 — McLaren 720S 678000.0
+22:55:04 INFO     [sgcarmart] Saved 1349427 — McLaren 765LT 1780000.0
+22:55:28 INFO     [sgcarmart] Saved 1231184 — McLaren 570S 488800.0
+22:55:42 INFO     [sgcarmart] Saved 1472605 — McLaren 12C (COE till 03/2032) 325000.0
+22:56:10 INFO     [sgcarmart] Saved 1489794 — McLaren 765LT 1450000.0
+22:56:32 INFO     [sgcarmart] Saved 1489775 — McLaren 720S Spider 888000.0
+22:56:50 INFO     [sgcarmart] Saved 1483073 — McLaren GT 4.0A 515800.0
+22:57:19 INFO     [sgcarmart] Saved 1488591 — McLaren 650S Spider (COE till 06/2035) 427888.0
+22:57:39 INFO     [sgcarmart] Saved 1487901 — McLaren 650S Spider (COE till 10/2034) 650000.0
+22:58:24 INFO     [sgcarmart] Saved 1434582 — McLaren 600LT 630800.0
+22:58:46 INFO     [sgcarmart] Saved 1415753 — McLaren 12C (COE till 04/2032) 298000.0
+22:59:19 INFO     [sgcarmart] Saved 1469921 — McLaren 12C (COE till 08/2032) 313888.0
+22:59:43 INFO     [sgcarmart] Saved 1423309 — McLaren 12C Spider (COE till 04/2033) 298800.0
+23:00:11 INFO     [sgcarmart] Saved 1486673 — McLaren 720S 568000.0
+23:00:33 INFO     [sgcarmart] Saved 1181590 — McLaren 720S Spider 739000.0
+23:00:44 INFO     [sgcarmart] Saved 1371787 — McLaren 12C (COE till 05/2031) 258888.0
+23:01:13 INFO     [sgcarmart] Saved 1248740 — McLaren 765LT Spider Carbon Edition 2580000.0
+23:01:26 INFO     [sgcarmart] Saved 1275160 — McLaren 650S (COE till 07/2034) 449900.0
+23:01:38 INFO     [sgcarmart] Saved 1412203 — McLaren GT 4.0A 495800.0
+23:01:56 INFO     [sgcarmart] Saved 1393701 — McLaren 570S (New 10-yr COE) 465500.0
+23:02:24 INFO     [sgcarmart] Saved 1482848 — McLaren 570S (New 10-yr COE) 568888.0
+23:02:45 INFO     [sgcarmart] Saved 1358603 — McLaren 12C (COE till 03/2032) 260800.0
+23:03:08 INFO     [sgcarmart] Saved 1481740 — McLaren 720S 650000.0
+23:03:36 INFO     [sgcarmart] Saved 1460857 — McLaren 650S Spider (New 10-yr COE) 488500.0
+23:03:51 INFO     [sgcarmart] Saved 1480302 — McLaren 600LT 680000.0
+23:04:03 INFO     [sgcarmart] Saved 1472570 — McLaren GT 4.0A 538800.0
+23:04:34 INFO     [sgcarmart] Saved 1412810 — McLaren GT 4.0A 950888.0
+23:04:56 INFO     [sgcarmart] Saved 1478073 — McLaren 720S 748000.0
+23:05:24 INFO     [sgcarmart] Saved 1426146 — McLaren 12C Spider (COE till 02/2032) 289000.0
+23:06:02 INFO     [sgcarmart] Saved 1477172 — McLaren 765LT 1300000.0
+23:06:30 INFO     [sgcarmart] Saved 1386961 — McLaren Artura Plug-in Hybrid 1250000.0
+23:06:45 INFO     [sgcarmart] Saved 1195324 — McLaren 12C (COE till 06/2032) 399800.0
+23:07:05 INFO     [sgcarmart] Saved 1453492 — McLaren 600LT 675000.0
+23:07:17 INFO     [sgcarmart] Saved 1440232 — McLaren 650S (COE till 08/2034) 488888.0
+23:07:42 INFO     [sgcarmart] Searching make=Porsche mdl=None
+23:07:49 INFO     [sgcarmart] Saved 1480468 — Porsche 911 Carrera 3.0A PDK 20.0
+23:08:17 INFO     [sgcarmart] Saved 1472045 — Porsche 718 Boxster 2.0A PDK 40.0
+23:08:46 INFO     [sgcarmart] Saved 1489129 — Porsche Taycan Electric 14.0
+23:09:00 INFO     [sgcarmart] Saved 1494175 — Porsche Cayenne 3.6A Tip 86000.0
+23:09:24 INFO     [sgcarmart] Saved 1444510 — Porsche 718 Boxster 2.0A PDK (New 10-yr COE) 268800.0
+23:09:41 INFO     [sgcarmart] Saved 1494113 — Porsche Panamera 2.9A 325888.0
+23:09:52 INFO     [sgcarmart] Saved 1494106 — Porsche Cayenne 3.6A Tip (New 10-yr COE) 215800.0
+23:10:13 INFO     [sgcarmart] Saved 1233971 — Porsche Macan 2.0A PDK 183000.0
+23:10:33 INFO     [sgcarmart] Saved 1465973 — Porsche Macan S 2.9A PDK 361800.0
+23:10:51 INFO     [sgcarmart] Saved 1494019 — Porsche Cayenne 3.0A Tip 253000.0
+23:11:15 INFO     [sgcarmart] Saved 1470522 — Porsche Cayenne 3.0A Platinum Edition 397900.0
+23:11:28 INFO     [sgcarmart] Saved 1441655 — Porsche Cayenne 3.0A Tip 185000.0
+23:11:42 INFO     [sgcarmart] Saved 1490737 — Porsche Boxster 2.7A Tip (New 10-yr COE) 143888.0
+23:12:06 INFO     [sgcarmart] Saved 1483640 — Porsche Cayenne 3.0A Tip 159999.0
+23:12:37 INFO     [sgcarmart] Saved 1478353 — Porsche 911 Carrera Coupe 3.0A PDK (New 10-yr COE) 378800.0
+23:12:53 INFO     [sgcarmart] Saved 1456503 — Porsche Cayenne Turbo 4.8A Tip Panoramic Roof (COE till 04/2031) 88800.0
+23:13:18 INFO     [sgcarmart] Saved 1494104 — Porsche 911 Carrera 4S Cabriolet 170800.0
+23:13:47 INFO     [sgcarmart] Saved 1489568 — Porsche Taycan Electric 4S 348800.0
+23:14:09 INFO     [sgcarmart] Saved 1468057 — Porsche Cayenne Turbo 4.8A Tip (COE till 09/2030) 118000.0
+23:14:31 INFO     [sgcarmart] Saved 1439288 — Porsche Cayman S 3.4A PDK (COE till 04/2030) 127888.0
+23:15:28 INFO     [sgcarmart] Saved 1480390 — Porsche Macan S 3.0A PDK 242800.0
+23:15:45 INFO     [sgcarmart] Saved 1494058 — Porsche Cayman S 3.4A PDK (COE till 09/2029) 85800.0
+23:16:11 INFO     [sgcarmart] Saved 1494054 — Porsche Taycan Electric 4S 347800.0
+23:16:22 INFO     [sgcarmart] Saved 1490379 — Porsche Macan S 3.0A PDK 178800.0
+23:16:37 INFO     [sgcarmart] Saved 1488527 — Porsche 911 Carrera S Cabriolet 3.0A 668000.0
+23:16:53 INFO     [sgcarmart] Saved 1483050 — Porsche 718 Spyder 4.0M Cabriolet 495888.0
+23:17:16 INFO     [sgcarmart] Saved 1481957 — Porsche Cayenne 3.6A Platinum Edition 90800.0
+23:17:50 INFO     [sgcarmart] Saved 1455762 — Porsche Macan S 3.0A PDK 115800.0
+23:18:16 INFO     [sgcarmart] Saved 1397283 — Porsche Boxster 2.7M (COE till 12/2029) 88000.0
+23:18:41 INFO     [sgcarmart] Saved 1396849 — Porsche 944 (COE till 11/2033) 40000.0
+23:18:56 INFO     [sgcarmart] Saved 1494016 — Porsche Macan S 3.0A PDK (COE till 01/2035) 179000.0
+23:19:14 INFO     [sgcarmart] Saved 1494006 — Porsche Panamera S 4.8A PDK (COE till 04/2031) 82800.0
+23:19:47 INFO     [sgcarmart] Saved 1457692 — Porsche 911 Turbo S Coupe 3.8A PDK 1090000.0
+23:20:06 INFO     [sgcarmart] Saved 1490909 — Porsche Macan Electric 372800.0
+23:20:17 INFO     [sgcarmart] Saved 1457913 — Porsche 911 Carrera S Cabriolet 3.8A PDK (COE till 04/2031) 192800.0
+23:20:34 INFO     [sgcarmart] Saved 1487584 — Porsche 911 Carrera 4 Coupe 3.6A PDK (COE till 04/2029) 179800.0
+23:20:48 INFO     [sgcarmart] Saved 1475800 — Porsche Macan 2.0A PDK 99900.0
+23:21:04 INFO     [sgcarmart] Saved 1457711 — Porsche Macan S 3.0A PDK (COE till 08/2034) 163800.0
+23:21:36 INFO     [sgcarmart] Saved 1493846 — Porsche 911 Turbo Coupe 3.6A Tip (New 10-yr COE) 279888.0
+23:21:55 INFO     [sgcarmart] Saved 1453443 — Porsche Cayenne GTS Coupe 4.0A 455000.0
+23:22:41 INFO     [sgcarmart] Saved 1488352 — Porsche Macan S 3.0A PDK (COE till 05/2034) 156800.0
+23:23:10 INFO     [sgcarmart] Saved 1491006 — Porsche 944 Turbo Cabriolet (COE till 12/2030) 148888.0
+23:23:24 INFO     [sgcarmart] Saved 1400002 — Porsche Panamera 3.0A PDK Sunroof (New 10-yr COE) 295888.0
+23:23:35 INFO     [sgcarmart] Saved 1490903 — Porsche Macan GTS 3.0A PDK (New 10-yr COE) 242800.0
+23:23:58 INFO     [sgcarmart] Saved 1405629 — Porsche 911 Carrera Coupe 3.4A PDK (COE till 06/2032) 230000.0
+23:24:27 INFO     [sgcarmart] Saved 1464290 — Porsche Cayenne Coupe 3.0A Tip Sunroof 321888.0
+23:24:40 INFO     [sgcarmart] Saved 1298396 — Porsche 911 Carrera Coupe 3.6A PDK (COE till 03/2030) 158888.0
+23:25:04 INFO     [sgcarmart] Saved 1488965 — Porsche Macan 2.0A PDK 185888.0
+23:25:24 INFO     [sgcarmart] Saved 1474283 — Porsche Cayman R 3.4A PDK (COE till 10/2031) 199000.0
+23:25:55 INFO     [sgcarmart] Saved 1488057 — Porsche 911 GT3 3.8A (COE till 10/2034) 490000.0
+23:26:14 INFO     [sgcarmart] Saved 1474775 — Porsche 981 Boxster S 3.4A PDK (COE till 07/2032) 169800.0
+23:26:32 INFO     [sgcarmart] Saved 1481777 — Porsche Cayenne 3.6A Tip (COE till 07/2032) 126000.0
+23:26:56 INFO     [sgcarmart] Saved 1484546 — Porsche Cayenne 3.0A Tip Sunroof 218800.0
+23:27:18 INFO     [sgcarmart] Saved 1492477 — Porsche Panamera 3.0A PDK 153800.0
+23:27:33 INFO     [sgcarmart] Saved 1465532 — Porsche Taycan Electric 411800.0
+23:28:05 INFO     [sgcarmart] Saved 1479950 — Porsche Macan S 3.0A PDK (COE till 07/2034) 163000.0
+23:28:26 INFO     [sgcarmart] Saved 1475216 — Porsche 911 Carrera S Coupe 3.8A (COE till 11/2028) 125888.0
+23:28:39 INFO     [sgcarmart] Saved 1481158 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 08/2030) 168880.0
+23:28:52 INFO     [sgcarmart] Saved 1468492 — Porsche 911 C2 Cabriolet Tip (COE till 03/2027) 125000.0
+23:29:19 INFO     [sgcarmart] Saved 1402804 — Porsche 911 Carrera S Coupe 3.0A PDK (New 10-yr COE) 428000.0
+23:30:17 INFO     [sgcarmart] Saved 1491766 — Porsche Panamera 3.6A PDK Edition (New 10-yr COE) 238888.0
+23:30:33 INFO     [sgcarmart] Saved 1473996 — Porsche Cayenne Hybrid S 3.0A Sunroof (COE till 08/2030) 78500.0
+23:31:01 INFO     [sgcarmart] Saved 1493688 — Porsche 911 Carrera Cabriolet 3.6A PDK (COE till 01/2030) 150800.0
+23:31:29 INFO     [sgcarmart] Saved 1442110 — Porsche Macan Diesel S 3.0A PDK 98800.0
+23:31:52 INFO     [sgcarmart] Saved 1432498 — Porsche Cayenne 3.6A Platinum Edition 98888.0
+23:32:24 INFO     [sgcarmart] Saved 1493640 — Porsche Macan 2.0A PDK 94555.0
+23:32:39 INFO     [sgcarmart] Saved 1473139 — Porsche 718 Boxster 2.0A PDK 175000.0
+23:33:01 INFO     [sgcarmart] Saved 1493602 — Porsche Panamera 3.6A PDK Sunroof (COE till 10/2031) 92000.0
+23:33:25 INFO     [sgcarmart] Saved 1473090 — Porsche Boxster S 3.2A Tip (COE till 07/2035) 161800.0
+23:33:51 INFO     [sgcarmart] Saved 1484575 — Porsche 911 Carrera S Cabriolet 3.0A PDK 555777.0
+23:34:18 INFO     [sgcarmart] Saved 1493560 — Porsche Macan 2.0A PDK (COE till 12/2034) 196800.0
+23:34:46 INFO     [sgcarmart] Saved 1483396 — Porsche Panamera 3.6A PDK (COE till 08/2030) 71800.0
+23:35:14 INFO     [sgcarmart] Saved 1493534 — Porsche 911 Carrera 4S Coupe 3.8A PDK (COE till 04/2030) 248000.0
+23:35:25 INFO     [sgcarmart] Saved 1493482 — Porsche Macan S 3.0A PDK (New 10-yr COE) 187800.0
+23:35:46 INFO     [sgcarmart] Saved 1493443 — Porsche Panamera 3.6A PDK (COE till 04/2031) 80000.0
+23:36:09 INFO     [sgcarmart] Saved 1480848 — Porsche Macan 2.0A PDK (New 10-yr COE) 183888.0
+23:36:33 INFO     [sgcarmart] Saved 1463087 — Porsche Panamera 4S 4.8A PDK (COE till 03/2031) 67800.0
+23:36:47 INFO     [sgcarmart] Saved 1488661 — Porsche 718 Boxster S 2.5A 289777.0
+23:37:00 INFO     [sgcarmart] Saved 1482877 — Porsche 911 Carrera GTS 3.0A PDK Sunroof 718888.0
+23:37:14 INFO     [sgcarmart] Saved 1477012 — Porsche Macan 4 Electric 373777.0
+23:38:04 INFO     [sgcarmart] Saved 1489217 — Porsche Panamera 4 2.9A PDK 278800.0
+23:38:19 INFO     [sgcarmart] Saved 1478491 — Porsche Cayman 2.9A PDK (COE till 04/2029) 77800.0
+23:38:37 INFO     [sgcarmart] Saved 1489226 — Porsche Cayenne 3.6A Tip (COE till 09/2030) 69000.0
+23:38:55 INFO     [sgcarmart] Saved 1472438 — Porsche Cayenne Coupe E-Hybrid 3.0A Tip 500800.0
+23:39:23 INFO     [sgcarmart] Saved 1478190 — Porsche Taycan Electric 275800.0
+23:39:49 INFO     [sgcarmart] Saved 1485783 — Porsche Panamera 2.9A PDK 435800.0
+23:40:06 INFO     [sgcarmart] Saved 1483501 — Porsche Cayenne 3.2A Tip (COE till 04/2034) 103800.0
+23:40:30 INFO     [sgcarmart] Saved 1475139 — Porsche Cayenne S 3.6A Panoramic Roof 230988.0
+23:40:46 INFO     [sgcarmart] Saved 1475041 — Porsche Cayman 2.7A Tip (COE till 06/2028) 73800.0
+23:41:04 INFO     [sgcarmart] Saved 1475024 — Porsche 718 Boxster 2.0A PDK (New 10-yr COE) 260000.0
+23:41:25 INFO     [sgcarmart] Saved 1493438 — Porsche 981 Boxster 2.7A PDK (COE till 09/2033) 180800.0
+23:41:43 INFO     [sgcarmart] Saved 1468751 — Porsche 911 Turbo S Coupe 3.8A PDK (COE till 10/2035) 565888.0
+23:41:59 INFO     [sgcarmart] Saved 1434476 — Porsche 718 Cayman 2.0A PDK (New 10-yr COE) 275995.0
+23:42:17 INFO     [sgcarmart] Saved 1044905 — Porsche 718 Cayman GT4 4.0M 397995.0
+23:42:41 INFO     [sgcarmart] Saved 1452447 — Porsche 911 GT3 4.0A PDK 768998.0
+23:42:53 INFO     [sgcarmart] Saved 1474992 — Porsche Cayenne Coupe GTS 4.0A 425999.0
+23:43:20 INFO     [sgcarmart] Saved 1437082 — Porsche Boxster 2.7A Tip (COE till 04/2028) 39777.0
+23:43:44 INFO     [sgcarmart] Saved 1383952 — Porsche Taycan Electric 4S 428000.0
+23:44:03 INFO     [sgcarmart] Saved 1486425 — Porsche Cayenne Coupe 3.0A Tip Sunroof 320800.0
+23:44:24 INFO     [sgcarmart] Saved 1420466 — Porsche 911 Carrera Coupe (COE till 11/2028) 248888.0
+23:44:58 INFO     [sgcarmart] Saved 1485689 — Porsche 911 C4 Cabriolet Tip (New 10-yr COE) 171700.0
+23:45:15 INFO     [sgcarmart] Saved 1418792 — Porsche 911 Carrera Coupe 3.6A PDK (COE till 10/2031) 225888.0
+23:45:27 INFO     [sgcarmart] Saved 1493378 — Porsche Panamera 3.0A PDK 278800.0
+23:45:51 INFO     [sgcarmart] Saved 1493343 — Porsche 911 Carrera Cabriolet 3.0A PDK 317777.0
+23:46:04 INFO     [sgcarmart] Saved 1493334 — Porsche Cayenne 3.6A Tip (COE till 08/2032) 108800.0
+23:46:28 INFO     [sgcarmart] Saved 1486788 — Porsche 718 Cayman 2.0A PDK (New 10-yr COE) 289777.0
+23:46:54 INFO     [sgcarmart] Saved 1468669 — Porsche Cayman 2.9A PDK (COE till 07/2029) 77800.0
+23:47:19 INFO     [sgcarmart] Saved 1490705 — Porsche Cayenne S 2.9A Tip 308800.0
+23:47:43 INFO     [sgcarmart] Saved 1485809 — Porsche Cayenne S Coupe 2.9A Platinum Edition 422800.0
+23:48:12 INFO     [sgcarmart] Saved 1472254 — Porsche 911 Carrera 4S Cabriolet 3.0A PDK (COE till 10/2031) 499888.0
+23:48:40 INFO     [sgcarmart] Saved 1442547 — Porsche 911 Carrera S Coupe 3.0A PDK 450000.0
+23:49:04 INFO     [sgcarmart] Saved 1480800 — Porsche 911 Carrera S Coupe 3.0A PDK (New 10-yr COE) 400000.0
+23:49:33 INFO     [sgcarmart] Saved 1481075 — Porsche Cayman GTS 3.4A PDK (COE till 03/2035) 288000.0
+23:49:48 INFO     [sgcarmart] Saved 1471018 — Porsche Macan S 3.0A PDK 206000.0
+23:50:05 INFO     [sgcarmart] Saved 1469910 — Porsche Macan 2.0A PDK 115000.0
+23:50:31 INFO     [sgcarmart] Saved 1471493 — Porsche Macan 2.0A PDK 329800.0
+23:50:53 INFO     [sgcarmart] Saved 1479842 — Porsche 718 Boxster GTS 4.0A PDK 390800.0
+23:51:10 INFO     [sgcarmart] Saved 1474660 — Porsche 911 Turbo S Coupe 3.8A PDK 999888.0
+23:51:37 INFO     [sgcarmart] Saved 1451819 — Porsche Boxster 2.7A Tip (COE till 06/2028) 45000.0
+23:52:01 INFO     [sgcarmart] Saved 1493111 — Porsche 718 Cayman 2.0A PDK 268000.0
+23:52:54 INFO     [sgcarmart] Saved 1492975 — Porsche Cayenne S 4.8A Tip (COE till 04/2031) 83800.0
+23:53:11 INFO     [sgcarmart] Saved 1458226 — Porsche Panamera 2.9A PDK 412800.0
+23:53:44 INFO     [sgcarmart] Saved 1473105 — Porsche 911 GT3 3.6M (New 10-yr COE) 399000.0
+23:54:13 INFO     [sgcarmart] Saved 1474375 — Porsche 911 Targa 4S PDK 788800.0
+23:54:32 INFO     [sgcarmart] Saved 1491887 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 10/2034) 348888.0
+23:54:47 INFO     [sgcarmart] Saved 1483293 — Porsche Cayenne 3.0A Tip 260800.0
+23:55:14 INFO     [sgcarmart] Saved 1486037 — Porsche Cayenne 3.6A Tip (COE till 07/2030) 57800.0
+23:55:34 INFO     [sgcarmart] Saved 1470160 — Porsche Cayenne 3.6A Tip (COE till 05/2028) 28800.0
+23:55:53 INFO     [sgcarmart] Saved 1474798 — Porsche 911 Carrera GTS Cabriolet 3.8A PDK (COE till 09/2031) 338000.0
+23:56:12 INFO     [sgcarmart] Saved 1467427 — Porsche Panamera 3.6A PDK (COE till 05/2030) 77888.0
+23:56:41 INFO     [sgcarmart] Saved 1471783 — Porsche 911 Targa 4 GTS 630800.0
+23:57:00 INFO     [sgcarmart] Saved 1454219 — Porsche Cayenne 3.6A Tip (COE till 11/2032) 111800.0
+23:57:21 INFO     [sgcarmart] Saved 1474739 — Porsche Cayenne 3.0A Tip Sunroof 188000.0
+23:57:38 INFO     [sgcarmart] Saved 1492936 — Porsche Cayman 2.9A PDK (COE till 06/2030) 99900.0
+23:57:58 INFO     [sgcarmart] Saved 1490160 — Porsche 718 Boxster 2.0A PDK 388000.0
+23:58:12 INFO     [sgcarmart] Saved 1492700 — Porsche Panamera 3.0A PDK 179900.0
+23:58:23 INFO     [sgcarmart] Saved 1477660 — Porsche Cayenne S 4.8A Tip (COE till 11/2030) 74888.0
+23:58:49 INFO     [sgcarmart] Saved 1456751 — Porsche Cayenne 3.0A Tip 198800.0
+23:59:13 INFO     [sgcarmart] Saved 1492822 — Porsche Macan S 3.0A PDK 199800.0
+23:59:31 INFO     [sgcarmart] Saved 1479221 — Porsche 718 Boxster 2.0A PDK 268800.0
+00:00:09 INFO     [sgcarmart] Saved 1492770 — Porsche Macan S 3.0A PDK 115800.0
+00:00:32 INFO     [sgcarmart] Saved 1492781 — Porsche 911 Turbo Coupe 3.6A Tip (COE till 05/2032) 165000.0
+00:00:58 INFO     [sgcarmart] Saved 1484993 — Porsche Taycan 4S Cross Turismo Electric 385800.0
+00:01:18 INFO     [sgcarmart] Saved 1484565 — Porsche 911 GT3 4.0A PDK 858800.0
+00:01:49 INFO     [sgcarmart] Saved 1479861 — Porsche Panamera 3.6A PDK (COE till 08/2030) 74800.0
+00:02:22 INFO     [sgcarmart] Saved 1292685 — Porsche Taycan Electric 388000.0
+00:02:42 INFO     [sgcarmart] Saved 1451382 — Porsche 911 C4S Coupe Tip (New 10-yr COE) 227997.0
+00:03:10 INFO     [sgcarmart] Saved 1486051 — Porsche 911 GT3 4.0A PDK 898000.0
+00:03:40 INFO     [sgcarmart] Saved 1472671 — Porsche Taycan Electric 4S 475888.0
+00:03:54 INFO     [sgcarmart] Saved 1383406 — Porsche Panamera 4S 2.9A PDK 218888.0
+00:04:15 INFO     [sgcarmart] Saved 1489207 — Porsche Taycan Electric Sunroof 457997.0
+00:04:33 INFO     [sgcarmart] Saved 1492611 — Porsche Macan 2.0A PDK (New 10-yr COE) 208888.0
+00:05:02 INFO     [sgcarmart] Saved 1492600 — Porsche 718 Cayman 2.0A PDK 250800.0
+00:05:25 INFO     [sgcarmart] Saved 1492514 — Porsche Cayman 2.7A PDK (COE till 06/2035) 248000.0
+00:05:46 INFO     [sgcarmart] Saved 1492515 — Porsche 911 Turbo S Coupe 3.8A PDK 818000.0
+00:06:03 INFO     [sgcarmart] Saved 1483044 — Porsche Taycan 4S Cross Turismo Electric 365000.0
+00:06:16 INFO     [sgcarmart] Saved 1454562 — Porsche Panamera 3.0A PDK Sunroof 188888.0
+00:06:44 INFO     [sgcarmart] Saved 1457209 — Porsche 911 Carrera Coupe 3.0A PDK 555997.0
+00:07:03 INFO     [sgcarmart] Saved 1474237 — Porsche Macan 2.0A PDK (New 10-yr COE) 179800.0
+00:07:17 INFO     [sgcarmart] Saved 1462001 — Porsche Boxster S 3.4A PDK (COE till 04/2030) 88800.0
+00:07:52 INFO     [sgcarmart] Saved 1454562 — Porsche Panamera 3.0A PDK Sunroof 188888.0
+00:08:17 INFO     [sgcarmart] Saved 1457209 — Porsche 911 Carrera Coupe 3.0A PDK 555997.0
+00:08:29 INFO     [sgcarmart] Saved 1474237 — Porsche Macan 2.0A PDK (New 10-yr COE) 179800.0
+00:08:49 INFO     [sgcarmart] Saved 1462001 — Porsche Boxster S 3.4A PDK (COE till 04/2030) 88800.0
+00:09:00 INFO     [sgcarmart] Saved 1492298 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 03/2030) 154800.0
+00:09:32 INFO     [sgcarmart] Saved 1482908 — Porsche Panamera 3.6A PDK (COE till 07/2031) 76800.0
+00:09:55 INFO     [sgcarmart] Saved 1360906 — Porsche Cayenne 3.6A Tip (COE till 04/2031) 109800.0
+00:10:12 INFO     [sgcarmart] Saved 1492114 — Porsche Macan 2.0A PDK (New 10-yr COE) 175000.0
+00:10:36 INFO     [sgcarmart] Saved 1492077 — Porsche 911 Carrera 3.6A (COE till 01/2029) 108800.0
+00:11:01 INFO     [sgcarmart] Saved 1491923 — Porsche Macan 2.0A PDK 225000.0
+00:11:24 INFO     [sgcarmart] Saved 1430436 — Porsche Macan 2.0A PDK 213888.0
+00:11:45 INFO     [sgcarmart] Saved 1420213 — Porsche Cayman S 3.4A PDK (COE till 05/2029) 61889.0
+00:12:09 INFO     [sgcarmart] Saved 1468650 — Porsche 911 Turbo S Coupe 3.8A PDK 1148000.0
+00:12:29 INFO     [sgcarmart] Saved 1468583 — Porsche 911 GT3 Touring 4.0A PDK 998800.0
+00:12:51 INFO     [sgcarmart] Saved 1434342 — Porsche Cayman S 3.4A Tip (New 10-yr COE) 163883.0
+00:13:15 INFO     [sgcarmart] Saved 1491835 — Porsche Cayenne 3.0A Tip 312888.0
+00:13:39 INFO     [sgcarmart] Saved 1488718 — Porsche Boxster S 3.4A (COE till 07/2028) 49998.0
+00:13:53 INFO     [sgcarmart] Saved 1491671 — Porsche Cayenne E-Hybrid 3.0A Tip 320000.0
+00:14:18 INFO     [sgcarmart] Saved 1491036 — Porsche Panamera 3.6A PDK (COE till 09/2030) 76888.0
+00:14:33 INFO     [sgcarmart] Saved 1491637 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 05/2032) 283800.0
+00:15:12 INFO     [sgcarmart] Saved 1474253 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 02/2031) 188000.0
+00:15:25 INFO     [sgcarmart] Saved 1491619 — Porsche Panamera 3.6A PDK (COE till 08/2030) 74000.0
+00:15:52 INFO     [sgcarmart] Saved 1491627 — Porsche Macan S 3.0A PDK (COE till 02/2034) 160000.0
+00:16:12 INFO     [sgcarmart] Saved 1455818 — Porsche 911 C4S Coupe (COE till 10/2035) 328888.0
+00:16:29 INFO     [sgcarmart] Saved 1419888 — Porsche Panamera 3.0A PDK 185000.0
+00:16:40 INFO     [sgcarmart] Saved 1415298 — Porsche Macan Turbo Electric Sunroof 486888.0
+00:16:51 INFO     [sgcarmart] Saved 1401036 — Porsche Taycan Electric 365888.0
+00:17:12 INFO     [sgcarmart] Saved 1111078 — Porsche 911 Turbo Cabriolet Tip (COE till 03/2029) 250000.0
+00:17:36 INFO     [sgcarmart] Saved 1455804 — Porsche Panamera 3.6A PDK (COE till 09/2030) 71000.0
+00:17:59 INFO     [sgcarmart] Saved 1401096 — Porsche Cayman 2.7A Tip (COE till 04/2029) 95800.0
+00:18:15 INFO     [sgcarmart] Saved 1491609 — Porsche Macan Electric 365888.0
+00:18:29 INFO     [sgcarmart] Saved 1476843 — Porsche 718 Boxster 2.0A PDK 177997.0
+00:18:55 INFO     [sgcarmart] Saved 1491592 — Porsche 718 Cayman 2.0A PDK (New 10-yr COE) 318000.0
+00:19:19 INFO     [sgcarmart] Saved 1491357 — Porsche Macan 4 Electric 365888.0
+00:19:43 INFO     [sgcarmart] Saved 1489246 — Porsche 911 C4 Coupe Tip (COE till 02/2027) 199000.0
+00:19:54 INFO     [sgcarmart] Saved 1491572 — Porsche Cayman 2.7A Tip (COE till 05/2027) 39888.0
+00:20:26 INFO     [sgcarmart] Saved 1487102 — Porsche 911 Carrera Cabriolet 3.0A PDK 538800.0
+00:20:57 INFO     [sgcarmart] Saved 1491590 — Porsche Macan 2.0A PDK (New 10-yr COE) 179900.0
+00:21:18 INFO     [sgcarmart] Saved 1378976 — Porsche Cayenne 3.6A Tip Panoramic Roof (COE till 05/2031) 86800.0
+00:21:41 INFO     [sgcarmart] Saved 1483857 — Porsche Cayenne Coupe 3.0A Tip Sunroof 495000.0
+00:22:43 INFO     [sgcarmart] Saved 1465030 — Porsche 718 Boxster 2.0A PDK (New 10-yr COE) 288800.0
+00:23:15 INFO     [sgcarmart] Saved 1455681 — Porsche Cayenne 3.0A Tip 442888.0
+00:23:43 INFO     [sgcarmart] Saved 1473427 — Porsche 911 Coupe (COE till 11/2032) 399000.0
+00:23:57 INFO     [sgcarmart] Saved 1406222 — Porsche 911 GT3 Touring 4.0A PDK 808000.0
+00:24:14 INFO     [sgcarmart] Saved 1466907 — Porsche Cayenne Coupe 3.0A Tip Sunroof 268000.0
+00:24:36 INFO     [sgcarmart] Saved 1491281 — Porsche Panamera 4 3.6A PDK (COE till 08/2030) 65888.0
+00:25:07 INFO     [sgcarmart] Saved 1491229 — Porsche Macan 2.0A (COE till 06/2034) 149800.0
+00:25:27 INFO     [sgcarmart] Saved 1484422 — Porsche 718 Boxster 2.0A PDK 329888.0
+00:25:55 INFO     [sgcarmart] Saved 1491201 — Porsche Macan S 3.0A PDK (COE till 06/2033) 215888.0
+00:26:23 INFO     [sgcarmart] Saved 1456240 — Porsche 911 Carrera S Cabriolet 3.0A 506988.0
+00:26:42 INFO     [sgcarmart] Saved 1441721 — Porsche Macan 2.0A (COE till 06/2034) 155800.0
+00:27:03 INFO     [sgcarmart] Saved 1488776 — Porsche Macan 2.0A PDK (New 10-yr COE) 185800.0
+00:27:25 INFO     [sgcarmart] Saved 1484319 — Porsche 911 Carrera Coupe 3.6A PDK (COE till 09/2028) 183000.0
+00:27:39 INFO     [sgcarmart] Saved 1491134 — Porsche 911 Turbo Cabriolet Tip (COE till 06/2030) 288777.0
+00:28:08 INFO     [sgcarmart] Saved 1322495 — Porsche Boxster S 3.2A Tip (COE till 11/2028) 49800.0
+00:28:29 INFO     [sgcarmart] Saved 1275440 — Porsche 911 C2 Targa (COE till 11/2027) 299000.0
+00:28:53 INFO     [sgcarmart] Saved 1491171 — Porsche 911 Turbo Coupe 3.8A PDK (COE till 09/2029) 278888.0
+00:29:13 INFO     [sgcarmart] Saved 1474575 — Porsche Macan 4 Electric 378000.0
+00:29:32 INFO     [sgcarmart] Saved 1318280 — Porsche 911 Carrera Coupe 3.0A PDK 590000.0
+00:29:58 INFO     [sgcarmart] Saved 1490515 — Porsche Taycan Electric 470800.0
+00:30:44 INFO     [sgcarmart] Saved 1491056 — Porsche 911 Carrera S Cabriolet 3.0A PDK 478000.0
+00:31:13 INFO     [sgcarmart] Saved 1490907 — Porsche Cayman 2.9A PDK (COE till 06/2032) 153800.0
+00:31:35 INFO     [sgcarmart] Saved 1474746 — Porsche 911 GT3 3.6M (COE till 11/2027) 350000.0
+00:31:54 INFO     [sgcarmart] Saved 1474290 — Porsche Boxster S 3.4A PDK (COE till 12/2032) 188888.0
+00:32:26 INFO     [sgcarmart] Saved 1468106 — Porsche Panamera 3.0A PDK 187800.0
+00:32:59 INFO     [sgcarmart] Saved 1363254 — Porsche Cayenne Turbo 4.8A Tip (COE till 12/2030) 121800.0
+00:33:24 INFO     [sgcarmart] Saved 1473438 — Porsche 911 Carrera S Coupe 3.0A PDK 608800.0
+00:33:47 INFO     [sgcarmart] Saved 1463131 — Porsche Cayenne Hybrid S 3.0A Tip (COE till 03/2032) 104800.0
+00:34:17 INFO     [sgcarmart] Saved 1490809 — Porsche 718 Cayman S 2.5A PDK 215888.0
+00:34:39 INFO     [sgcarmart] Saved 1489986 — Porsche Cayenne 3.0A Tip Panoramic Roof 273888.0
+00:35:09 INFO     [sgcarmart] Saved 1480903 — Porsche Panamera 3.0A PDK 294800.0
+00:35:40 INFO     [sgcarmart] Saved 1441453 — Porsche Cayman 2.7A Tip (COE till 07/2027) 40800.0
+00:36:00 INFO     [sgcarmart] Saved 1483394 — Porsche Taycan Electric 4S 298800.0
+00:36:16 INFO     [sgcarmart] Saved 1416078 — Porsche Macan Diesel S 3.0A PDK 75000.0
+00:36:43 INFO     [sgcarmart] Saved 1437489 — Porsche 911 GT3 RS 1499999.0
+00:36:58 INFO     [sgcarmart] Saved 1480510 — Porsche Panamera 2.9A PDK 388800.0
+00:37:12 INFO     [sgcarmart] Saved 1490848 — Porsche Macan 2.0A PDK 165800.0
+00:37:28 INFO     [sgcarmart] Saved 1472585 — Porsche Cayenne Coupe 3.0A Platinum Edition 420000.0
+00:37:42 INFO     [sgcarmart] Saved 1490762 — Porsche Macan 2.0A PDK Panoramic Roof (COE till 05/2034) 163888.0
+00:38:05 INFO     [sgcarmart] Saved 1490744 — Porsche Panamera 4S 4.8A PDK (COE till 07/2030) 76888.0
+00:38:52 INFO     [sgcarmart] Saved 1483516 — Porsche Cayman S 3.4A PDK (COE till 09/2030) 103888.0
+00:39:20 INFO     [sgcarmart] Saved 1424175 — Porsche Cayenne Hybrid S 3.0A Tip Sunroof (COE till 10/2032) 108997.0
+00:39:52 INFO     [sgcarmart] Saved 1490690 — Porsche 981 Cayman S 3.4A PDK (COE till 08/2034) 278000.0
+00:40:15 INFO     [sgcarmart] Saved 1480998 — Porsche 718 Boxster 2.0A PDK 150000.0
+00:40:45 INFO     [sgcarmart] Saved 1490632 — Porsche 911 Turbo (COE till 11/2028) 238000.0
+00:40:59 INFO     [sgcarmart] Saved 1432347 — Porsche 911S Cabriolet Tip (COE till 05/2027) 124000.0
+00:41:21 INFO     [sgcarmart] Saved 1452286 — Porsche 911 Coupe Tip (COE till 05/2035) 208800.0
+00:41:49 INFO     [sgcarmart] Saved 1465796 — Porsche Cayenne 3.0A Tip 245000.0
+00:42:21 INFO     [sgcarmart] Saved 1400040 — Porsche Cayenne S 4.8A Tip (COE till 04/2031) 89800.0
+00:42:47 INFO     [sgcarmart] Saved 1361624 — Porsche Cayenne GTS 4.8A Tip (COE till 01/2029) 55988.0
+00:43:13 INFO     [sgcarmart] Saved 1260660 — Porsche Macan 2.0A PDK (COE till 08/2034) 188888.0
+00:43:35 INFO     [sgcarmart] Saved 1490458 — Porsche Panamera S 4.8A PDK (COE till 05/2030) 79000.0
+00:43:54 INFO     [sgcarmart] Saved 1484994 — Porsche Cayenne E-Hybrid 3.0A Tip 393800.0
+00:44:16 INFO     [sgcarmart] Saved 1490321 — Porsche Taycan Electric 4 461800.0
+00:44:30 INFO     [sgcarmart] Saved 1486539 — Porsche Macan 2.0A PDK 193500.0
+00:44:59 INFO     [sgcarmart] Saved 1460125 — Porsche Boxster S 3.2A Tip (COE till 01/2030) 48822.0
+00:45:27 INFO     [sgcarmart] Saved 1490092 — Porsche Boxster S 3.4A PDK (COE till 01/2031) 126800.0
+00:45:57 INFO     [sgcarmart] Saved 1483232 — Porsche 911 Carrera 4 Coupe 3.4A PDK (COE till 03/2033) 299000.0
+00:46:12 INFO     [sgcarmart] Saved 1356318 — Porsche Macan 2.0A PDK (New 10-yr COE) 216888.0
+00:46:29 INFO     [sgcarmart] Saved 1451653 — Porsche Macan 2.0A PDK 180005.0
+00:47:19 INFO     [sgcarmart] Saved 1109562 — Porsche Cayenne Platinum Edition 177000.0
+00:47:43 INFO     [sgcarmart] Saved 1490014 — Porsche Macan 2.0A PDK (COE till 05/2035) 185888.0
+00:48:02 INFO     [sgcarmart] Saved 1490039 — Porsche Macan 2.0A PDK (New 10-yr COE) 180000.0
+00:48:21 INFO     [sgcarmart] Saved 1489791 — Porsche 911 Carrera S Coupe 3.0A PDK Sunroof 449800.0
+00:48:45 INFO     [sgcarmart] Saved 1489714 — Porsche Panamera 2.9A PDK 399888.0
+00:49:00 INFO     [sgcarmart] Saved 1489706 — Porsche 911 C4S Coupe Tip (COE till 10/2027) 123888.0
+00:49:18 INFO     [sgcarmart] Saved 1473231 — Porsche Cayenne 3.0A Tip 315800.0
+00:49:44 INFO     [sgcarmart] Saved 1456066 — Porsche 718 Cayman 2.0A PDK (New 10-yr COE) 268888.0
+00:49:55 INFO     [sgcarmart] Saved 1436624 — Porsche 911 Carrera S Coupe 3.0A PDK 458000.0
+00:50:23 INFO     [sgcarmart] Saved 1409063 — Porsche Panamera 3.6A PDK (COE till 04/2031) 90000.0
+00:50:46 INFO     [sgcarmart] Saved 1269652 — Porsche Macan 2.0A PDK 126000.0
+00:51:08 INFO     [sgcarmart] Saved 1464110 — Porsche Boxster S 3.4A PDK (COE till 10/2032) 207800.0
+00:51:34 INFO     [sgcarmart] Saved 1489624 — Porsche 911 C4 Coupe Tip (New 10-yr COE) 188800.0
+00:51:57 INFO     [sgcarmart] Saved 1489402 — Porsche Macan S 3.0A PDK 233800.0
+00:52:22 INFO     [sgcarmart] Saved 1455399 — Porsche Cayenne 3.6A Tip (COE till 11/2027) 30000.0
+00:52:40 INFO     [sgcarmart] Saved 1479689 — Porsche Boxster S 3.4A PDK (COE till 03/2033) 182000.0
+00:53:01 INFO     [sgcarmart] Saved 1350974 — Porsche Cayenne S Coupe 4.0A 589888.0
+00:53:24 INFO     [sgcarmart] Saved 1489488 — Porsche 981 Boxster S 3.4A PDK (COE till 10/2033) 199888.0
+00:53:39 INFO     [sgcarmart] Saved 1489452 — Porsche Cayenne 3.0A Tip 345000.0
+00:53:53 INFO     [sgcarmart] Saved 1489399 — Porsche Cayman 2.7A Tip (New 10-yr COE) 160800.0
+00:54:24 INFO     [sgcarmart] Saved 1482876 — Porsche Macan S 3.0A PDK (New 10-yr COE) 188000.0
+00:54:39 INFO     [sgcarmart] Saved 1436518 — Porsche Boxster 2.7A Tip (COE till 11/2030) 81888.0
+00:55:07 INFO     [sgcarmart] Saved 1479971 — Porsche Cayman 2.9A PDK (COE till 04/2030) 101800.0
+00:55:20 INFO     [sgcarmart] Saved 1471526 — Porsche Cayenne Coupe 3.0A Tip 425000.0
+00:55:47 INFO     [sgcarmart] Saved 1436344 — Porsche 944 (COE till 02/2029) 125888.0
+00:56:17 INFO     [sgcarmart] Saved 1418148 — Porsche Cayman S 3.4A PDK (COE till 08/2030) 113000.0
+00:56:33 INFO     [sgcarmart] Saved 1417339 — Porsche 911 Turbo Targa (COE till 03/2034) 498888.0
+00:56:47 INFO     [sgcarmart] Saved 1441336 — Porsche Macan 2.0A PDK 233000.0
+00:57:17 INFO     [sgcarmart] Saved 1465931 — Porsche Cayenne 3.6A Platinum Edition 103800.0
+00:57:30 INFO     [sgcarmart] Saved 1475796 — Porsche Macan 2.0A PDK 71800.0
+00:57:55 INFO     [sgcarmart] Saved 1489285 — Porsche Cayenne S 3.6A Tip (COE till 10/2034) 182800.0
+00:58:06 INFO     [sgcarmart] Saved 1489275 — Porsche Macan 2.0A (COE till 02/2036) 182888.0
+00:58:24 INFO     [sgcarmart] Saved 1489266 — Porsche 718 Cayman 2.0A PDK 148000.0
+00:58:54 INFO     [sgcarmart] Saved 1482927 — Porsche 911 Carrera S Coupe 3.0A PDK 632000.0
+00:59:10 INFO     [sgcarmart] Saved 1471278 — Porsche 911 C2 Cabriolet Tip (COE till 11/2027) 228000.0
+00:59:22 INFO     [sgcarmart] Saved 1436036 — Porsche Taycan Electric 408888.0
+00:59:51 INFO     [sgcarmart] Saved 1435928 — Porsche 911 GT3 Touring 4.0A PDK 998800.0
+01:00:22 INFO     [sgcarmart] Saved 1417134 — Porsche Cayman 2.7A (COE till 11/2028) 65899.0
+01:00:48 INFO     [sgcarmart] Saved 1464679 — Porsche Cayenne 3.0A Tip 179999.0
+01:01:20 INFO     [sgcarmart] Saved 1453858 — Porsche 911 GT3 RS 1150000.0
+01:01:55 INFO     [sgcarmart] Saved 1427810 — Porsche Cayman R 3.4A PDK (COE till 04/2031) 180800.0
+01:02:14 INFO     [sgcarmart] Saved 1421558 — Porsche Cayenne Hybrid S 3.0A (COE till 10/2031) 129888.0
+01:02:45 INFO     [sgcarmart] Saved 1379742 — Porsche 911 Turbo S Cabriolet 3.8A PDK 1130000.0
+01:03:00 INFO     [sgcarmart] Saved 1471052 — Porsche Cayenne 3.6A Tip (COE till 12/2033) 139999.0
+01:03:14 INFO     [sgcarmart] Saved 1489005 — Porsche Boxster 2.5A Tip (New 5-yr COE) 71000.0
+01:03:38 INFO     [sgcarmart] Saved 1470007 — Porsche 911 Carrera Coupe 3.0A PDK (New 10-yr COE) 388000.0
+01:03:49 INFO     [sgcarmart] Saved 1489042 — Porsche Cayenne Turbo 4.8A Tip (COE till 10/2031) 123888.0
+01:04:00 INFO     [sgcarmart] Saved 1471041 — Porsche Macan 2.0A PDK 168000.0
+01:04:29 INFO     [sgcarmart] Saved 1470792 — Porsche 911 Carrera 4 Coupe 3.0A PDK 449696.0
+01:04:59 INFO     [sgcarmart] Saved 1470771 — Porsche 911 Carrera S Coupe 3.0A PDK (New 10-yr COE) 425000.0
+01:05:28 INFO     [sgcarmart] Saved 1474902 — Porsche Panamera 4S 2.9A PDK (New 10-yr COE) 338000.0
+01:05:43 INFO     [sgcarmart] Saved 1300780 — Porsche Taycan Electric 4S Performance Battery Plus 320997.0
+01:05:57 INFO     [sgcarmart] Saved 1480669 — Porsche 911 Carrera 4 Coupe 3.0A PDK 508998.0
+01:06:22 INFO     [sgcarmart] Saved 1470791 — Porsche 911 Turbo Coupe 3.6M (COE till 02/2036) 950000.0
+01:06:50 INFO     [sgcarmart] Saved 1481886 — Porsche Macan S 2.9A PDK Panoramic Roof 282000.0
+01:07:03 INFO     [sgcarmart] Saved 1486741 — Porsche Cayenne 3.0A Platinum Edition 392888.0
+01:07:33 INFO     [sgcarmart] Saved 1488835 — Porsche Panamera 3.6A PDK (COE till 12/2030) 68000.0
+01:08:00 INFO     [sgcarmart] Saved 1488825 — Porsche 718 Cayman GT4 RS 4.0A PDK 679800.0
+01:08:23 INFO     [sgcarmart] Saved 1487422 — Porsche Macan 2.0A PDK 195888.0
+01:08:50 INFO     [sgcarmart] Saved 1481945 — Porsche 911 C4S Cabriolet Tip (New 10-yr COE) 210888.0
+01:09:38 INFO     [sgcarmart] Saved 1469764 — Porsche Cayenne S 4.8A Tip (COE till 12/2030) 85000.0
+01:09:49 INFO     [sgcarmart] Saved 1435474 — Porsche Boxster 2.7A Tip (COE till 08/2035) 158000.0
+01:10:07 INFO     [sgcarmart] Saved 1453497 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 10/2027) 110800.0
+01:10:34 INFO     [sgcarmart] Saved 1488721 — Porsche 911 Turbo S Coupe 3.8A (COE till 01/2032) 388000.0
+01:11:05 INFO     [sgcarmart] Saved 1488681 — Porsche Macan 2.0A (COE till 09/2034) 161800.0
+01:11:25 INFO     [sgcarmart] Saved 1467822 — Porsche Boxster 2.7A PDK (COE till 12/2032) 172000.0
+01:11:57 INFO     [sgcarmart] Saved 1438061 — Porsche 911 C4S Coupe Tip (New 10-yr COE) 245000.0
+01:12:13 INFO     [sgcarmart] Saved 1427560 — Porsche 911 C4S Coupe Tip (New 10-yr COE) 249000.0
+01:12:28 INFO     [sgcarmart] Saved 1469274 — Porsche Boxster 2.9A PDK (COE till 06/2030) 101500.0
+01:12:47 INFO     [sgcarmart] Saved 1464036 — Porsche Macan 2.0A PDK (COE till 07/2035) 203000.0
+01:13:05 INFO     [sgcarmart] Saved 1435370 — Porsche Macan 2.0A PDK 113800.0
+01:13:19 INFO     [sgcarmart] Saved 1431112 — Porsche 718 Cayman 2.0A PDK 335888.0
+01:13:36 INFO     [sgcarmart] Saved 1484771 — Porsche Panamera 3.6A PDK (COE till 04/2031) 90666.0
+01:13:49 INFO     [sgcarmart] Saved 1459708 — Porsche 911 Carrera GTS Coupe 3.8A PDK (COE till 05/2035) 438800.0
+01:14:17 INFO     [sgcarmart] Saved 1488321 — Porsche Macan 2.0A PDK 98800.0
+01:14:42 INFO     [sgcarmart] Saved 1487695 — Porsche Macan Turbo 3.6A PDK (COE till 03/2035) 216800.0
+01:15:10 INFO     [sgcarmart] Saved 1431759 — Porsche 911 C2S Coupe Tip (COE till 05/2027) 380997.0
+01:15:40 INFO     [sgcarmart] Saved 1368561 — Porsche Taycan Sport Turismo Electric 380997.0
+01:15:55 INFO     [sgcarmart] Saved 1471038 — Porsche 911 Carrera GTS Cabriolet 3.8A PDK (COE till 04/2031) 250000.0
+01:16:20 INFO     [sgcarmart] Saved 1488173 — Porsche 911 Carrera S Coupe 3.8A (COE till 05/2033) 335000.0
+01:16:51 INFO     [sgcarmart] Saved 1448239 — Porsche Macan S 3.0A PDK (COE till 03/2035) 170000.0
+01:17:11 INFO     [sgcarmart] Saved 1488035 — Porsche Cayenne 3.6A Tip (COE till 04/2031) 80800.0
+01:17:38 INFO     [sgcarmart] Saved 1488011 — Porsche Macan S 3.0A PDK (New 10-yr COE) 192888.0
+01:18:06 INFO     [sgcarmart] Saved 1461200 — Porsche 911 Carrera GTS Cabriolet 3.0A PDK 838800.0
+01:18:35 INFO     [sgcarmart] Saved 1462819 — Porsche 911 Turbo Cabriolet Tip (COE till 07/2029) 278000.0
+01:18:59 INFO     [sgcarmart] Saved 1452901 — Porsche Cayenne Turbo S 4.8A Tip 358000.0
+01:19:32 INFO     [sgcarmart] Saved 1362821 — Porsche 911S (COE till 12/2029) 450000.0
+01:19:54 INFO     [sgcarmart] Saved 1487904 — Porsche Cayenne 3.0A Tip Sunroof 208800.0
+01:20:14 INFO     [sgcarmart] Saved 1453083 — Porsche Macan 2.0A PDK 194800.0
+01:20:37 INFO     [sgcarmart] Saved 1487732 — Porsche Panamera 3.6A PDK (COE till 10/2031) 92800.0
+01:21:08 INFO     [sgcarmart] Saved 1487614 — Porsche Boxster 2.7A PDK (COE till 05/2032) 167400.0
+01:21:32 INFO     [sgcarmart] Saved 1474589 — Porsche 911 Turbo S Coupe 3.8A PDK (COE till 07/2035) 550997.0
+01:21:52 INFO     [sgcarmart] Saved 1470876 — Porsche 911 GT3 4.0A PDK 877997.0
+01:22:04 INFO     [sgcarmart] Saved 1487803 — Porsche Cayenne E-Hybrid 3.0A Tip (New 10-yr COE) 399888.0
+01:22:20 INFO     [sgcarmart] Saved 1455622 — Porsche Boxster S 3.2A (COE till 07/2028) 69800.0
+01:22:37 INFO     [sgcarmart] Saved 1487773 — Porsche Cayenne Coupe 3.0A Tip Sunroof 268800.0
+01:23:05 INFO     [sgcarmart] Saved 1487727 — Porsche Macan 2.0A PDK 203800.0
+01:23:38 INFO     [sgcarmart] Saved 1469845 — Porsche Taycan Electric Sunroof 295888.0
+01:23:59 INFO     [sgcarmart] Saved 1458849 — Porsche Panamera Sport Turismo 4 3.0A PDK 220000.0
+01:24:13 INFO     [sgcarmart] Saved 1487625 — Porsche 911 Carrera GTS 3.0A PDK 548000.0
+01:25:02 INFO     [sgcarmart] Saved 1469781 — Porsche Macan 2.0A PDK 77000.0
+01:25:21 INFO     [sgcarmart] Saved 1463460 — Porsche Panamera 4 2.9A Executive 418800.0
+01:25:33 INFO     [sgcarmart] Saved 1487500 — Porsche Boxster S 3.4A Tip (COE till 07/2028) 52888.0
+01:26:03 INFO     [sgcarmart] Saved 1487550 — Porsche 981 Boxster S 3.4A PDK (COE till 03/2033) 188500.0
+01:26:20 INFO     [sgcarmart] Saved 1487449 — Porsche 911 Carrera Cabriolet 3.0A PDK 610800.0
+01:26:49 INFO     [sgcarmart] Saved 1480728 — Porsche 911 C4S Cabriolet Tip (New 10-yr COE) None
+01:27:19 INFO     [sgcarmart] Saved 1486277 — Porsche Boxster 2.7A Tip (New 10-yr COE) 154800.0
+01:27:42 INFO     [sgcarmart] Saved 1439182 — Porsche 911 GT3 Touring 4.0M 968000.0
+01:28:07 INFO     [sgcarmart] Saved 1469478 — Porsche Cayenne E-Hybrid 3.0A Tip 599997.0
+01:28:33 INFO     [sgcarmart] Saved 1469309 — Porsche 911 Carrera Targa 3.2M (COE till 09/2034) 258000.0
+01:28:54 INFO     [sgcarmart] Saved 1485486 — Porsche 911 C2 Coupe (COE till 12/2026) 350000.0
+01:29:05 INFO     [sgcarmart] Saved 1487251 — Porsche Macan S 3.0A PDK 185500.0
+01:29:16 INFO     [sgcarmart] Saved 1487172 — Porsche 911 Carrera GTS Cabriolet 3.0A PDK 808888.0
+01:29:44 INFO     [sgcarmart] Saved 1446855 — Porsche Macan 2.0A PDK Panoramic Roof (COE till 10/2034) 201500.0
+01:30:15 INFO     [sgcarmart] Saved 1481034 — Porsche Cayman GT4 3.8M (COE till 09/2035) 489000.0
+01:30:34 INFO     [sgcarmart] Saved 1469099 — Porsche 911 Carrera Coupe 3.0A PDK (New 10-yr COE) 393888.0
+01:30:54 INFO     [sgcarmart] Saved 1452151 — Porsche Macan Turbo 2.9A PDK Panoramic Roof 272000.0
+01:31:08 INFO     [sgcarmart] Saved 1427682 — Porsche Cayenne Coupe 3.0A Tip 410888.0
+01:31:30 INFO     [sgcarmart] Saved 1377651 — Porsche 911 Carrera GTS Coupe 3.8A PDK (COE till 04/2031) 298000.0
+01:31:46 INFO     [sgcarmart] Saved 1469749 — Porsche Taycan Electric 476500.0
+01:32:33 INFO     [sgcarmart] Saved 1366041 — Porsche 911 Carrera Cabriolet 3.0A PDK 479800.0
+01:32:47 INFO     [sgcarmart] Saved 1487014 — Porsche Boxster S 3.4A PDK (COE till 04/2034) 198000.0
+01:33:11 INFO     [sgcarmart] Saved 1475714 — Porsche Macan 2.0A PDK 75800.0
+01:33:29 INFO     [sgcarmart] Saved 1486882 — Porsche Cayenne 3.6A Tip (COE till 11/2029) 62800.0
+01:33:57 INFO     [sgcarmart] Saved 1451647 — Porsche Cayenne Hybrid S 3.0A (COE till 06/2031) 93800.0
+01:34:23 INFO     [sgcarmart] Saved 1433819 — Porsche 911 C2 Cabriolet Tip (COE till 08/2034) 250000.0
+01:34:37 INFO     [sgcarmart] Saved 1362026 — Porsche 911 Carrera S Cabriolet 3.8A Tip (COE till 10/2035) 228000.0
+01:35:06 INFO     [sgcarmart] Saved 1477696 — Porsche Macan S 3.0A PDK (COE till 03/2034) 185888.0
+01:35:27 INFO     [sgcarmart] Saved 1468766 — Porsche 911 GT3 Touring 4.0A PDK 838800.0
+01:35:52 INFO     [sgcarmart] Saved 1486190 — Porsche Macan S 3.0A PDK 195000.0
+01:36:10 INFO     [sgcarmart] Saved 1486370 — Porsche 911 Carrera Coupe 3.0A PDK (New 10-yr COE) 388800.0
+01:36:40 INFO     [sgcarmart] Saved 1432787 — Porsche 718 Cayman 2.0A PDK 308000.0
+01:36:56 INFO     [sgcarmart] Saved 1475742 — Porsche 911 Carrera Cabriolet 3.0A PDK 609000.0
+01:37:25 INFO     [sgcarmart] Saved 1396482 — Porsche Panamera 3.6A PDK (COE till 07/2032) 105888.0
+01:37:43 INFO     [sgcarmart] Saved 1362566 — Porsche Macan 2.0A PDK (COE till 03/2035) 186800.0
+01:38:01 INFO     [sgcarmart] Saved 1486036 — Porsche Cayenne 3.6A Tip (COE till 01/2032) 96000.0
+01:38:22 INFO     [sgcarmart] Saved 1486070 — Porsche Macan S 3.0A PDK 115000.0
+01:38:39 INFO     [sgcarmart] Saved 1485815 — Porsche 718 Spyder 4.0A Cabriolet 488000.0
+01:39:02 INFO     [sgcarmart] Saved 1396146 — Porsche Macan Diesel S 3.0A PDK (COE till 10/2034) 168888.0
+01:39:13 INFO     [sgcarmart] Saved 1476604 — Porsche Panamera 4S 2.9A PDK (New 10-yr COE) 320800.0
+01:39:54 INFO     [sgcarmart] Saved 1485600 — Porsche Macan GTS 3.0A PDK (New 10-yr COE) 258000.0
+01:40:07 INFO     [sgcarmart] Saved 1485515 — Porsche Panamera 3.0A PDK 148800.0
+01:40:20 INFO     [sgcarmart] Saved 1485572 — Porsche 911 GT3 4.0A PDK 848888.0
+01:40:50 INFO     [sgcarmart] Saved 1485589 — Porsche Panamera 3.0A PDK 169500.0
+01:41:19 INFO     [sgcarmart] Saved 1480421 — Porsche Macan 2.0A PDK 181000.0
+01:41:37 INFO     [sgcarmart] Saved 1485336 — Porsche Panamera 3.0A PDK 243800.0
+01:41:54 INFO     [sgcarmart] Saved 1422582 — Porsche 911 Carrera 4S Cabriolet 3.8A PDK (COE till 10/2031) 360000.0
+01:42:05 INFO     [sgcarmart] Saved 1478139 — Porsche 911 Carrera 4S Coupe 3.8A PDK (COE till 02/2029) 280000.0
+01:42:37 INFO     [sgcarmart] Saved 1467837 — Porsche Boxster S 3.4A PDK (COE till 02/2032) 166800.0
+01:42:49 INFO     [sgcarmart] Saved 1376525 — Porsche 911 Turbo S Cabriolet 3.8A PDK 829000.0
+01:43:00 INFO     [sgcarmart] Saved 1444863 — Porsche 911 Turbo (COE till 04/2029) None
+01:43:21 INFO     [sgcarmart] Saved 1466647 — Porsche Cayenne 3.0A Tip 200800.0
+01:43:34 INFO     [sgcarmart] Saved 1471884 — Porsche Macan 2.0A PDK 98800.0
+01:43:53 INFO     [sgcarmart] Saved 1485077 — Porsche 911 GT3 4.0A PDK 808000.0
+01:44:24 INFO     [sgcarmart] Saved 1458978 — Porsche 718 Cayman 2.0A PDK 168000.0
+01:44:35 INFO     [sgcarmart] Saved 1467854 — Porsche Cayman 2.9A PDK (COE till 01/2031) 128000.0
+01:44:54 INFO     [sgcarmart] Saved 1479940 — Porsche Macan S 3.0A PDK 258800.0
+01:45:26 INFO     [sgcarmart] Saved 1432717 — Porsche Boxster 2.7A PDK (COE till 01/2035) 259800.0
+01:45:52 INFO     [sgcarmart] Saved 1433718 — Porsche Cayenne 3.6A Tip (New 10-yr COE) 215800.0
+01:46:13 INFO     [sgcarmart] Saved 1484914 — Porsche 911 Turbo S Coupe 3.8A PDK 975888.0
+01:46:46 INFO     [sgcarmart] Saved 1484869 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 06/2034) 375000.0
+01:47:05 INFO     [sgcarmart] Saved 1467357 — Porsche Cayenne Turbo 4.8A Tip (COE till 01/2031) 105800.0
+01:47:16 INFO     [sgcarmart] Saved 1467232 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 03/2033) 328800.0
+01:47:34 INFO     [sgcarmart] Saved 1467079 — Porsche Cayman S 3.4A PDK (COE till 03/2030) 108888.0
+01:47:57 INFO     [sgcarmart] Saved 1484819 — Porsche Panamera 3.0A PDK Sunroof 185888.0
+01:48:11 INFO     [sgcarmart] Saved 1484791 — Porsche Cayman 2.9A PDK (COE till 12/2030) 123888.0
+01:48:23 INFO     [sgcarmart] Saved 1484832 — Porsche Cayman S 3.4A Tip (COE till 04/2028) 47800.0
+01:48:50 INFO     [sgcarmart] Saved 1464199 — Porsche 718 Boxster GTS 4.0A PDK 545000.0
+01:49:08 INFO     [sgcarmart] Saved 1466969 — Porsche 911 Carrera S Cabriolet 3.0A PDK 610800.0
+01:49:23 INFO     [sgcarmart] Saved 1426013 — Porsche Cayenne 3.0A Tip 239000.0
+01:49:43 INFO     [sgcarmart] Saved 1394445 — Porsche Taycan Electric Turbo 360000.0
+01:49:56 INFO     [sgcarmart] Saved 1484660 — Porsche 718 Cayman 2.0A PDK 173888.0
+01:50:13 INFO     [sgcarmart] Saved 1484597 — Porsche Macan 2.0A PDK (New 10-yr COE) 179888.0
+01:50:35 INFO     [sgcarmart] Saved 1484484 — Porsche Cayenne 3.0A 500800.0
+01:50:55 INFO     [sgcarmart] Saved 1484335 — Porsche Boxster S 3.4A (COE till 12/2033) 168800.0
+01:51:26 INFO     [sgcarmart] Saved 1464621 — Porsche Cayman S 3.4A Tip (COE till 03/2028) 49800.0
+01:51:40 INFO     [sgcarmart] Saved 1420691 — Porsche 911 Turbo S Coupe 3.8A PDK (COE till 06/2034) 523800.0
+01:52:05 INFO     [sgcarmart] Saved 1372220 — Porsche 911 Carrera Coupe 3.0A PDK 467800.0
+01:52:30 INFO     [sgcarmart] Saved 1180527 — Porsche Boxster 2.5A Tip (COE till 07/2027) 33800.0
+01:52:47 INFO     [sgcarmart] Saved 1445462 — Porsche Macan 4 Electric 355000.0
+01:53:35 INFO     [sgcarmart] Saved 1471555 — Porsche 911 Carrera S Coupe 3.0A PDK 412800.0
+01:53:58 INFO     [sgcarmart] Saved 1463827 — Porsche Panamera 3.6A PDK (COE till 10/2031) 84488.0
+01:54:26 INFO     [sgcarmart] Saved 1460766 — Porsche 718 Boxster 2.0A Style Edition 440000.0
+01:54:57 INFO     [sgcarmart] Saved 1395864 — Porsche 911 GT3 4.0A PDK 911911.0
+01:55:14 INFO     [sgcarmart] Saved 1483922 — Porsche Cayman 2.7A Tip (COE till 01/2028) 44800.0
+01:55:44 INFO     [sgcarmart] Saved 1483920 — Porsche 911 C4S Coupe Tip (COE till 01/2036) 255888.0
+01:56:13 INFO     [sgcarmart] Saved 1430394 — Porsche Boxster 2.5A Tip (COE till 03/2027) 25000.0
+01:56:39 INFO     [sgcarmart] Saved 1202691 — Porsche Boxster Spyder 3.4A PDK (COE till 08/2030) 198800.0
+01:57:11 INFO     [sgcarmart] Saved 1483368 — Porsche Cayenne S 4.8A Tip (COE till 04/2031) 92000.0
+01:57:39 INFO     [sgcarmart] Saved 1474219 — Porsche 911 C4 Coupe Tip (New 10-yr COE) 197888.0
+01:57:53 INFO     [sgcarmart] Saved 1393790 — Porsche 911 Carrera S Coupe 3.8A PDK Martini Racing Edition (COE til 388000.0
+01:58:04 INFO     [sgcarmart] Saved 1390924 — Porsche Panamera 3.6A PDK (COE till 11/2030) 90800.0
+01:58:19 INFO     [sgcarmart] Saved 1435666 — Porsche Cayenne Turbo 4.8A Tip Panoramic Roof (COE till 09/2030) 99000.0
+01:58:31 INFO     [sgcarmart] Saved 1457523 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 07/2032) 365000.0
+01:58:45 INFO     [sgcarmart] Saved 1447669 — Porsche 911 Coupe Tip (COE till 12/2034) 186800.0
+01:59:05 INFO     [sgcarmart] Saved 1476646 — Porsche 911 Targa 4S PDK (COE till 08/2030) 288888.0
+01:59:17 INFO     [sgcarmart] Saved 1279684 — Porsche Boxster Spyder 3.4A PDK (COE till 09/2031) 236800.0
+01:59:41 INFO     [sgcarmart] Saved 1462432 — Porsche 911 C2 Cabriolet Tip (COE till 02/2029) 69800.0
+02:00:11 INFO     [sgcarmart] Saved 1434583 — Porsche 911 GT3 RS 4.0A PDK (New 10-yr COE) 590000.0
+02:00:44 INFO     [sgcarmart] Saved 1461387 — Porsche 718 Cayman 2.0A PDK (New 10-yr COE) 270888.0
+02:01:30 INFO     [sgcarmart] Saved 1476515 — Porsche Macan S 3.0A PDK (COE till 01/2035) None
+02:01:53 INFO     [sgcarmart] Saved 1448051 — Porsche 911 Targa 4S Tip (COE till 03/2028) 190800.0
+02:02:08 INFO     [sgcarmart] Saved 1460394 — Porsche Cayman R 3.4A PDK (COE till 07/2032) 205000.0
+02:02:40 INFO     [sgcarmart] Saved 1471767 — Porsche Taycan Cross Turismo Electric 4 333000.0
+02:03:04 INFO     [sgcarmart] Saved 1476449 — Porsche Boxster S 3.4A PDK (COE till 12/2031) 148800.0
+02:03:32 INFO     [sgcarmart] Saved 1464846 — Porsche 718 Spyder 4.0A PDK 429000.0
+02:04:04 INFO     [sgcarmart] Saved 1464747 — Porsche 911 C4S Cabriolet Tip (New 10-yr COE) 239800.0
+02:04:36 INFO     [sgcarmart] Saved 1459437 — Porsche Taycan Electric 288000.0
+02:04:54 INFO     [sgcarmart] Saved 1482431 — Porsche Macan S 3.0A PDK (New 10-yr COE) 189888.0
+02:05:08 INFO     [sgcarmart] Saved 1482142 — Porsche Macan Electric 360888.0
+02:05:29 INFO     [sgcarmart] Saved 1482183 — Porsche Boxster 2.7A Tip (COE till 10/2027) 39800.0
+02:05:42 INFO     [sgcarmart] Saved 1464600 — Porsche Panamera Turbo 4.0A PDK Executive 309888.0
+02:06:03 INFO     [sgcarmart] Saved 1463701 — Porsche Macan S 3.0A PDK 159588.0
+02:06:30 INFO     [sgcarmart] Saved 1464562 — Porsche Cayenne 3.6A Tip (COE till 09/2031) 99900.0
+02:07:00 INFO     [sgcarmart] Saved 1427237 — Porsche Macan GTS 2.9A PDK Sunroof 340800.0
+02:07:29 INFO     [sgcarmart] Saved 1358617 — Porsche 911 Carrera GTS 3.0A PDK Sunroof 418000.0
+02:07:46 INFO     [sgcarmart] Saved 1474306 — Porsche 911 Carrera S Coupe 3.0A PDK (New 10-yr COE) 399999.0
+02:08:05 INFO     [sgcarmart] Saved 1383338 — Porsche Boxster 2.5A Tip (COE till 12/2027) 40000.0
+02:08:23 INFO     [sgcarmart] Saved 1478707 — Porsche 911 Targa 4 488800.0
+02:08:42 INFO     [sgcarmart] Saved 1464152 — Porsche Cayman GT4 3.8M (New 10-yr COE) 520000.0
+02:09:32 INFO     [sgcarmart] Saved 1379071 — Porsche 718 Cayman 2.0A T PDK 358888.0
+02:09:57 INFO     [sgcarmart] Saved 1481741 — Porsche 718 Boxster 2.0A PDK 250000.0
+02:10:28 INFO     [sgcarmart] Saved 1481560 — Porsche Cayenne 3.6A Tip (COE till 10/2031) 85800.0
+02:10:39 INFO     [sgcarmart] Saved 1481041 — Porsche Macan 2.0A PDK Panoramic Roof (New 10-yr COE) 198800.0
+02:11:10 INFO     [sgcarmart] Saved 1411635 — Porsche 911 GT3 Touring 4.0M 558800.0
+02:11:39 INFO     [sgcarmart] Saved 1481452 — Porsche Macan 2.0A PDK (New 10-yr COE) 176800.0
+02:12:05 INFO     [sgcarmart] Saved 1476280 — Porsche Cayenne S 2.9A Tip 278800.0
+02:12:35 INFO     [sgcarmart] Saved 1463943 — Porsche Cayenne 3.6A Tip (COE till 02/2030) 64800.0
+02:13:01 INFO     [sgcarmart] Saved 1447421 — Porsche Boxster 2.7A (COE till 10/2035) 139000.0
+02:13:22 INFO     [sgcarmart] Saved 1446421 — Porsche Panamera 3.6A PDK (COE till 04/2029) 89800.0
+02:13:47 INFO     [sgcarmart] Saved 1428993 — Porsche 911 C4S Coupe Tip (New 10-yr COE) 228000.0
+02:13:58 INFO     [sgcarmart] Saved 1410541 — Porsche 911 Carrera Coupe (COE till 03/2032) 280000.0
+02:14:18 INFO     [sgcarmart] Saved 1386508 — Porsche Boxster S 3.4A (COE till 10/2027) 34800.0
+02:14:38 INFO     [sgcarmart] Saved 1200940 — Porsche Cayman S 3.4A (COE till 03/2029) 82800.0
+02:15:11 INFO     [sgcarmart] Saved 1372313 — Porsche Cayenne 3.0A Tip Sunroof 174800.0
+02:15:29 INFO     [sgcarmart] Saved 1340735 — Porsche Taycan Electric 4S Performance Battery Plus 458000.0
+02:15:51 INFO     [sgcarmart] Saved 1285525 — Porsche 911 Targa 4S Tip (New 10-yr COE) 265800.0
+02:16:07 INFO     [sgcarmart] Saved 1481288 — Porsche Panamera 3.0A PDK 235800.0
+02:16:35 INFO     [sgcarmart] Saved 1481216 — Porsche Cayman 2.7A (New 10-yr COE) 158000.0
+02:16:58 INFO     [sgcarmart] Saved 1460372 — Porsche Cayenne 3.0A Tip 179800.0
+02:17:44 INFO     [sgcarmart] Saved 1481193 — Porsche Macan 4 Electric 359888.0
+02:18:05 INFO     [sgcarmart] Saved 1479403 — Porsche 911 Coupe 3.0A Dakar 768800.0
+02:18:26 INFO     [sgcarmart] Saved 1463732 — Porsche Boxster 2.7M (COE till 03/2033) 125000.0
+02:18:56 INFO     [sgcarmart] Saved 1446943 — Porsche 911 Carrera GTS Coupe 3.8A PDK (COE till 04/2031) 285888.0
+02:19:12 INFO     [sgcarmart] Saved 1429021 — Porsche 911 C4S Coupe Tip (New 10-yr COE) 254800.0
+02:19:36 INFO     [sgcarmart] Saved 1447048 — Porsche 911S (COE till 02/2029) 245800.0
+02:20:08 INFO     [sgcarmart] Saved 1180359 — Porsche 911 C2 Cabriolet Tip (COE till 02/2035) 298000.0
+02:20:21 INFO     [sgcarmart] Saved 1480826 — Porsche 718 Boxster 2.0A PDK 270000.0
+02:20:32 INFO     [sgcarmart] Saved 1480928 — Porsche Panamera 3.0A PDK 138888.0
+02:20:59 INFO     [sgcarmart] Saved 1480920 — Porsche Boxster S 3.2A Tip (COE till 05/2035) 159888.0
+02:21:18 INFO     [sgcarmart] Saved 1446524 — Porsche 911 C4S Coupe Tip (COE till 05/2034) 222888.0
+02:21:50 INFO     [sgcarmart] Saved 1372575 — Porsche Cayenne Diesel 3.0A Tip (COE till 03/2032) 99800.0
+02:22:15 INFO     [sgcarmart] Saved 1311576 — Porsche 911 Carrera S Cabriolet 3.8A PDK (COE till 03/2033) 360000.0
+02:22:32 INFO     [sgcarmart] Saved 1445733 — Porsche Cayenne S Coupe 2.9A 298000.0
+02:22:49 INFO     [sgcarmart] Saved 1480500 — Porsche Macan 2.0A PDK 199000.0
+02:23:07 INFO     [sgcarmart] Saved 1475538 — Porsche 718 Spyder 4.0M Cabriolet 488888.0
+02:23:35 INFO     [sgcarmart] Saved 1390934 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 10/2031) 338000.0
+02:23:56 INFO     [sgcarmart] Saved 1457700 — Porsche 911 Carrera S Coupe 3.8A PDK Sunroof (COE till 04/2033) 398000.0
+02:24:13 INFO     [sgcarmart] Saved 1371918 — Porsche 911 Turbo (COE till 09/2031) 388000.0
+02:24:41 INFO     [sgcarmart] Saved 1477647 — Porsche Cayenne Coupe 3.0A Tip Panoramic Roof 380800.0
+02:25:19 INFO     [sgcarmart] Saved 1480012 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 03/2032) 280800.0
+02:25:47 INFO     [sgcarmart] Saved 1427949 — Porsche 928S Coupe 4.7M (COE till 03/2029) 82888.0
+02:26:19 INFO     [sgcarmart] Saved 1479887 — Porsche 911 Carrera 4S Cabriolet 3.8A PDK (COE till 03/2029) 189000.0
+02:26:45 INFO     [sgcarmart] Saved 1079993 — Porsche Boxster Spyder 3.4A PDK (COE till 07/2030) 201000.0
+02:26:57 INFO     [sgcarmart] Saved 1318940 — Porsche 911 Turbo Cabriolet Tip (COE till 04/2029) 258000.0
+02:27:12 INFO     [sgcarmart] Saved 1479094 — Porsche Macan 2.0A PDK (COE till 06/2035) 172800.0
+02:27:27 INFO     [sgcarmart] Saved 1479082 — Porsche Taycan Electric 4S 352000.0
+02:27:58 INFO     [sgcarmart] Saved 1479164 — Porsche Cayman S 3.4A Tip (COE till 05/2027) 33800.0
+02:28:17 INFO     [sgcarmart] Saved 1466472 — Porsche Panamera 3.6A PDK (COE till 12/2030) 78000.0
+02:28:49 INFO     [sgcarmart] Saved 1478826 — Porsche Macan 2.0A PDK (New 10-yr COE) 183888.0
+02:29:01 INFO     [sgcarmart] Saved 1408555 — Porsche Boxster S 3.4A PDK (COE till 12/2030) 140800.0
+02:29:21 INFO     [sgcarmart] Saved 1474185 — Porsche 911 Carrera S Coupe 3.0A PDK 455000.0
+02:29:36 INFO     [sgcarmart] Saved 1425797 — Porsche 718 Cayman 2.0A PDK (New 10-yr COE) 269888.0
+02:29:51 INFO     [sgcarmart] Saved 1398788 — Porsche Boxster S 3.2A Tip (COE till 05/2035) 165000.0
+02:30:09 INFO     [sgcarmart] Saved 1473834 — Porsche 944S (COE till 03/2035) 57800.0
+02:30:32 INFO     [sgcarmart] Saved 1344801 — Porsche Cayenne E-Hybrid 3.0A Tip Sunroof 283800.0
+02:30:49 INFO     [sgcarmart] Saved 1461714 — Porsche 911 Carrera Coupe 3.0A PDK 450500.0
+02:31:17 INFO     [sgcarmart] Saved 1444585 — Porsche 911 Turbo (New 10-yr COE) 283000.0
+02:31:48 INFO     [sgcarmart] Saved 1444524 — Porsche 356 Coupe (COE till 04/2033) 350000.0
+02:31:58 INFO     [sgcarmart] Saved 1389358 — Porsche 928 Coupe 4.7A (COE till 08/2033) 50000.0
+02:32:28 INFO     [sgcarmart] Saved 1374411 — Porsche Cayenne 3.2A Tip (New 10-yr COE) 148700.0
+02:32:51 INFO     [sgcarmart] Saved 1477034 — Porsche Taycan Electric 508888.0
+02:33:10 INFO     [sgcarmart] Saved 1454607 — Porsche Cayenne 3.0A Tip 434888.0
+02:33:42 INFO     [sgcarmart] Saved 1478266 — Porsche 911 GT3 RS 4.0A 720000.0
+02:34:00 INFO     [sgcarmart] Saved 1251804 — Porsche Macan 2.0A PDK 338800.0
+02:34:15 INFO     [sgcarmart] Saved 1187732 — Porsche Macan Diesel S 3.0A PDK (COE till 07/2034) 175899.0
+02:34:42 INFO     [sgcarmart] Saved 1463398 — Porsche Cayenne Coupe 3.0A Tip 306800.0
+02:35:13 INFO     [sgcarmart] Saved 1478010 — Porsche Panamera 3.6A PDK (COE till 02/2032) 99900.0
+02:35:45 INFO     [sgcarmart] Saved 1337134 — Porsche Cayenne 3.6A Tip (COE till 06/2033) 155000.0
+02:36:10 INFO     [sgcarmart] Saved 1477817 — Porsche 911 Turbo S Coupe 3.8A PDK (COE till 01/2031) 320888.0
+02:36:33 INFO     [sgcarmart] Saved 1435379 — Porsche Panamera 2.9A PDK 330800.0
+02:36:59 INFO     [sgcarmart] Saved 1472247 — Porsche Macan 4 Electric 369888.0
+02:37:12 INFO     [sgcarmart] Saved 1444331 — Porsche Taycan Cross Turismo Electric 4 360000.0
+02:37:45 INFO     [sgcarmart] Saved 1365064 — Porsche 911 Carrera S Coupe 3.8A PDK (COE till 07/2032) 286800.0
+02:38:08 INFO     [sgcarmart] Saved 1451176 — Porsche Macan 2.0A PDK Panoramic Roof 182888.0
+02:38:27 INFO     [sgcarmart] Saved 1443729 — Porsche Macan 4 Electric 356800.0
+02:38:49 INFO     [sgcarmart] Saved 1296478 — Porsche Panamera 3.6A PDK Edition (New 10-yr COE) 259000.0
+02:39:02 INFO     [sgcarmart] Saved 1477384 — Porsche Panamera 3.6A PDK (COE till 12/2030) 84999.0
+02:39:17 INFO     [sgcarmart] Saved 1477170 — Porsche Cayman S 3.4A Tip (New 10-yr COE) 168888.0
+02:39:45 INFO     [sgcarmart] Saved 1425376 — Porsche 911 Carrera 4 Cabriolet 3.4A PDK (COE till 04/2031) 278000.0
+02:40:23 INFO     [sgcarmart] Saved 1425165 — Porsche Taycan Electric 399000.0
+02:40:51 INFO     [sgcarmart] Saved 1362066 — Porsche 718 Cayman GT4 4.0A PDK 491800.0
+02:41:02 INFO     [sgcarmart] Saved 1477067 — Porsche 911 C4 Coupe Tip (COE till 01/2030) 105800.0
+02:41:23 INFO     [sgcarmart] Saved 1476990 — Porsche Macan S 3.0A PDK (New 10-yr COE) 185000.0
+02:41:50 INFO     [sgcarmart] Saved 1295674 — Porsche 928 S 4.7A 57800.0
+02:42:16 INFO     [sgcarmart] Saved 1258331 — Porsche 928 Coupe 4.7M 59800.0
+02:42:36 INFO     [sgcarmart] Saved 1289827 — Porsche Taycan Electric Turbo 818888.0
+02:42:55 INFO     [sgcarmart] Saved 1425164 — Porsche Cayenne 3.6A Tip (COE till 04/2029) 50000.0
+02:43:22 INFO     [sgcarmart] Saved 1387796 — Porsche 911 GT3 Touring 4.0A PDK 778000.0
+02:43:43 INFO     [sgcarmart] Saved 1473183 — Porsche Cayenne 3.0A Tip 298800.0
+02:44:08 INFO     [sgcarmart] Saved 1442422 — Porsche Cayman 2.7A Tip (COE till 12/2027) 75000.0
+02:44:24 INFO     [sgcarmart] Saved 1378436 — Porsche Cayman 2.7A Tip (COE till 11/2027) 75000.0
+02:44:43 INFO     [sgcarmart] Saved 1430514 — Porsche 718 Spyder 4.0A Cabriolet 559000.0
+02:44:55 INFO     [sgcarmart] Saved 1399516 — Porsche Panamera GTS 4.8A PDK (COE till 10/2034) 246000.0
+02:45:11 INFO     [sgcarmart] Saved 1476800 — Porsche Panamera 2.9A PDK 357800.0
+02:45:36 INFO     [sgcarmart] Saved 1370376 — Porsche Cayenne 3.0A Tip 438888.0
+02:45:54 INFO     [sgcarmart] Saved 1370443 — Porsche Cayenne 3.0A Tip 438888.0
+02:46:21 INFO     [sgcarmart] Saved 1475482 — Porsche Panamera 3.0A PDK 168800.0
+02:46:53 INFO     [sgcarmart] Saved 1450284 — Porsche 911 Carrera Cabriolet 3.6A PDK (COE till 04/2030) 168888.0
+02:47:17 INFO     [sgcarmart] Saved 1460127 — Porsche Panamera Turbo 4.8A PDK (COE till 09/2029) 76000.0
+02:48:00 INFO     [sgcarmart] Saved 1424792 — Porsche Macan 2.0A PDK 262800.0
+02:48:31 INFO     [sgcarmart] Saved 1387131 — Porsche 911 Turbo (COE till 06/2030) 345888.0
+02:48:48 INFO     [sgcarmart] Saved 1369939 — Porsche 718 Boxster GTS 4.0A PDK 466800.0
+02:49:16 INFO     [sgcarmart] Saved 1295368 — Porsche Panamera S 4.8A PDK (COE till 04/2030) 75800.0
+02:49:44 INFO     [sgcarmart] Saved 1459789 — Porsche Macan GTS 3.0A PDK Panoramic Roof (New 10-yr COE) 260800.0
+02:50:08 INFO     [sgcarmart] Saved 1466694 — Porsche Cayenne S 3.6A Tip 110800.0
+02:50:19 INFO     [sgcarmart] Saved 1476325 — Porsche Cayman 2.7A Tip (New 10-yr COE) 158800.0
+02:50:41 INFO     [sgcarmart] Saved 1476311 — Porsche 911 Carrera S Coupe 3.8A (COE till 03/2030) 158800.0
+02:51:11 INFO     [sgcarmart] Saved 1470467 — Porsche 911 Carrera 3.0A PDK 328800.0
+02:51:27 INFO     [sgcarmart] Saved 1476303 — Porsche Cayenne Coupe 3.0A Tip Sunroof 320000.0
+02:51:49 INFO     [sgcarmart] Saved 1257339 — Porsche Cayenne Turbo 4.8A Tip (COE till 09/2030) 99000.0
+02:52:07 INFO     [sgcarmart] Saved 1423228 — Porsche Cayenne Hybrid S 3.0A (COE till 11/2032) 113888.0
+02:52:35 INFO     [sgcarmart] Saved 1385767 — Porsche Boxster 2.7A (COE till 10/2028) 58800.0
+02:52:51 INFO     [sgcarmart] Saved 1476061 — Porsche Cayenne 3.6A Tip (COE till 09/2031) 90800.0
+02:53:04 INFO     [sgcarmart] Saved 1458895 — Porsche 911 GT3 RS 1505000.0
+02:53:24 INFO     [sgcarmart] Saved 1458466 — Porsche 911 Turbo Coupe 3.6A Tip (COE till 07/2028) 208888.0
+02:53:36 INFO     [sgcarmart] Saved 1440900 — Porsche Macan Turbo 3.6A PDK (COE till 05/2034) 197888.0
+02:53:51 INFO     [sgcarmart] Saved 1346482 — Porsche 911 Turbo Coupe 3.6A Tip (New 10-yr COE) 295888.0
+02:54:03 INFO     [sgcarmart] Saved 1458608 — Porsche Boxster S 3.4A Tip (COE till 02/2028) 40838.0
+02:54:30 INFO     [sgcarmart] Saved 1441023 — Porsche 911 C4 Cabriolet Tip (COE till 10/2033) 183838.0
+02:55:20 INFO     [sgcarmart] Saved 1465054 — Porsche Cayenne 3.6A Tip (COE till 08/2030) 112200.0
+02:55:50 INFO     [sgcarmart] Saved 1458382 — Porsche Taycan Electric 278888.0
+02:56:03 INFO     [sgcarmart] Saved 1403731 — Porsche 718 Cayman GT4 RS 4.0A PDK 739000.0
+02:56:21 INFO     [sgcarmart] Saved 1458145 — Porsche 911 GT3 510000.0
+02:56:56 INFO     [sgcarmart] Searching make=Aston Martin mdl=None
+02:57:02 INFO     [sgcarmart] Saved 1390679 — Aston Martin V8 Vantage Roadster 4.7A (COE till 05/2031) 130800.0
+02:57:27 INFO     [sgcarmart] Saved 1489892 — Aston Martin DBX707 4.0A 768000.0
+02:57:40 INFO     [sgcarmart] Saved 1475254 — Aston Martin Rapide 6.0A (COE till 11/2032) 195800.0
+02:57:54 INFO     [sgcarmart] Saved 1131095 — Aston Martin DB11 V8 4.0A 358000.0
+02:58:24 INFO     [sgcarmart] Saved 1486076 — Aston Martin V8 Vantage N430 Coupe Sportshift II (New 10-yr COE) 308800.0
+02:58:45 INFO     [sgcarmart] Saved 1312444 — Aston Martin DB9 Coupe 6.0A (COE till 08/2033) 349900.0
+02:59:16 INFO     [sgcarmart] Saved 1493219 — Aston Martin Vantage 4.0A 527888.0
+02:59:38 INFO     [sgcarmart] Saved 1453276 — Aston Martin DB11 V8 4.0A 728000.0
+02:59:59 INFO     [sgcarmart] Saved 1490353 — Aston Martin Vantage 4.0A 528800.0
+03:00:19 INFO     [sgcarmart] Saved 1493011 — Aston Martin DB11 V8 4.0A 383000.0
+03:00:44 INFO     [sgcarmart] Saved 1336665 — Aston Martin V8 Vantage Coupe 4.7A Sportshift II (COE till 09/2030) 168000.0
+03:01:16 INFO     [sgcarmart] Saved 1365895 — Aston Martin DBS Coupe 6.0A (COE till 06/2030) 368000.0
+03:01:35 INFO     [sgcarmart] Saved 1483679 — Aston Martin Vanquish 6.0A (New 10-yr COE) 460000.0
+03:01:54 INFO     [sgcarmart] Saved 1382275 — Aston Martin Vantage 4.0A 303000.0
+03:02:13 INFO     [sgcarmart] Saved 1394632 — Aston Martin DBX 4.0A 650800.0
+03:02:25 INFO     [sgcarmart] Saved 1491017 — Aston Martin Vantage 4.0A 468000.0
+03:02:35 INFO     [sgcarmart] Saved 1490709 — Aston Martin Vantage 4.0A 514900.0
+03:02:52 INFO     [sgcarmart] Saved 1457833 — Aston Martin Vantage 4.0A 499888.0
+03:03:08 INFO     [sgcarmart] Saved 1482809 — Aston Martin Vantage 4.0A 558000.0
+03:03:34 INFO     [sgcarmart] Saved 1489309 — Aston Martin V8 Vantage Roadster 4.7A (COE till 03/2031) 180999.0
+03:04:18 INFO     [sgcarmart] Saved 1311652 — Aston Martin Rapide 6.0A (COE till 01/2031) 155000.0
+03:04:34 INFO     [sgcarmart] Saved 1453857 — Aston Martin V8 Vantage N420 Roadster 4.7A Sportshift (COE till 08/2031) 180000.0
+03:04:52 INFO     [sgcarmart] Saved 1479895 — Aston Martin Vantage 4.0A 299888.0
+03:05:12 INFO     [sgcarmart] Saved 1487616 — Aston Martin V8 Vantage N420 Coupe 4.7A Sportshift (COE till 09/2030) 168000.0
+03:05:33 INFO     [sgcarmart] Saved 1451315 — Aston Martin DBX 4.0A 455000.0
+03:05:51 INFO     [sgcarmart] Saved 1434993 — Aston Martin DBX 4.0A 508800.0
+03:06:17 INFO     [sgcarmart] Saved 1374034 — Aston Martin DBS Volante 6.0A (COE till 04/2030) 275000.0
+03:06:36 INFO     [sgcarmart] Saved 1251614 — Aston Martin DBX 4.0A 639000.0
+03:06:52 INFO     [sgcarmart] Saved 1194802 — Aston Martin Rapide 6.0A (COE till 08/2030) 179000.0
+03:07:11 INFO     [sgcarmart] Saved 1450819 — Aston Martin DBX707 4.0A 850000.0
+03:07:27 INFO     [sgcarmart] Saved 1450618 — Aston Martin Vantage 4.0A 433000.0
+03:07:44 INFO     [sgcarmart] Saved 1265585 — Aston Martin DBS Superleggera 558000.0
+03:07:57 INFO     [sgcarmart] Saved 1467161 — Aston Martin DBX 4.0A 568000.0
+03:08:14 INFO     [sgcarmart] Saved 1477759 — Aston Martin V8 Vantage Coupe 4.0A 398888.0
+03:08:46 INFO     [sgcarmart] Saved 1375637 — Aston Martin DBX 4.0A 455000.0
+03:09:13 INFO     [sgcarmart] Saved 1459561 — Aston Martin V8 Vantage Coupe 4.7A Sportshift II (COE till 11/2032) 198000.0
+03:09:25 INFO     [sgcarmart] Saved 1395702 — Aston Martin V8 Vantage S Coupe 4.7A 218800.0
+03:09:40 INFO     [sgcarmart] Saved 1445069 — Aston Martin V8 Vantage Roadster 4.7A (COE till 09/2030) 168000.0
+03:10:05 INFO     [sgcarmart] Saved 1389721 — Aston Martin DB9 Coupe 6.0A (New 10-yr COE) 188888.0
+03:10:23 INFO     [sgcarmart] Saved 1474131 — Aston Martin DB9 GT Coupe 6.0A 298000.0
+03:11:01 INFO     [sgcarmart] Saved 1426330 — Aston Martin DB9 Coupe 6.0A (COE till 03/2028) 105000.0
+03:11:22 INFO     [sgcarmart] Saved 1350384 — Aston Martin DBX707 4.0A 899999.0
+03:11:34 INFO     [sgcarmart] Saved 1444272 — Aston Martin DBS Coupe 6.0A (COE till 06/2031) 349800.0
+03:12:03 INFO     [sgcarmart] Saved 1462912 — Aston Martin DBX 4.0A 448800.0
+03:12:34 INFO     [sgcarmart] Saved 1476851 — Aston Martin V8 Vantage N430 Coupe Sportshift II 308000.0
+03:12:57 INFO     [sgcarmart] Saved 1476686 — Aston Martin DB11 V12 5.2A Launch Edition (New 10-yr COE) 512888.0
+03:13:28 INFO     [sgcarmart] Searching make=Bentley mdl=None
+03:13:33 INFO     [sgcarmart] Saved 1422203 — Bentley Flying Spur 4.0A V8 880000.0
+03:13:47 INFO     [sgcarmart] Saved 1403452 — Bentley Bentayga Diesel 4.0A 459000.0
+03:14:14 INFO     [sgcarmart] Saved 1493900 — Bentley Bentayga 4.0A V8 358888.0
+03:14:43 INFO     [sgcarmart] Saved 1473012 — Bentley Continental GT 6.0A 468000.0
+03:15:15 INFO     [sgcarmart] Saved 1447308 — Bentley Continental Flying Spur 6.0A (COE till 08/2032) 280000.0
+03:15:34 INFO     [sgcarmart] Saved 1393940 — Bentley Continental GT Convertible 6.0A (COE till 07/2032) 199800.0
+03:15:46 INFO     [sgcarmart] Saved 1493620 — Bentley Flying Spur 4.0A V8 838000.0
+03:16:03 INFO     [sgcarmart] Saved 1451726 — Bentley Continental GT Convertible 6.0A (COE till 02/2031) 158500.0
+03:16:26 INFO     [sgcarmart] Saved 1468917 — Bentley Continental Flying Spur 6.0A (COE till 12/2030) 130000.0
+03:16:44 INFO     [sgcarmart] Saved 1415305 — Bentley Continental GT 4.0A V8 (COE till 03/2033) 258800.0
+03:16:56 INFO     [sgcarmart] Saved 1481907 — Bentley Continental GT 6.0A Supersports (COE till 07/2032) 213800.0
+03:17:08 INFO     [sgcarmart] Saved 1493395 — Bentley Continental GT Convertible 6.0A (COE till 11/2029) 72800.0
+03:17:40 INFO     [sgcarmart] Saved 1270621 — Bentley Continental GT 6.0A (COE till 01/2029) 103000.0
+03:17:57 INFO     [sgcarmart] Saved 1474071 — Bentley Bentayga 4.0A V8 388800.0
+03:18:09 INFO     [sgcarmart] Saved 1484995 — Bentley Continental GT 6.0A 688800.0
+03:18:21 INFO     [sgcarmart] Saved 1491927 — Bentley Continental GT 4.0A V8 (COE till 04/2033) 208800.0
+03:18:42 INFO     [sgcarmart] Saved 1373962 — Bentley Bentayga 4.0A V8 650800.0
+03:18:57 INFO     [sgcarmart] Saved 1410492 — Bentley Continental GT 6.0A Speed (COE till 12/2030) 98000.0
+03:19:18 INFO     [sgcarmart] Saved 1464426 — Bentley Continental GT 4.0A V8 (COE till 05/2033) 228800.0
+03:19:35 INFO     [sgcarmart] Saved 1456534 — Bentley Flying Spur 4.0A V8 Sunroof (COE till 05/2035) 330888.0
+03:20:22 INFO     [sgcarmart] Saved 1492157 — Bentley Flying Spur 6.0A W12 (COE till 03/2034) 208888.0
+03:20:52 INFO     [sgcarmart] Saved 1311200 — Bentley Continental GT Convertible 4.0A V8 1288888.0
+03:21:23 INFO     [sgcarmart] Saved 1491934 — Bentley Continental GT 6.0A (COE till 11/2030) 142000.0
+03:21:42 INFO     [sgcarmart] Saved 1409189 — Bentley Continental GT Convertible 6.0A Speed (COE till 09/2031) 143800.0
+03:22:11 INFO     [sgcarmart] Saved 1491614 — Bentley Continental GT 4.0A V8 (COE till 02/2031) 133000.0
+03:22:39 INFO     [sgcarmart] Saved 1472653 — Bentley Flying Spur 4.0A V8 758888.0
+03:22:53 INFO     [sgcarmart] Saved 1193306 — Bentley Continental GT 4.0A V8 (COE till 03/2033) 246800.0
+03:23:18 INFO     [sgcarmart] Saved 1141738 — Bentley Continental GT 6.0A (COE till 10/2028) 65800.0
+03:23:46 INFO     [sgcarmart] Saved 1445078 — Bentley Continental GT 6.0A (COE till 05/2029) 71800.0
+03:24:14 INFO     [sgcarmart] Saved 1472441 — Bentley Continental Flying Spur 6.0A (COE till 04/2031) 96800.0
+03:24:41 INFO     [sgcarmart] Saved 1490384 — Bentley Continental GT 6.0A (COE till 04/2026) 148888.0
+03:25:07 INFO     [sgcarmart] Saved 1393670 — Bentley Continental GT 4.0A V8 588888.0
+03:25:31 INFO     [sgcarmart] Saved 1226661 — Bentley Continental GT (COE till 03/2034) 168800.0
+03:26:02 INFO     [sgcarmart] Saved 1146584 — Bentley Mulsanne S 6.75A (COE till 04/2029) 128000.0
+03:26:29 INFO     [sgcarmart] Saved 1489821 — Bentley Continental GT 6.0A 788000.0
+03:26:49 INFO     [sgcarmart] Saved 1482196 — Bentley Continental Flying Spur 6.0A (New 10-yr COE) 138000.0
+03:27:08 INFO     [sgcarmart] Saved 1475412 — Bentley Flying Spur 4.0A V8 698000.0
+03:27:27 INFO     [sgcarmart] Saved 1397842 — Bentley Mulsanne 6.75A (New 10-yr COE) 438800.0
+03:27:42 INFO     [sgcarmart] Saved 1471287 — Bentley Bentayga 4.0A V8 688000.0
+03:28:10 INFO     [sgcarmart] Saved 1470972 — Bentley Bentayga 4.0A V8 908000.0
+03:28:55 INFO     [sgcarmart] Saved 1470966 — Bentley Continental GT Convertible 4.0A V8 788000.0
+03:29:09 INFO     [sgcarmart] Saved 1379768 — Bentley Flying Spur 4.0A V8 758000.0
+03:29:42 INFO     [sgcarmart] Saved 1453484 — Bentley Continental GT Convertible 6.0A (COE till 05/2032) 170888.0
+03:30:10 INFO     [sgcarmart] Saved 1487981 — Bentley Continental GT Convertible 4.0A V8 (COE till 12/2031) 198888.0
+03:30:35 INFO     [sgcarmart] Saved 1470321 — Bentley Continental GT 4.0A V8 (COE till 05/2033) 229800.0
+03:30:48 INFO     [sgcarmart] Saved 1451214 — Bentley Continental GT 4.0A V8 (New 10-yr COE) 362800.0
+03:31:21 INFO     [sgcarmart] Saved 1469762 — Bentley Continental Flying Spur 6.0A (COE till 04/2028) 46800.0
+03:31:53 INFO     [sgcarmart] Saved 1452097 — Bentley Continental GT Convertible 4.0A V8 (COE till 04/2033) 228777.0
+03:32:12 INFO     [sgcarmart] Saved 1479767 — Bentley Continental GT Convertible 4.0A V8 700000.0
+03:32:36 INFO     [sgcarmart] Saved 1486286 — Bentley Flying Spur 4.0A V8 (New 10-yr COE) 378800.0
+03:32:47 INFO     [sgcarmart] Saved 1377090 — Bentley Continental Flying Spur 6.0A (COE till 03/2033) 138800.0
+03:33:18 INFO     [sgcarmart] Saved 1485953 — Bentley Bentayga 4.0A V8 480800.0
+03:33:33 INFO     [sgcarmart] Saved 1467092 — Bentley Continental GT 4.0A V8 (COE till 03/2033) 189888.0
+03:33:52 INFO     [sgcarmart] Saved 1149159 — Bentley Continental GT 4.0A V8 S 388000.0
+03:34:14 INFO     [sgcarmart] Saved 1451225 — Bentley Continental GT 6.0A Supersports (COE till 04/2029) 139000.0
+03:34:41 INFO     [sgcarmart] Saved 1433231 — Bentley Continental GT Convertible 4.0A V8 (COE till 10/2033) 229888.0
+03:35:02 INFO     [sgcarmart] Saved 1450815 — Bentley Continental GT 4.0A V8 S 1090000.0
+03:35:29 INFO     [sgcarmart] Saved 1450672 — Bentley Bentayga GT 6.0A Speed W12 950288.0
+03:35:55 INFO     [sgcarmart] Saved 1485106 — Bentley Continental GT 6.0A Speed (COE till 02/2032) 248880.0
+03:36:21 INFO     [sgcarmart] Saved 1326197 — Bentley Mulsanne Turbo 6.75A 499000.0
+03:37:01 INFO     [sgcarmart] Saved 1485170 — Bentley Continental GT 4.0A V8 (COE till 08/2032) 191997.0
+03:37:24 INFO     [sgcarmart] Saved 1414070 — Bentley Continental GT Convertible 4.0A V8 (COE till 07/2032) 239000.0
+03:37:51 INFO     [sgcarmart] Saved 1483178 — Bentley Arnage Birkin (COE till 03/2030) 99500.0
+03:38:06 INFO     [sgcarmart] Saved 1473451 — Bentley Flying Spur 4.0A V8 Sunroof 238888.0
+03:38:35 INFO     [sgcarmart] Saved 1483300 — Bentley Bentayga 4.0A V8 888888.0
+03:39:06 INFO     [sgcarmart] Saved 1184202 — Bentley Flying Spur 4.0A V8 Sunroof (COE till 10/2034) 319000.0
+03:39:28 INFO     [sgcarmart] Saved 1314666 — Bentley Flying Spur 4.0A V8 S Sunroof 375000.0
+03:39:55 INFO     [sgcarmart] Saved 1089951 — Bentley Continental GT 4.0A V8 221800.0
+03:40:26 INFO     [sgcarmart] Saved 1001586 — Bentley Continental GT 6.0A Supersports (COE till 08/2031) 163800.0
+03:40:40 INFO     [sgcarmart] Saved 1392155 — Bentley Continental GT 4.0A V8 (COE till 01/2033) 215888.0
+03:41:08 INFO     [sgcarmart] Saved 1481311 — Bentley Continental GT 4.0A V8 1180000.0
+03:41:20 INFO     [sgcarmart] Saved 1446720 — Bentley Flying Spur 6.0A W12 684800.0
+03:41:43 INFO     [sgcarmart] Saved 1410056 — Bentley Flying Spur 6.0A W12 690000.0
+03:41:55 INFO     [sgcarmart] Saved 1391912 — Bentley Continental 6.0A Supersports (COE till 11/2032) 258000.0
+03:42:19 INFO     [sgcarmart] Saved 1264382 — Bentley Mulsanne S 6.75A 499000.0
+03:42:46 INFO     [sgcarmart] Saved 1446935 — Bentley Continental GT 4.0A V8 (COE till 10/2032) 208000.0
+03:43:14 INFO     [sgcarmart] Saved 1427510 — Bentley Continental GT 6.0A (New 10-yr COE) 568800.0
+03:43:47 INFO     [sgcarmart] Saved 1445263 — Bentley Continental GT Convertible 6.0A (COE till 07/2032) 160000.0
+03:44:09 INFO     [sgcarmart] Saved 1479040 — Bentley Bentayga 4.0A V8 1380000.0
+03:44:31 INFO     [sgcarmart] Saved 1444964 — Bentley Continental GT 4.0A V8 (COE till 07/2032) 203000.0
+03:45:01 INFO     [sgcarmart] Saved 1270311 — Bentley Flying Spur 4.0A V8 958800.0
+03:45:31 INFO     [sgcarmart] Saved 1477900 — Bentley Continental GT Convertible 6.0A (COE till 11/2032) 144888.0
+03:45:44 INFO     [sgcarmart] Saved 1477768 — Bentley Continental GT Convertible 6.0A (COE till 03/2032) 148888.0
+03:46:07 INFO     [sgcarmart] Saved 1388454 — Bentley Continental GT 4.0A V8 S (COE till 01/2035) 295000.0
+03:46:32 INFO     [sgcarmart] Saved 1460850 — Bentley Continental GT 6.0A (COE till 12/2029) 108800.0
+03:46:48 INFO     [sgcarmart] Saved 1476958 — Bentley Bentayga 4.0A V8 688000.0
+03:47:00 INFO     [sgcarmart] Saved 1476936 — Bentley Continental GT 6.0A 420800.0
+03:47:16 INFO     [sgcarmart] Saved 1370689 — Bentley Continental GT Convertible 4.0A V8 780000.0
+03:47:28 INFO     [sgcarmart] Saved 1316899 — Bentley Continental 6.0A Supersports (COE till 01/2031) 179000.0
+03:47:40 INFO     [sgcarmart] Saved 1424600 — Bentley Mulsanne 6.75A (COE till 08/2031) 295000.0
+03:47:55 INFO     [sgcarmart] Saved 1354407 — Bentley Continental GT 6.0A (COE till 03/2032) 157888.0
+03:48:13 INFO     [sgcarmart] Saved 1267518 — Bentley Continental Flying Spur 6.0A (New 10-yr COE) 144888.0
+03:48:50 INFO     [sgcarmart] Searching make=BMW mdl=M2
+03:48:57 INFO     [sgcarmart] Saved 1493883 — BMW M240i Coupe 279800.0
+03:49:10 INFO     [sgcarmart] Saved 1460227 — BMW M2 Coupe Competition 178000.0
+03:49:26 INFO     [sgcarmart] Saved 1457514 — BMW M2 Coupe CS 428000.0
+03:49:55 INFO     [sgcarmart] Saved 1493458 — BMW M240i Coupe 89800.0
+03:50:20 INFO     [sgcarmart] Saved 1474787 — BMW M240i Coupe xDrive Shadow Edition 315000.0
+03:50:39 INFO     [sgcarmart] Saved 1487165 — BMW M2 Coupe Competition 206888.0
+03:50:54 INFO     [sgcarmart] Saved 1462768 — BMW M240i Coupe 98888.0
+03:51:24 INFO     [sgcarmart] Saved 1473863 — BMW M240i Coupe 150000.0
+03:51:46 INFO     [sgcarmart] Saved 1382956 — BMW M2 Coupe 109000.0
+03:52:13 INFO     [sgcarmart] Saved 1310281 — BMW M2 Coupe 109888.0
+03:52:24 INFO     [sgcarmart] Saved 1390677 — BMW M2 Coupe Competition 174800.0
+03:52:49 INFO     [sgcarmart] Saved 1490947 — BMW M240i Coupe 47800.0
+03:53:16 INFO     [sgcarmart] Saved 1491052 — BMW M2 Coupe (New 10-yr COE) 208000.0
+03:53:41 INFO     [sgcarmart] Saved 1458789 — BMW M235i Gran Coupe xDrive 142588.0
+03:54:12 INFO     [sgcarmart] Saved 1462211 — BMW M2 Coupe 95000.0
+03:54:41 INFO     [sgcarmart] Saved 1489595 — BMW M240i Coupe 53800.0
+03:55:08 INFO     [sgcarmart] Saved 1488481 — BMW M240i Coupe 346800.0
+03:55:23 INFO     [sgcarmart] Saved 1472295 — BMW M235i Gran Coupe xDrive 165800.0
+03:55:37 INFO     [sgcarmart] Saved 1473477 — BMW M235i Coupe (New 10-yr COE) 172800.0
+03:56:04 INFO     [sgcarmart] Saved 1415975 — BMW M2 Coupe Competition 218800.0
+03:56:53 INFO     [sgcarmart] Saved 1486417 — BMW M2 Coupe Competition 180800.0
+03:57:16 INFO     [sgcarmart] Saved 1468012 — BMW M235i Gran Coupe xDrive 147888.0
+03:57:35 INFO     [sgcarmart] Saved 1431727 — BMW M240i Cabriolet (New 10-yr COE) 188000.0
+03:57:55 INFO     [sgcarmart] Saved 1476484 — BMW M2 Coupe 399888.0
+03:58:20 INFO     [sgcarmart] Saved 1465909 — BMW M235i Gran Coupe xDrive 227800.0
+03:58:40 INFO     [sgcarmart] Saved 1469096 — BMW M2 Coupe (New 10-yr COE) 198888.0
+03:59:04 INFO     [sgcarmart] Saved 1411440 — BMW M235i Coupe 45000.0
+03:59:34 INFO     [sgcarmart] Saved 1447731 — BMW M2 Coupe 101888.0
+03:59:59 INFO     [sgcarmart] Saved 1472350 — BMW M2 Coupe 388000.0
+04:00:21 INFO     [sgcarmart] Saved 1461435 — BMW M235i Gran Coupe xDrive 152000.0
+04:00:45 INFO     [sgcarmart] Saved 1228298 — BMW M2 Coupe Competition 265800.0
+04:01:16 INFO     [sgcarmart] Saved 1461213 — BMW M240i Coupe 80888.0
+04:01:27 INFO     [sgcarmart] Saved 1476261 — BMW M235i Coupe (COE till 04/2034) 168888.0
+04:02:05 INFO     [sgcarmart] Searching make=BMW mdl=M3
+04:02:11 INFO     [sgcarmart] Saved 1457956 — BMW M3 Coupe Competition Package (COE till 06/2031) 121900.0
+04:02:25 INFO     [sgcarmart] Saved 1333632 — BMW M3 Coupe (COE till 03/2034) 255888.0
+04:02:45 INFO     [sgcarmart] Saved 1487202 — BMW M3 Coupe Competition Package (COE till 02/2031) 89800.0
+04:03:05 INFO     [sgcarmart] Saved 1482989 — BMW M3 Sedan Competition Package 398800.0
+04:03:36 INFO     [sgcarmart] Saved 1269978 — BMW M3 Coupe (COE till 10/2031) 147777.0
+04:04:02 INFO     [sgcarmart] Saved 1493710 — BMW M3 Sedan Competition Package 398000.0
+04:04:17 INFO     [sgcarmart] Saved 1476867 — BMW M3 Sedan (New 10-yr COE) 248800.0
+04:04:38 INFO     [sgcarmart] Saved 1486305 — BMW M3 Coupe (COE till 07/2029) 59800.0
+04:05:09 INFO     [sgcarmart] Saved 1472931 — BMW M3 Convertible (COE till 03/2030) 69898.0
+04:05:35 INFO     [sgcarmart] Saved 1488811 — BMW M3 Sedan (COE till 03/2035) 228289.0
+04:05:56 INFO     [sgcarmart] Saved 1464357 — BMW M3 Sedan Competition Package 203800.0
+04:06:12 INFO     [sgcarmart] Saved 1425866 — BMW M3 Coupe (COE till 03/2030) 125000.0
+04:06:25 INFO     [sgcarmart] Saved 1455448 — BMW M3 Convertible (COE till 12/2028) 69999.0
+04:06:40 INFO     [sgcarmart] Saved 1490883 — BMW M3 Coupe (COE till 02/2030) 74800.0
+04:06:53 INFO     [sgcarmart] Saved 1449490 — BMW M3 Coupe CSL (COE till 09/2033) 348000.0
+04:07:20 INFO     [sgcarmart] Saved 1489853 — BMW M3 Convertible (COE till 08/2029) 59000.0
+04:07:35 INFO     [sgcarmart] Saved 1471497 — BMW M3 CS Touring xDrive 655800.0
+04:08:03 INFO     [sgcarmart] Saved 1488483 — BMW X1 M35i xDrive M-Sport Pro 282800.0
+04:08:32 INFO     [sgcarmart] Saved 1489242 — BMW M3 Sedan (New 10-yr COE) 252500.0
+04:08:50 INFO     [sgcarmart] Saved 1259779 — BMW M3 Convertible (COE till 10/2031) 97800.0
+04:09:34 INFO     [sgcarmart] Saved 1470956 — BMW M3 Coupe (COE till 11/2028) 52800.0
+04:10:07 INFO     [sgcarmart] Saved 1488266 — BMW M3 Convertible (COE till 04/2031) 108800.0
+04:10:26 INFO     [sgcarmart] Saved 1480633 — BMW M340i xDrive 178888.0
+04:10:46 INFO     [sgcarmart] Saved 1435709 — BMW M3 Coupe Competition (COE till 03/2030) 105000.0
+04:10:58 INFO     [sgcarmart] Saved 1480329 — BMW M3 Convertible (COE till 04/2031) 98800.0
+04:11:23 INFO     [sgcarmart] Saved 1467077 — BMW M3 Sedan 198888.0
+04:11:55 INFO     [sgcarmart] Saved 1466766 — BMW M3 Convertible (COE till 11/2028) 47000.0
+04:12:21 INFO     [sgcarmart] Saved 1443318 — BMW M3 Sedan 145888.0
+04:12:51 INFO     [sgcarmart] Saved 1438307 — BMW M3 Coupe (COE till 08/2035) 278000.0
+04:13:21 INFO     [sgcarmart] Saved 1480860 — BMW M3 Coupe (COE till 06/2030) 90800.0
+04:13:40 INFO     [sgcarmart] Saved 1474207 — BMW X1 M35i xDrive M-Sport Pro 278888.0
+04:14:08 INFO     [sgcarmart] Saved 1480254 — BMW M340i xDrive 175000.0
+04:14:22 INFO     [sgcarmart] Saved 1475104 — BMW M3 Sedan (COE till 05/2034) 223888.0
+04:14:34 INFO     [sgcarmart] Saved 1461881 — BMW M3 Coupe 95888.0
+04:15:06 INFO     [sgcarmart] Saved 1452950 — BMW M3 Convertible (COE till 11/2031) 99800.0
+04:15:39 INFO     [sgcarmart] Searching make=BMW mdl=M4
+04:15:45 INFO     [sgcarmart] Saved 1440268 — BMW M4 CSL 588888.0
+04:15:59 INFO     [sgcarmart] Saved 1448819 — BMW M4 Coupe (COE till 05/2035) 249800.0
+04:16:25 INFO     [sgcarmart] Saved 1457773 — BMW M4 Coupe (COE till 11/2034) 230000.0
+04:16:54 INFO     [sgcarmart] Saved 1487113 — BMW Z4 sDrive M40i 198000.0
+04:17:18 INFO     [sgcarmart] Saved 1489271 — BMW X4 M40i Mild Hybrid 320997.0
+04:17:44 INFO     [sgcarmart] Saved 1492218 — BMW X4 M40i Mild Hybrid 340888.0
+04:18:15 INFO     [sgcarmart] Saved 1490873 — BMW X4 M40i Mild Hybrid 298800.0
+04:18:41 INFO     [sgcarmart] Saved 1490394 — BMW M4 Cabriolet Competition Package 233800.0
+04:19:02 INFO     [sgcarmart] Saved 1485078 — BMW X3 M40i Mild Hybrid M-Sport 315800.0
+04:19:25 INFO     [sgcarmart] Saved 1491469 — BMW X3 M40i Mild Hybrid 302888.0
+04:19:53 INFO     [sgcarmart] Saved 1473260 — BMW M4 Coupe (COE till 09/2035) 235800.0
+04:20:25 INFO     [sgcarmart] Saved 1488531 — BMW Z4 sDrive M40i 178888.0
+04:20:41 INFO     [sgcarmart] Saved 1466225 — BMW M4 Coupe Competition xDrive 525000.0
+04:20:55 INFO     [sgcarmart] Saved 1490773 — BMW M4 Coupe (COE till 08/2035) 245000.0
+04:21:24 INFO     [sgcarmart] Saved 1446869 — BMW X3 M40i 130988.0
+04:21:39 INFO     [sgcarmart] Saved 1472304 — BMW X3 M40i 182500.0
+04:21:57 INFO     [sgcarmart] Saved 1480223 — BMW X4 M40i 176800.0
+04:22:22 INFO     [sgcarmart] Saved 1489858 — BMW M4 Coupe (COE till 07/2035) 249800.0
+04:22:51 INFO     [sgcarmart] Saved 1435785 — BMW M4 Coupe Competition Package 199800.0
+04:23:11 INFO     [sgcarmart] Saved 1468450 — BMW M4 Coupe Competition Package 226800.0
+04:23:53 INFO     [sgcarmart] Saved 1377074 — BMW M4 Coupe Competition 398800.0
+04:24:09 INFO     [sgcarmart] Saved 1484833 — BMW M4 Coupe (COE till 01/2035) 222888.0
+04:24:26 INFO     [sgcarmart] Saved 1457675 — BMW M4 Coupe (COE till 04/2034) 211888.0
+04:24:58 INFO     [sgcarmart] Saved 1482785 — BMW M4 Convertible (COE till 05/2034) 205000.0
+04:25:18 INFO     [sgcarmart] Saved 1410464 — BMW M4 Convertible 218000.0
+04:25:37 INFO     [sgcarmart] Saved 1478064 — BMW M4 Coupe Competition 383800.0
+04:25:49 INFO     [sgcarmart] Saved 1462339 — BMW M4 Coupe Competition xDrive 521800.0
+04:26:20 INFO     [sgcarmart] Saved 1478983 — BMW M4 Coupe (COE till 09/2035) 249888.0
+04:26:48 INFO     [sgcarmart] Saved 1445010 — BMW M4 Coupe Competition Package 200988.0
+04:27:06 INFO     [sgcarmart] Saved 1462000 — BMW M4 Coupe (New 10-yr COE) 254800.0
+04:27:27 INFO     [sgcarmart] Saved 1318597 — BMW M4 Coupe Competition 352800.0
+04:27:41 INFO     [sgcarmart] Saved 1444368 — BMW M4 Coupe (COE till 05/2035) 219800.0
+04:28:04 INFO     [sgcarmart] Saved 1287397 — BMW M4 Coupe Competition Package 245800.0
+04:28:25 INFO     [sgcarmart] Searching make=BMW mdl=M5
+04:28:31 INFO     [sgcarmart] Saved 1482034 — BMW M5 Sunroof (COE till 07/2032) 95800.0
+04:28:45 INFO     [sgcarmart] Saved 1379194 — BMW M5 Sunroof (COE till 10/2031) 117000.0
+04:29:02 INFO     [sgcarmart] Saved 1440915 — BMW M5 Competition 283800.0
+04:29:29 INFO     [sgcarmart] Saved 1467733 — BMW M5 Sunroof (COE till 09/2030) 78800.0
+04:29:55 INFO     [sgcarmart] Saved 1492135 — BMW M5 205800.0
+04:30:11 INFO     [sgcarmart] Saved 1491777 — BMW i4 Gran Coupe Electric M50 305800.0
+04:30:35 INFO     [sgcarmart] Saved 1420328 — BMW M5 (COE till 06/2031) 118000.0
+04:30:59 INFO     [sgcarmart] Saved 1491847 — BMW M5 Sunroof (COE till 11/2031) 92800.0
+04:31:15 INFO     [sgcarmart] Saved 1455930 — BMW M5 Competition 241600.0
+04:31:43 INFO     [sgcarmart] Saved 1451351 — BMW M5 (COE till 10/2032) 106888.0
+04:31:55 INFO     [sgcarmart] Saved 1468265 — BMW M5 Competition 389800.0
+04:32:18 INFO     [sgcarmart] Saved 1407983 — BMW M5 199800.0
+04:32:35 INFO     [sgcarmart] Saved 1490985 — BMW M5 270000.0
+04:32:52 INFO     [sgcarmart] Saved 1406450 — BMW M5 Competition 343800.0
+04:33:06 INFO     [sgcarmart] Saved 1276580 — BMW M5 Sunroof (COE till 11/2032) 125000.0
+04:33:34 INFO     [sgcarmart] Saved 1446382 — BMW M5 Competition 338888.0
+04:33:50 INFO     [sgcarmart] Saved 1471770 — BMW i4 Gran Coupe Electric M50 257000.0
+04:34:15 INFO     [sgcarmart] Saved 1398517 — BMW i4 Gran Coupe Electric M50 237997.0
+04:34:29 INFO     [sgcarmart] Saved 1444076 — BMW M5 (COE till 10/2031) 93000.0
+04:34:57 INFO     [sgcarmart] Saved 1448685 — BMW i4 Gran Coupe Electric M50 Sunroof 268888.0
+04:35:37 INFO     [sgcarmart] Saved 1456512 — BMW M5 Sunroof (COE till 10/2031) 99800.0
+04:36:01 INFO     [sgcarmart] Saved 1395590 — BMW M5 (COE till 03/2032) 130000.0
+04:36:24 INFO     [sgcarmart] Saved 1466509 — BMW M5 220888.0
+04:36:50 INFO     [sgcarmart] Saved 1449755 — BMW M5 (New 10-yr COE) 279888.0
+04:37:15 INFO     [sgcarmart] Saved 1305913 — BMW M5 Sunroof (COE till 03/2032) 125000.0
+04:37:29 INFO     [sgcarmart] Saved 1449396 — BMW M5 Sunroof (COE till 02/2031) 81800.0
+04:37:44 INFO     [sgcarmart] Saved 1481121 — BMW M5 Sunroof (COE till 02/2032) 118000.0
+04:38:15 INFO     [sgcarmart] Saved 1447374 — BMW M5 Sunroof (COE till 07/2032) 123800.0
+04:38:45 INFO     [sgcarmart] Saved 1424217 — BMW M5 Sunroof (COE till 09/2031) 92800.0
+04:39:06 INFO     [sgcarmart] Saved 1441031 — BMW M5 Sunroof (COE till 03/2032) 112838.0
+04:39:39 INFO     [sgcarmart] Searching make=BMW mdl=M6
+04:39:44 INFO     [sgcarmart] Saved 1202963 — BMW M6 Coupe (COE till 11/2032) 173000.0
+04:39:56 INFO     [sgcarmart] Saved 1446643 — BMW M6 Coupe (COE till 03/2032) 109777.0
+04:40:08 INFO     [sgcarmart] Saved 1454850 — BMW M6 Cabriolet (COE till 02/2032) 141888.0
+04:40:27 INFO     [sgcarmart] Saved 1295210 — BMW M6 Coupe (COE till 10/2033) 199777.0
+04:40:53 INFO     [sgcarmart] Saved 1417988 — BMW M6 Gran Coupe (COE till 05/2033) 190000.0
+04:41:20 INFO     [sgcarmart] Saved 1395559 — BMW M6 Coupe (COE till 04/2033) 165800.0
+04:41:51 INFO     [sgcarmart] Saved 1374023 — BMW M6 Gran Coupe (COE till 10/2033) 199888.0
+04:42:06 INFO     [sgcarmart] Saved 1464455 — BMW M6 Coupe (COE till 11/2030) 110000.0
+04:42:31 INFO     [sgcarmart] Saved 1426929 — BMW M6 Cabriolet (COE till 07/2032) 155000.0
+04:42:51 INFO     [sgcarmart] Saved 1404494 — BMW M6 Cabriolet Individual (COE till 10/2031) 134000.0
+04:43:18 INFO     [sgcarmart] Saved 1440652 — BMW M6 Gran Coupe (COE till 07/2034) 298888.0
+04:43:50 INFO     [sgcarmart] Searching make=BMW mdl=M8
+04:43:55 INFO     [sgcarmart] Saved 1487285 — BMW M850i Coupe xDrive 248888.0
+04:44:08 INFO     [sgcarmart] Saved 1346036 — BMW M8 Gran Coupe Competition 458888.0
+04:44:35 INFO     [sgcarmart] Saved 1267279 — BMW M8 Gran Coupe Competition 398888.0
+04:44:57 INFO     [sgcarmart] Saved 1482901 — BMW M850i Coupe xDrive 400000.0
+04:45:28 INFO     [sgcarmart] Searching make=BMW mdl=X5M
+04:45:31 INFO     [sgcarmart] No listings on page 1 — stopping
+04:45:45 INFO     [sgcarmart] Searching make=BMW mdl=X6M
+04:45:48 INFO     [sgcarmart] No listings on page 1 — stopping
+04:46:11 INFO     [sgcarmart] Searching make=BMW mdl=Z3
+04:46:17 INFO     [sgcarmart] Saved 1492695 — BMW Z3 (COE till 04/2031) 138800.0
+04:47:04 INFO     [sgcarmart] Searching make=BMW mdl=Z4
+04:47:10 INFO     [sgcarmart] Saved 1456894 — BMW Z4 sDrive23i (COE till 03/2030) 55999.0
+04:47:27 INFO     [sgcarmart] Saved 1475528 — BMW Z4 sDrive23i (COE till 02/2031) 65800.0
+04:47:58 INFO     [sgcarmart] Saved 1487113 — BMW Z4 sDrive M40i 198000.0
+04:48:31 INFO     [sgcarmart] Saved 1439973 — BMW Z4 sDrive35i (COE till 09/2030) 62000.0
+04:49:00 INFO     [sgcarmart] Saved 1493086 — BMW Z4 sDrive20i (COE till 03/2035) 140000.0
+04:49:30 INFO     [sgcarmart] Saved 1401480 — BMW Z4 sDrive35i (COE till 10/2029) 85800.0
+04:49:42 INFO     [sgcarmart] Saved 1473857 — BMW Z4 sDrive23i (COE till 09/2030) 56800.0
+04:50:13 INFO     [sgcarmart] Saved 1476335 — BMW Z4 sDrive23i (COE till 02/2030) 53988.0
+04:50:42 INFO     [sgcarmart] Saved 1488531 — BMW Z4 sDrive M40i 178888.0
+04:51:08 INFO     [sgcarmart] Saved 1472636 — BMW Z4 sDrive23i (COE till 03/2030) 61800.0
+04:51:37 INFO     [sgcarmart] Saved 1489950 — BMW Z4 Roadster 2.5i (COE till 03/2030) 60888.0
+04:51:53 INFO     [sgcarmart] Saved 1489353 — BMW Z4 sDrive23i (COE till 05/2030) 59997.0
+04:52:09 INFO     [sgcarmart] Saved 1453723 — BMW Z4 M Roadster (New 10-yr COE) 260800.0
+04:52:31 INFO     [sgcarmart] Saved 1488376 — BMW Z4 sDrive35i (COE till 01/2030) 63800.0
+04:52:43 INFO     [sgcarmart] Saved 1485313 — BMW Z4 sDrive23i (COE till 06/2030) 60800.0
+04:53:15 INFO     [sgcarmart] Saved 1483988 — BMW Z4 sDrive23i (COE till 04/2029) 42800.0
+04:53:30 INFO     [sgcarmart] Saved 1466316 — BMW Z4 sDrive35i (COE till 01/2030) 63800.0
+04:53:43 INFO     [sgcarmart] Saved 1445833 — BMW Z4 sDrive23i (COE till 08/2030) 62500.0
+04:53:57 INFO     [sgcarmart] Saved 1392575 — BMW Z4 sDrive23i (COE till 02/2032) 136800.0
+04:54:29 INFO     [sgcarmart] Saved 1446033 — BMW Z4 sDrive35i (COE till 03/2029) 40888.0
+04:55:16 INFO     [sgcarmart] Saved 1477249 — BMW Z4 sDrive35i (COE till 04/2029) 45900.0
+04:55:28 INFO     [sgcarmart] Saved 1460869 — BMW Z4 sDrive23i (COE till 02/2030) 60288.0
+04:55:46 INFO     [sgcarmart] Saved 1241923 — BMW Z4 sDrive23i (COE till 06/2031) 79000.0
+04:56:06 INFO     [sgcarmart] Saved 1472952 — BMW Z4 sDrive23i (COE till 02/2031) 62700.0
+04:56:32 INFO     [sgcarmart] Saved 1405735 — BMW Z4 sDrive23i (COE till 01/2031) 71800.0
+04:56:46 INFO     [sgcarmart] Saved 1449189 — BMW Z4 sDrive23i (COE till 11/2030) 74800.0
+04:57:11 INFO     [sgcarmart] Saved 1452611 — BMW Z4 sDrive35i (COE till 01/2029) 46800.0
+04:57:45 INFO     [sgcarmart] Searching make=BMW mdl=Z8
+04:57:48 INFO     [sgcarmart] No listings on page 1 — stopping
+04:58:12 INFO     [sgcarmart] Searching make=BMW mdl=i8
+04:58:19 INFO     [sgcarmart] Saved 1493446 — BMW i8 (New 10-yr COE) 288888.0
+04:58:36 INFO     [sgcarmart] Saved 1413050 — BMW i8 (COE till 01/2036) 263300.0
+04:59:06 INFO     [sgcarmart] Saved 1476124 — BMW i8 (New 10-yr COE) 294500.0
+04:59:37 INFO     [sgcarmart] Saved 1486682 — BMW i8 (COE till 06/2034) 230888.0
+05:00:00 INFO     [sgcarmart] Searching make=Audi mdl=R8
+05:00:06 INFO     [sgcarmart] Saved 1485782 — Audi R8 Spyder 4.2A FSI Quattro R-tronic (COE till 02/2032) 168800.0
+05:00:34 INFO     [sgcarmart] Saved 1469877 — Audi R8 4.2A FSI Quattro S-tronic (New 10-yr COE) 298800.0
+05:00:56 INFO     [sgcarmart] Saved 1493771 — Audi R8 Spyder 4.2A (COE till 06/2031) 130000.0
+05:01:09 INFO     [sgcarmart] Saved 1486954 — Audi R8 4.2A FSI Quattro R-tronic (COE till 07/2028) 82800.0
+05:01:26 INFO     [sgcarmart] Saved 1430449 — Audi R8 Spyder 4.2A FSI Quattro R-tronic (COE till 12/2030) 122000.0
+05:01:41 INFO     [sgcarmart] Saved 1493113 — Audi R8 Spyder 4.2A FSI Quattro R-tronic (COE till 06/2031) 145000.0
+05:01:55 INFO     [sgcarmart] Saved 1484184 — Audi R8 Spyder 5.2A FSI Quattro R-tronic (COE till 03/2030) 120800.0
+05:02:22 INFO     [sgcarmart] Saved 1492097 — Audi R8 4.2A FSI Quattro R-tronic (New 10-yr COE) 169999.0
+05:02:38 INFO     [sgcarmart] Saved 1278510 — Audi R8 Coupe 5.2A FSI Performance S-tronic 499800.0
+05:02:51 INFO     [sgcarmart] Saved 1491039 — Audi R8 4.2A FSI Quattro R-tronic (COE till 01/2029) 98888.0
+05:03:11 INFO     [sgcarmart] Saved 1471660 — Audi R8 4.2A FSI Quattro R-tronic (COE till 01/2028) 79800.0
+05:03:38 INFO     [sgcarmart] Saved 1418692 — Audi R8 5.2A FSI Quattro R-tronic (COE till 10/2029) 108888.0
+05:03:53 INFO     [sgcarmart] Saved 1436271 — Audi R8 4.2A FSI Quattro R-tronic (COE till 07/2028) 64800.0
+05:04:10 INFO     [sgcarmart] Saved 1398750 — Audi R8 Coupe 5.2A FSI RWD S-tronic 465800.0
+05:04:21 INFO     [sgcarmart] Saved 1487458 — Audi R8 5.2A FSI Quattro R-tronic (COE till 06/2031) 163800.0
+05:04:47 INFO     [sgcarmart] Saved 1487286 — Audi R8 4.2A FSI Quattro R-tronic (COE till 06/2028) 71000.0
+05:05:02 INFO     [sgcarmart] Saved 1468717 — Audi R8 4.2M FSI Quattro (COE till 09/2028) 250000.0
+05:05:29 INFO     [sgcarmart] Saved 1202168 — Audi R8 Coupe 5.2A FSI Performance RWD S-tronic 499000.0
+05:05:53 INFO     [sgcarmart] Saved 1484957 — Audi R8 5.2A FSI Quattro S-tronic (New 10-yr COE) 388500.0
+05:06:18 INFO     [sgcarmart] Saved 1343739 — Audi R8 4.2A FSI Quattro R-tronic (COE till 06/2028) 68800.0
+05:07:11 INFO     [sgcarmart] Saved 1463602 — Audi R8 4.2A FSI Quattro R-tronic (COE till 06/2028) 62888.0
+05:07:28 INFO     [sgcarmart] Saved 1475013 — Audi R8 4.2A FSI Quattro R-tronic (COE till 03/2028) 69800.0
+05:07:42 INFO     [sgcarmart] Saved 1480666 — Audi R8 4.2A FSI Quattro R-tronic (COE till 07/2032) 255555.0
+05:08:10 INFO     [sgcarmart] Saved 1261006 — Audi R8 4.2A FSI Quattro R-tronic (COE till 07/2032) 240800.0
+05:08:27 INFO     [sgcarmart] Saved 1359498 — Audi R8 4.2A FSI Quattro R-tronic (COE till 10/2027) 96888.0
+05:08:59 INFO     [sgcarmart] Saved 1446994 — Audi R8 5.2A FSI Quattro R-tronic (COE till 01/2030) 116995.0
+05:09:17 INFO     [sgcarmart] Saved 1402458 — Audi R8 4.2A FSI Quattro R-tronic (COE till 04/2028) 123000.0
+05:09:42 INFO     [sgcarmart] Saved 1477124 — Audi R8 Coupe 5.2A FSI RWD S-tronic 398888.0
+05:09:57 INFO     [sgcarmart] Saved 1387113 — Audi R8 4.2A FSI Quattro R-tronic (COE till 10/2028) 89800.0
+05:10:11 INFO     [sgcarmart] Saved 1459208 — Audi R8 5.2A FSI Quattro R-tronic (COE till 01/2030) 109000.0
+05:10:35 INFO     [sgcarmart] Saved 1368562 — Audi R8 Spyder 5.2A FSI Quattro R-tronic (COE till 06/2031) 250000.0
+05:11:07 INFO     [sgcarmart] Searching make=Audi mdl=RS3
+05:11:14 INFO     [sgcarmart] Saved 1488193 — Audi RS Q3 Sportback 2.5A TFSI Quattro S-tronic 195800.0
+05:11:31 INFO     [sgcarmart] Saved 1474019 — Audi RS Q3 Sportback 2.5A TFSI Quattro S-tronic 210688.0
+05:11:52 INFO     [sgcarmart] Saved 1492405 — Audi TT RS Coupe 2.5M TFSI Quattro (COE till 03/2029) 67800.0
+05:12:11 INFO     [sgcarmart] Saved 1492367 — Audi TT RS Coupe 2.5M TFSI Quattro (COE till 10/2031) 132800.0
+05:12:33 INFO     [sgcarmart] Saved 1474109 — Audi RS Q3 Sportback 2.5A TFSI Quattro S-tronic 299000.0
+05:12:45 INFO     [sgcarmart] Saved 1407650 — Audi RS 3 Sportback 2.5A TFSI Quattro (COE till 12/2031) 82800.0
+05:13:15 INFO     [sgcarmart] Saved 1437727 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 02/2031) 79800.0
+05:13:33 INFO     [sgcarmart] Saved 1488138 — Audi RS 3 Sportback 2.5A TFSI Quattro (COE till 09/2031) 117500.0
+05:14:03 INFO     [sgcarmart] Saved 1484012 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 07/2032) 98800.0
+05:14:23 INFO     [sgcarmart] Saved 1483692 — Audi RS 6 Avant 4.0A TFSI Quattro (COE till 09/2033) 228800.0
+05:14:55 INFO     [sgcarmart] Saved 1335452 — Audi RS 3 Sportback 2.5A TFSI Quattro (New 10-yr COE) 194800.0
+05:15:10 INFO     [sgcarmart] Saved 1373630 — Audi TT RS Roadster 2.5A TFSI Quattro (COE till 08/2030) 128000.0
+05:15:40 INFO     [sgcarmart] Saved 1358619 — Audi TT RS Coupe 2.5A TFSI Quattro (COE till 04/2031) 131800.0
+05:15:51 INFO     [sgcarmart] Saved 1463165 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 06/2031) 103800.0
+05:16:08 INFO     [sgcarmart] Saved 1445387 — Audi TT RS Roadster 2.5M TFSI Quattro (COE till 01/2031) 115883.0
+05:16:33 INFO     [sgcarmart] Saved 1462075 — Audi RS 4 Avant 4.2A FSI Quattro (COE till 05/2035) 181000.0
+05:16:54 INFO     [sgcarmart] Searching make=Audi mdl=RS4
+05:17:00 INFO     [sgcarmart] Saved 1484841 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Performance 498800.0
+05:17:29 INFO     [sgcarmart] Saved 1493872 — Audi RS 6 Avant 4.0A TFSI Quattro (New 10-yr COE) 310800.0
+05:17:53 INFO     [sgcarmart] Saved 1473096 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Performance Sun 560800.0
+05:18:05 INFO     [sgcarmart] Saved 1485869 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Tip 355800.0
+05:18:35 INFO     [sgcarmart] Saved 1450597 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Tip 358888.0
+05:19:02 INFO     [sgcarmart] Saved 1489479 — Audi RS 6 Avant Mild Hybrid 4.0A TFSI Quattro Tip 480000.0
+05:19:14 INFO     [sgcarmart] Saved 1489313 — Audi RS 4 4.2M (COE till 06/2026) 68800.0
+05:19:35 INFO     [sgcarmart] Saved 1470406 — Audi RS 6 Avant Mild Hybrid 4.0A TFSI Quattro 398800.0
+05:19:58 INFO     [sgcarmart] Saved 1437727 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 02/2031) 79800.0
+05:20:12 INFO     [sgcarmart] Saved 1484012 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 07/2032) 98800.0
+05:20:37 INFO     [sgcarmart] Saved 1412547 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Performance 549999.0
+05:20:48 INFO     [sgcarmart] Saved 1483692 — Audi RS 6 Avant 4.0A TFSI Quattro (COE till 09/2033) 228800.0
+05:21:13 INFO     [sgcarmart] Saved 1482903 — Audi RS Q8 Mild Hybrid 4.0A TFSI Quattro Tip 433888.0
+05:21:41 INFO     [sgcarmart] Saved 1459349 — Audi RS 6 Avant 4.0A TFSI Quattro (New 10-yr COE) 318800.0
+05:22:13 INFO     [sgcarmart] Saved 1358619 — Audi TT RS Coupe 2.5A TFSI Quattro (COE till 04/2031) 131800.0
+05:22:42 INFO     [sgcarmart] Saved 1463165 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 06/2031) 103800.0
+05:23:14 INFO     [sgcarmart] Saved 1462387 — Audi RS 6 Avant Mild Hybrid 4.0A TFSI Quattro 418000.0
+05:23:39 INFO     [sgcarmart] Saved 1462075 — Audi RS 4 Avant 4.2A FSI Quattro (COE till 05/2035) 181000.0
+05:24:11 INFO     [sgcarmart] Saved 1460978 — Audi RS 6 Avant Mild Hybrid 4.0A TFSI Quattro Tip 428000.0
+05:24:29 INFO     [sgcarmart] Saved 1406391 — Audi RS 6 Avant 5.0A (COE till 04/2029) 130000.0
+05:25:24 INFO     [sgcarmart] Saved 1460006 — Audi RS Q8 Mild Hybrid 4.0A TFSI Quattro Tip 380000.0
+05:26:18 INFO     [sgcarmart] Searching make=Audi mdl=RS5
+05:26:24 INFO     [sgcarmart] Saved 1493877 — Audi RS 5 Sportback 2.9A TFSI Quattro 245000.0
+05:26:37 INFO     [sgcarmart] Saved 1488193 — Audi RS Q3 Sportback 2.5A TFSI Quattro S-tronic 195800.0
+05:26:52 INFO     [sgcarmart] Saved 1474019 — Audi RS Q3 Sportback 2.5A TFSI Quattro S-tronic 210688.0
+05:27:23 INFO     [sgcarmart] Saved 1492405 — Audi TT RS Coupe 2.5M TFSI Quattro (COE till 03/2029) 67800.0
+05:27:52 INFO     [sgcarmart] Saved 1492367 — Audi TT RS Coupe 2.5M TFSI Quattro (COE till 10/2031) 132800.0
+05:28:11 INFO     [sgcarmart] Saved 1474109 — Audi RS Q3 Sportback 2.5A TFSI Quattro S-tronic 299000.0
+05:28:24 INFO     [sgcarmart] Saved 1407650 — Audi RS 3 Sportback 2.5A TFSI Quattro (COE till 12/2031) 82800.0
+05:28:41 INFO     [sgcarmart] Saved 1437727 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 02/2031) 79800.0
+05:29:02 INFO     [sgcarmart] Saved 1488138 — Audi RS 3 Sportback 2.5A TFSI Quattro (COE till 09/2031) 117500.0
+05:29:29 INFO     [sgcarmart] Saved 1484012 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 07/2032) 98800.0
+05:30:01 INFO     [sgcarmart] Saved 1335452 — Audi RS 3 Sportback 2.5A TFSI Quattro (New 10-yr COE) 194800.0
+05:30:21 INFO     [sgcarmart] Saved 1465113 — Audi RS 5 Coupe 2.9A TFSI Quattro 303000.0
+05:30:53 INFO     [sgcarmart] Saved 1373630 — Audi TT RS Roadster 2.5A TFSI Quattro (COE till 08/2030) 128000.0
+05:31:25 INFO     [sgcarmart] Saved 1358619 — Audi TT RS Coupe 2.5A TFSI Quattro (COE till 04/2031) 131800.0
+05:31:56 INFO     [sgcarmart] Saved 1481838 — Audi RS 5 Sportback 2.9A TFSI Quattro 188800.0
+05:32:11 INFO     [sgcarmart] Saved 1463165 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 06/2031) 103800.0
+05:32:34 INFO     [sgcarmart] Saved 1445387 — Audi TT RS Roadster 2.5M TFSI Quattro (COE till 01/2031) 115883.0
+05:32:49 INFO     [sgcarmart] Saved 1462075 — Audi RS 4 Avant 4.2A FSI Quattro (COE till 05/2035) 181000.0
+05:33:07 INFO     [sgcarmart] Saved 1406391 — Audi RS 6 Avant 5.0A (COE till 04/2029) 130000.0
+05:33:51 INFO     [sgcarmart] Searching make=Audi mdl=RS6
+05:33:56 INFO     [sgcarmart] Saved 1493872 — Audi RS 6 Avant 4.0A TFSI Quattro (New 10-yr COE) 310800.0
+05:34:16 INFO     [sgcarmart] Saved 1489479 — Audi RS 6 Avant Mild Hybrid 4.0A TFSI Quattro Tip 480000.0
+05:34:34 INFO     [sgcarmart] Saved 1489313 — Audi RS 4 4.2M (COE till 06/2026) 68800.0
+05:34:44 INFO     [sgcarmart] Saved 1470406 — Audi RS 6 Avant Mild Hybrid 4.0A TFSI Quattro 398800.0
+05:35:01 INFO     [sgcarmart] Saved 1483692 — Audi RS 6 Avant 4.0A TFSI Quattro (COE till 09/2033) 228800.0
+05:35:12 INFO     [sgcarmart] Saved 1459349 — Audi RS 6 Avant 4.0A TFSI Quattro (New 10-yr COE) 318800.0
+05:35:35 INFO     [sgcarmart] Saved 1463165 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 06/2031) 103800.0
+05:35:47 INFO     [sgcarmart] Saved 1462387 — Audi RS 6 Avant Mild Hybrid 4.0A TFSI Quattro 418000.0
+05:36:15 INFO     [sgcarmart] Saved 1460978 — Audi RS 6 Avant Mild Hybrid 4.0A TFSI Quattro Tip 428000.0
+05:36:26 INFO     [sgcarmart] Saved 1406391 — Audi RS 6 Avant 5.0A (COE till 04/2029) 130000.0
+05:37:09 INFO     [sgcarmart] Searching make=Audi mdl=RS7
+05:37:15 INFO     [sgcarmart] Saved 1484841 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Performance 498800.0
+05:37:37 INFO     [sgcarmart] Saved 1473096 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Performance Sun 560800.0
+05:38:07 INFO     [sgcarmart] Saved 1485869 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Tip 355800.0
+05:38:19 INFO     [sgcarmart] Saved 1450597 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Tip 358888.0
+05:38:48 INFO     [sgcarmart] Saved 1484012 — Audi RS 5 Coupe 4.2A FSI Quattro (COE till 07/2032) 98800.0
+05:39:06 INFO     [sgcarmart] Saved 1412547 — Audi RS 7 Sportback Mild Hybrid 4.0A TFSI Quattro Performance 549999.0
+05:39:47 INFO     [sgcarmart] Searching make=Audi mdl=RSQ3
+05:39:50 INFO     [sgcarmart] No listings on page 1 — stopping
+05:40:12 INFO     [sgcarmart] Searching make=Audi mdl=RSQ5
+05:40:14 INFO     [sgcarmart] No listings on page 1 — stopping
+05:40:27 INFO     [sgcarmart] Searching make=Audi mdl=RSQ8
+05:40:29 INFO     [sgcarmart] No listings on page 1 — stopping
+05:40:55 INFO     [sgcarmart] Searching make=Audi mdl=S3
+05:41:01 INFO     [sgcarmart] Saved 1493604 — Audi S3 Sedan 2.0A TFSI Quattro S-tronic 162888.0
+05:41:18 INFO     [sgcarmart] Saved 1430233 — Audi S3 Sportback 2.0A TFSI Quattro (COE till 06/2030) 50888.0
+05:41:50 INFO     [sgcarmart] Saved 1456368 — Audi S3 Sedan 2.0A TFSI Quattro S-tronic 238000.0
+05:42:07 INFO     [sgcarmart] Saved 1385479 — Audi S3 Sportback 2.0M TFSI Quattro (COE till 12/2029) 72800.0
+05:42:20 INFO     [sgcarmart] Saved 1490842 — Audi S3 Sedan 2.0A TFSI Quattro 103000.0
+05:42:52 INFO     [sgcarmart] Saved 1489926 — Audi S3 2.0A TFSI Quattro (COE till 05/2028) 30000.0
+05:43:09 INFO     [sgcarmart] Saved 1489265 — Audi S3 Sportback 2.0A TFSI Quattro (COE till 10/2029) 58800.0
+05:43:31 INFO     [sgcarmart] Saved 1363623 — Audi S3 Sportback 2.0A TFSI Quattro (COE till 04/2031) 83000.0
+05:43:42 INFO     [sgcarmart] Saved 1447148 — Audi S3 Sedan 2.0A TFSI Quattro (COE till 08/2033) 143888.0
+05:44:15 INFO     [sgcarmart] Saved 1484942 — Audi S3 Sedan 2.0A TFSI Quattro (New 10-yr COE) 165000.0
+05:44:47 INFO     [sgcarmart] Saved 1386836 — Audi S3 Sportback 2.0A TFSI Quattro (COE till 03/2029) 63000.0
+05:45:11 INFO     [sgcarmart] Saved 1454545 — Audi S3 Sedan 2.0A TFSI Quattro 67800.0
+05:45:36 INFO     [sgcarmart] Saved 1434923 — Audi S3 Sportback 2.0A TFSI Quattro (COE till 06/2030) 64888.0
+05:45:47 INFO     [sgcarmart] Saved 1478532 — Audi S3 Sedan 2.0A TFSI Quattro 69800.0
+05:46:17 INFO     [sgcarmart] Saved 1419106 — Audi S3 Sportback 2.0A TFSI Quattro (New 10-yr COE) 160888.0
+05:46:48 INFO     [sgcarmart] Saved 1470254 — Audi S3 Sportback 2.0A TFSI Quattro (COE till 04/2029) 49800.0
+05:47:06 INFO     [sgcarmart] Saved 1458675 — Audi S3 Sportback 2.0A TFSI Quattro (COE till 06/2030) 68000.0
+05:47:57 INFO     [sgcarmart] Searching make=Audi mdl=S4
+05:48:03 INFO     [sgcarmart] Saved 1213438 — Audi S4 3.0A TFSI Quattro S-tronic (COE till 05/2030) 80000.0
+05:48:22 INFO     [sgcarmart] Saved 1398454 — Audi S4 Avant 3.0A TFSI Quattro (COE till 06/2030) 66800.0
+05:48:52 INFO     [sgcarmart] Saved 1414365 — Audi S4 Avant 3.0A TFSI Quattro (COE till 07/2030) 95888.0
+05:49:07 INFO     [sgcarmart] Saved 1385513 — Audi S4 3.0A TFSI Quattro S-tronic (COE till 02/2032) 88888.0
+05:49:18 INFO     [sgcarmart] Saved 1491462 — Audi S4 3.0A TFSI Quattro S-tronic (COE till 05/2031) 84555.0
+05:49:33 INFO     [sgcarmart] Saved 1396655 — Audi S4 3.0A TFSI Quattro S-tronic (COE till 10/2029) 58800.0
+05:49:54 INFO     [sgcarmart] Saved 1410060 — Audi S4 Avant 3.0A TFSI Quattro (COE till 01/2029) 46500.0
+05:50:18 INFO     [sgcarmart] Saved 1421744 — Audi S4 Avant 3.0A TFSI Quattro (COE till 11/2029) 45888.0
+05:50:46 INFO     [sgcarmart] Saved 1476869 — Audi S4 3.0A TFSI Quattro S-tronic (COE till 08/2030) 61888.0
+05:51:08 INFO     [sgcarmart] Saved 1352371 — Audi S4 3.0A TFSI Quattro S-tronic (COE till 11/2030) 85800.0
+05:51:55 INFO     [sgcarmart] Searching make=Audi mdl=S5
+05:52:00 INFO     [sgcarmart] Saved 1466714 — Audi S5 Sportback 3.0A TFSI Quattro (COE till 02/2031) 57800.0
+05:52:15 INFO     [sgcarmart] Saved 1493060 — Audi S5 Sportback 3.0A TFSI Quattro (COE till 12/2030) 70800.0
+05:52:30 INFO     [sgcarmart] Saved 1470694 — Audi S5 Cabriolet 3.0A TFSI Quattro (COE till 02/2032) 103888.0
+05:53:02 INFO     [sgcarmart] Saved 1456236 — Audi S5 Coupe 4.2A FSI Quattro Sunroof (COE till 03/2029) 37800.0
+05:53:29 INFO     [sgcarmart] Saved 1385336 — Audi S5 Coupe 4.2M FSI Quattro (COE till 06/2030) 61889.0
+05:53:46 INFO     [sgcarmart] Saved 1490048 — Audi S5 Coupe 4.2A FSI Quattro Sunroof (COE till 04/2029) 33500.0
+05:54:01 INFO     [sgcarmart] Saved 1489024 — Audi S5 Cabriolet 3.0A TFSI Quattro (COE till 04/2031) 86888.0
+05:54:29 INFO     [sgcarmart] Saved 1470549 — Audi S5 Sportback 3.0A TFSI Quattro Tip 103000.0
+05:54:53 INFO     [sgcarmart] Saved 1470073 — Audi S5 Cabriolet 3.0A TFSI Quattro (COE till 07/2030) 70800.0
+05:55:10 INFO     [sgcarmart] Saved 1485041 — Audi S5 Coupe 4.2A FSI Quattro Sunroof (COE till 04/2029) 33000.0
+05:55:37 INFO     [sgcarmart] Saved 1381687 — Audi S5 Cabriolet 3.0A TFSI Quattro (COE till 10/2029) 65800.0
+05:56:06 INFO     [sgcarmart] Saved 1466341 — Audi S5 Coupe 4.2A FSI Quattro Sunroof (COE till 09/2030) 46800.0
+05:56:35 INFO     [sgcarmart] Saved 1484176 — Audi S5 Cabriolet 3.0A TFSI Quattro (COE till 01/2030) 75000.0
+05:56:49 INFO     [sgcarmart] Saved 1484143 — Audi S5 Coupe 4.2A FSI Quattro Sunroof (COE till 09/2030) 62800.0
+05:57:18 INFO     [sgcarmart] Saved 1483567 — Audi S5 Sportback 3.0A TFSI Quattro (COE till 06/2031) 74800.0
+05:57:47 INFO     [sgcarmart] Saved 1479223 — Audi S5 Coupe 4.2A FSI Quattro Sunroof (COE till 01/2029) 42888.0
+05:58:01 INFO     [sgcarmart] Saved 1462919 — Audi S5 Sportback 3.0A TFSI Quattro (COE till 12/2030) 67800.0
+05:58:14 INFO     [sgcarmart] Saved 1377167 — Audi S5 Cabriolet 3.0A TFSI Quattro (COE till 09/2030) 78888.0
+05:58:36 INFO     [sgcarmart] Saved 1460081 — Audi S5 Coupe 4.2A FSI Quattro Sunroof (COE till 09/2029) 56800.0
+05:59:30 INFO     [sgcarmart] Searching make=Audi mdl=S6
+05:59:33 INFO     [sgcarmart] No listings on page 1 — stopping
+05:59:56 INFO     [sgcarmart] Searching make=Audi mdl=S7
+05:59:59 INFO     [sgcarmart] No listings on page 1 — stopping
+06:00:26 INFO     [sgcarmart] Searching make=Audi mdl=S8
+06:00:31 INFO     [sgcarmart] Saved 1356668 — Audi S8 4.0A TFSI Quattro (COE till 02/2033) 169800.0
+06:00:54 INFO     [sgcarmart] Searching make=Audi mdl=SQ5
+06:00:59 INFO     [sgcarmart] Saved 1489796 — Audi SQ5 Sportback 3.0A TFSI Quattro Tip 214800.0
+06:01:21 INFO     [sgcarmart] Saved 1491779 — Audi SQ5 3.0A TFSI Quattro 79500.0
+06:01:43 INFO     [sgcarmart] Saved 1367953 — Audi SQ5 3.0A TFSI Quattro (COE till 08/2034) 148800.0
+06:01:57 INFO     [sgcarmart] Saved 1396276 — Audi SQ5 Sportback 3.0A TFSI Quattro Tip Panoramic Roof 278000.0
+06:02:45 INFO     [sgcarmart] Searching make=Audi mdl=SQ7
+06:02:48 INFO     [sgcarmart] No listings on page 1 — stopping
+06:03:07 INFO     [sgcarmart] Searching make=Audi mdl=SQ8
+06:03:12 INFO     [sgcarmart] Saved 1358007 — Audi SQ8 Sportback e-tron Electric Quattro Sunroof 399988.0
+06:03:51 INFO     [sgcarmart] Searching make=Maserati mdl=Levante
+06:03:57 INFO     [sgcarmart] Saved 1470631 — Maserati Levante 3.0A GranSport 273888.0
+06:04:14 INFO     [sgcarmart] Saved 1468488 — Maserati Levante S GranLusso 3.0A Sunroof 188888.0
+06:04:29 INFO     [sgcarmart] Saved 1436115 — Maserati Levante Diesel 3.0A V6 103888.0
+06:04:58 INFO     [sgcarmart] Saved 1493258 — Maserati Levante Diesel 3.0A V6 111800.0
+06:05:24 INFO     [sgcarmart] Saved 1489770 — Maserati Levante 3.0A 252000.0
+06:05:39 INFO     [sgcarmart] Saved 1492324 — Maserati Levante Diesel 3.0A V6 141800.0
+06:05:54 INFO     [sgcarmart] Saved 1473252 — Maserati Levante 3.0A 270000.0
+06:06:14 INFO     [sgcarmart] Saved 1457169 — Maserati Levante S 3.0A GranSport 292888.0
+06:06:35 INFO     [sgcarmart] Saved 1491738 — Maserati Levante 3.0A 241800.0
+06:07:00 INFO     [sgcarmart] Saved 1489560 — Maserati Levante 2.0A Hybrid GT 338888.0
+06:07:27 INFO     [sgcarmart] Saved 1435076 — Maserati Levante 3.0A GranSport 286800.0
+06:07:58 INFO     [sgcarmart] Saved 1489090 — Maserati Levante 3.0A GranSport 228777.0
+06:08:17 INFO     [sgcarmart] Saved 1488220 — Maserati Levante S 3.0A GranSport 160000.0
+06:08:42 INFO     [sgcarmart] Saved 1478854 — Maserati Levante 3.0A 180000.0
+06:09:03 INFO     [sgcarmart] Saved 1476434 — Maserati Levante S 3.0A GranSport 149800.0
+06:09:26 INFO     [sgcarmart] Saved 1474434 — Maserati Levante 3.0A Modena 310000.0
+06:09:52 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=AMG GT
+06:09:58 INFO     [sgcarmart] Saved 1444545 — Mercedes-Benz AMG GT S 299000.0
+06:10:22 INFO     [sgcarmart] Saved 1457021 — Mercedes-Benz AMG GT Black Series 1880000.0
+06:10:53 INFO     [sgcarmart] Saved 1444754 — Mercedes-Benz AMG GT (New 10-yr COE) 320800.0
+06:11:10 INFO     [sgcarmart] Saved 1482807 — Mercedes-Benz AMG GT S 348000.0
+06:11:36 INFO     [sgcarmart] Saved 1482905 — Mercedes-Benz AMG GT S (COE till 06/2035) 388888.0
+06:12:03 INFO     [sgcarmart] Saved 1471602 — Mercedes-Benz AMG GT 53 Mild Hybrid 4MATIC+ 330000.0
+06:12:26 INFO     [sgcarmart] Saved 1470306 — Mercedes-Benz AMG GT S (COE till 09/2035) 368000.0
+06:12:41 INFO     [sgcarmart] Saved 1453096 — Mercedes-Benz AMG GT S (New 10-yr COE) 439000.0
+06:13:09 INFO     [sgcarmart] Saved 1327867 — Mercedes-Benz AMG GT 63 S 4MATIC Plus Edition 1 550000.0
+06:13:42 INFO     [sgcarmart] Saved 1397895 — Mercedes-Benz SLS AMG GT Coupe (COE till 03/2033) 678000.0
+06:13:55 INFO     [sgcarmart] Saved 1327814 — Mercedes-Benz AMG GT R 800888.0
+06:14:14 INFO     [sgcarmart] Saved 1425838 — Mercedes-Benz AMG GT R 469000.0
+06:14:33 INFO     [sgcarmart] Saved 1455878 — Mercedes-Benz AMG GT (COE till 12/2034) 289888.0
+06:15:01 INFO     [sgcarmart] Saved 1481600 — Mercedes-Benz AMG GT R Pro 768000.0
+06:15:28 INFO     [sgcarmart] Saved 1480031 — Mercedes-Benz AMG GT Roadster 315000.0
+06:15:56 INFO     [sgcarmart] Saved 1445752 — Mercedes-Benz AMG GT R Roadster 620000.0
+06:16:28 INFO     [sgcarmart] Saved 1318121 — Mercedes-Benz AMG GT 63 S 4MATIC Premium Plus 565000.0
+06:16:45 INFO     [sgcarmart] Saved 1476870 — Mercedes-Benz AMG GT (New 10-yr COE) 330000.0
+06:17:05 INFO     [sgcarmart] Saved 1406041 — Mercedes-Benz AMG GT 63 S 4MATIC+ Edition 1 450000.0
+06:17:23 INFO     [sgcarmart] Saved 1369294 — Mercedes-Benz AMG GT Roadster 355000.0
+06:18:05 INFO     [sgcarmart] No listings on page 2 — stopping
+06:18:16 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=C63
+06:18:22 INFO     [sgcarmart] Saved 995076 — Mercedes-Benz C-Class C63 S AMG 269888.0
+06:18:42 INFO     [sgcarmart] Saved 1491570 — Mercedes-Benz C-Class C63 S AMG (New 10-yr COE) 258888.0
+06:18:55 INFO     [sgcarmart] Saved 1483401 — Mercedes-Benz GLC-Class GLC63 S AMG 4MATIC+ 288888.0
+06:19:06 INFO     [sgcarmart] Saved 1469270 — Mercedes-Benz C-Class C63 Coupe AMG (COE till 01/2033) 155800.0
+06:19:37 INFO     [sgcarmart] Saved 1430583 — Mercedes-Benz C-Class C63 S AMG (COE till 09/2034) 198888.0
+06:19:56 INFO     [sgcarmart] Saved 1451194 — Mercedes-Benz C-Class C63 AMG (COE till 02/2030) 59800.0
+06:20:12 INFO     [sgcarmart] Saved 1450164 — Mercedes-Benz C-Class C63 S Cabriolet AMG Premium Plus Night Edition 388888.0
+06:20:33 INFO     [sgcarmart] Saved 1431579 — Mercedes-Benz C-Class C63 AMG (COE till 07/2031) 245888.0
+06:20:58 INFO     [sgcarmart] Saved 1466328 — Mercedes-Benz C-Class C63 AMG Black Series (COE till 07/2032) 195550.0
+06:21:28 INFO     [sgcarmart] Saved 1483104 — Mercedes-Benz C-Class C63 S Coupe AMG 175888.0
+06:21:44 INFO     [sgcarmart] Saved 1444218 — Mercedes-Benz C-Class C63 S AMG 228888.0
+06:22:15 INFO     [sgcarmart] Saved 1371277 — Mercedes-Benz C-Class C63 S Coupe AMG 278800.0
+06:22:47 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=E63
+06:22:53 INFO     [sgcarmart] Saved 1403382 — Mercedes-Benz E-Class Estate E63 S AMG 4MATIC+ Premium Plus Night Edition 499800.0
+06:23:17 INFO     [sgcarmart] Saved 1492579 — Mercedes-Benz E-Class E63 AMG (COE till 11/2031) 93500.0
+06:23:47 INFO     [sgcarmart] Saved 1418571 — Mercedes-Benz E-Class E63 S AMG 4MATIC Edition 1 208000.0
+06:24:17 INFO     [sgcarmart] Saved 1443975 — Mercedes-Benz E-Class E63 S AMG 4MATIC 259800.0
+06:24:40 INFO     [sgcarmart] Saved 1467190 — Mercedes-Benz E-Class Saloon E63 S AMG 4MATIC+ Premium Plus Night Edition 579997.0
+06:25:10 INFO     [sgcarmart] Saved 1458577 — Mercedes-Benz E-Class E63 S AMG 4MATIC 499800.0
+06:25:37 INFO     [sgcarmart] Saved 1175587 — Mercedes-Benz E-Class Saloon E63 S AMG 4MATIC+ Premium Plus Night Edition 499995.0
+06:25:57 INFO     [sgcarmart] Saved 1454553 — Mercedes-Benz E-Class Estate E63 S AMG 4MATIC+ Premium Plus Night Edit 288000.0
+06:26:28 INFO     [sgcarmart] Saved 1485174 — Mercedes-Benz E-Class Saloon E63 S AMG Premium Plus Night Edition 468000.0
+06:27:18 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=G63
+06:27:24 INFO     [sgcarmart] Saved 1422403 — Mercedes-Benz G-Class G63 AMG 4MATIC 720888.0
+06:27:52 INFO     [sgcarmart] Saved 1489247 — Mercedes-Benz G-Class G63 AMG 4MATIC 688000.0
+06:28:13 INFO     [sgcarmart] Saved 1481022 — Mercedes-Benz G-Class G63 AMG 4MATIC 458800.0
+06:28:36 INFO     [sgcarmart] Saved 1481997 — Mercedes-Benz G-Class G63 AMG 4MATIC 533888.0
+06:29:06 INFO     [sgcarmart] Saved 1455628 — Mercedes-Benz G-Class G63 AMG 4MATIC 488888.0
+06:29:30 INFO     [sgcarmart] Saved 1487827 — Mercedes-Benz G-Class G63 AMG 4MATIC 448800.0
+06:29:41 INFO     [sgcarmart] Saved 1490610 — Mercedes-Benz G-Class G63 AMG (COE till 11/2031) 299000.0
+06:29:56 INFO     [sgcarmart] Saved 1472487 — Mercedes-Benz G-Class G63 AMG 4MATIC 720000.0
+06:30:27 INFO     [sgcarmart] Saved 1445941 — Mercedes-Benz G-Class G63 AMG 4MATIC Carbon Edition 746666.0
+06:30:44 INFO     [sgcarmart] Saved 1454636 — Mercedes-Benz G-Class G63 AMG 4MATIC 480000.0
+06:30:58 INFO     [sgcarmart] Saved 1434998 — Mercedes-Benz G-Class G63 AMG 4MATIC (New 10-yr COE) 388000.0
+06:31:24 INFO     [sgcarmart] Saved 1434479 — Mercedes-Benz G-Class G63 AMG 4MATIC 450888.0
+06:31:43 INFO     [sgcarmart] Saved 1465050 — Mercedes-Benz G-Class G63 AMG 4MATIC 568888.0
+06:31:59 INFO     [sgcarmart] Saved 1479511 — Mercedes-Benz G-Class G63 AMG 4MATIC 458800.0
+06:32:23 INFO     [sgcarmart] Saved 1371234 — Mercedes-Benz G-Class G63 AMG 4MATIC 880800.0
+06:32:58 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=G500
+06:33:01 INFO     [sgcarmart] No listings on page 1 — stopping
+06:33:12 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=S63
+06:33:18 INFO     [sgcarmart] Saved 1486334 — Mercedes-Benz CLS-Class CLS63 AMG Shooting Brake (COE till 11/2032) 165999.0
+06:33:40 INFO     [sgcarmart] Saved 1428434 — Mercedes-Benz CLS-Class CLS63 AMG (COE till 04/2031) 108800.0
+06:34:05 INFO     [sgcarmart] Saved 1476171 — Mercedes-Benz CLS-Class CLS63 AMG (COE till 08/2032) 120800.0
+06:34:53 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=S65
+06:34:59 INFO     [sgcarmart] Saved 1411898 — Mercedes-Benz Maybach S-Class S650 739000.0
+06:35:20 INFO     [sgcarmart] Saved 1462564 — Mercedes-Benz S-Class S65 AMG 438000.0
+06:36:12 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=SLS
+06:36:18 INFO     [sgcarmart] Saved 1397895 — Mercedes-Benz SLS AMG GT Coupe (COE till 03/2033) 678000.0
+06:36:35 INFO     [sgcarmart] Saved 1461424 — Mercedes-Benz SLS AMG (COE till 03/2032) 540888.0
+06:37:14 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=GLE63
+06:37:17 INFO     [sgcarmart] No listings on page 1 — stopping
+06:37:28 INFO     [sgcarmart] Searching make=Mercedes-Benz mdl=GLS63
+06:37:30 INFO     [sgcarmart] No listings on page 1 — stopping
+06:37:48 INFO     [sgcarmart] Searching make=Rolls-Royce mdl=None
+06:37:53 INFO     [sgcarmart] Saved 1493974 — Rolls-Royce Phantom EWB Series II 2188800.0
+06:38:07 INFO     [sgcarmart] Saved 1461349 — Rolls-Royce Cullinan 6.75A 472000.0
+06:38:32 INFO     [sgcarmart] Saved 1493869 — Rolls-Royce Dawn 6.6A Black Badge 1438800.0
+06:38:49 INFO     [sgcarmart] Saved 1448045 — Rolls-Royce Ghost (COE till 04/2033) 408888.0
+06:39:16 INFO     [sgcarmart] Saved 1445322 — Rolls-Royce Ghost 6.75A 1199999.0
+06:39:30 INFO     [sgcarmart] Saved 1494149 — Rolls-Royce Ghost EWB (COE till 04/2033) 468888.0
+06:39:52 INFO     [sgcarmart] Saved 1469726 — Rolls-Royce Ghost (COE till 09/2030) 309800.0
+06:40:14 INFO     [sgcarmart] Saved 1457860 — Rolls-Royce Cullinan 6.75A V12 Black Badge 1780000.0
+06:40:30 INFO     [sgcarmart] Saved 1468343 — Rolls-Royce Wraith 6.6A (New 10-yr COE) 799777.0
+06:40:44 INFO     [sgcarmart] Saved 1439795 — Rolls-Royce Ghost 1555777.0
+06:40:59 INFO     [sgcarmart] Saved 1367026 — Rolls-Royce Dawn 6.6A Black Badge 1480000.0
+06:41:28 INFO     [sgcarmart] Saved 1451735 — Rolls-Royce Wraith 6.6A (COE till 02/2035) 868800.0
+06:41:52 INFO     [sgcarmart] Saved 1473590 — Rolls-Royce Phantom EWB 1868888.0
+06:42:11 INFO     [sgcarmart] Saved 1491329 — Rolls-Royce Ghost Series II 588000.0
+06:42:39 INFO     [sgcarmart] Saved 1474665 — Rolls-Royce Wraith 6.6A Eagle VIII 1298888.0
+06:42:57 INFO     [sgcarmart] Saved 1488363 — Rolls-Royce Phantom EWB 1688800.0
+06:43:14 INFO     [sgcarmart] Saved 1434202 — Rolls-Royce Phantom EWB Series II 2100888.0
+06:43:28 INFO     [sgcarmart] Saved 1415114 — Rolls-Royce Cullinan 6.75A 1280000.0
+06:43:53 INFO     [sgcarmart] Saved 1293637 — Rolls-Royce Wraith 6.6A 1200000.0
+06:44:10 INFO     [sgcarmart] Saved 1492844 — Rolls-Royce Cullinan 6.75A V12 Black Badge 1850000.0
+06:44:42 INFO     [sgcarmart] Saved 1492777 — Rolls-Royce Wraith 6.6A 1288888.0
+06:45:03 INFO     [sgcarmart] Saved 1484998 — Rolls-Royce Ghost 6.75A 1088800.0
+06:45:16 INFO     [sgcarmart] Saved 1402373 — Rolls-Royce Wraith 6.6A (COE till 07/2029) 388800.0
+06:45:43 INFO     [sgcarmart] Saved 1290663 — Rolls-Royce Cullinan 6.75A V12 Black Badge 2299999.0
+06:45:55 INFO     [sgcarmart] Saved 1492161 — Rolls-Royce Ghost (COE till 10/2032) 388800.0
+06:46:13 INFO     [sgcarmart] Saved 1319406 — Rolls-Royce Ghost (COE till 02/2033) 458888.0
+06:46:28 INFO     [sgcarmart] Saved 1490307 — Rolls-Royce Wraith 6.6A (COE till 03/2034) 638888.0
+06:47:01 INFO     [sgcarmart] Saved 1473223 — Rolls-Royce Phantom 1080000.0
+06:47:28 INFO     [sgcarmart] Saved 1163851 — Rolls-Royce Silver Shadow (COE till 04/2029) 138000.0
+06:47:42 INFO     [sgcarmart] Saved 1387775 — Rolls-Royce Dawn 6.6A 888000.0
+06:48:02 INFO     [sgcarmart] Saved 1234958 — Rolls-Royce Dawn 6.6A 878000.0
+06:48:17 INFO     [sgcarmart] Saved 1400103 — Rolls-Royce Ghost EWB (COE till 02/2032) 469000.0
+06:48:43 INFO     [sgcarmart] Saved 1381489 — Rolls-Royce Ghost EWB 1650000.0
+06:49:00 INFO     [sgcarmart] Saved 1409662 — Rolls-Royce Phantom Drophead (COE till 12/2026) 700000.0
+06:49:13 INFO     [sgcarmart] Saved 1306061 — Rolls-Royce Ghost (COE till 07/2031) 335995.0
+06:49:44 INFO     [sgcarmart] Saved 1490397 — Rolls-Royce Silver Shadow (New 10-yr COE) 120800.0
+06:50:00 INFO     [sgcarmart] Saved 1411337 — Rolls-Royce Ghost EWB (COE till 08/2032) 475000.0
+06:50:23 INFO     [sgcarmart] Saved 1418687 — Rolls-Royce Phantom VII 988888.0
+06:50:40 INFO     [sgcarmart] Saved 1454816 — Rolls-Royce Silver Shadow II 68000.0
+06:50:53 INFO     [sgcarmart] Saved 1489849 — Rolls-Royce Spectre 2250000.0
+06:51:42 INFO     [sgcarmart] Saved 1471772 — Rolls-Royce Phantom (COE till 10/2030) 328800.0
+06:52:02 INFO     [sgcarmart] Saved 1454103 — Rolls-Royce Ghost (COE till 02/2033) 399000.0
+06:52:13 INFO     [sgcarmart] Saved 1240852 — Rolls-Royce Wraith 6.6A 1290000.0
+06:52:37 INFO     [sgcarmart] Saved 1471176 — Rolls-Royce Ghost Series II 688888.0
+06:52:50 INFO     [sgcarmart] Saved 1369290 — Rolls-Royce Dawn 6.6A 788000.0
+06:53:00 INFO     [sgcarmart] Saved 1308788 — Rolls-Royce Ghost 6.75A 1050000.0
+06:53:18 INFO     [sgcarmart] Saved 1279946 — Rolls-Royce Dawn 6.6A 950000.0
+06:53:34 INFO     [sgcarmart] Saved 1345694 — Rolls-Royce Phantom EWB (COE till 02/2031) 428800.0
+06:53:54 INFO     [sgcarmart] Saved 1309710 — Rolls-Royce Wraith 6.6A 980000.0
+06:54:15 INFO     [sgcarmart] Saved 1327877 — Rolls-Royce Ghost 6.75A Black Badge 1650000.0
+06:54:28 INFO     [sgcarmart] Saved 1397907 — Rolls-Royce Phantom (COE till 03/2033) 659000.0
+06:54:57 INFO     [sgcarmart] Saved 1126581 — Rolls-Royce Ghost 6.75A 1100000.0
+06:55:15 INFO     [sgcarmart] Saved 1461350 — Rolls-Royce Ghost 1280997.0
+06:55:48 INFO     [sgcarmart] Saved 1469657 — Rolls-Royce Ghost (COE till 03/2033) 468888.0
+06:56:15 INFO     [sgcarmart] Saved 1469559 — Rolls-Royce Ghost (COE till 02/2031) 358800.0
+06:56:41 INFO     [sgcarmart] Saved 1480322 — Rolls-Royce Ghost 799000.0
+06:57:10 INFO     [sgcarmart] Saved 1450551 — Rolls-Royce Cullinan 6.75A V12 1200000.0
+06:57:22 INFO     [sgcarmart] Saved 1468614 — Rolls-Royce Dawn 6.6A Black Badge 1250000.0
+06:57:52 INFO     [sgcarmart] Saved 1486104 — Rolls-Royce Ghost (COE till 06/2032) 368000.0
+06:58:09 INFO     [sgcarmart] Saved 1376911 — Rolls-Royce Ghost (COE till 07/2030) 368888.0
+06:58:42 INFO     [sgcarmart] Saved 1485475 — Rolls-Royce Cullinan 6.75A 2350000.0
+06:59:12 INFO     [sgcarmart] Saved 1467924 — Rolls-Royce Cullinan 6.75A 1800998.0
+06:59:39 INFO     [sgcarmart] Saved 1485120 — Rolls-Royce Phantom (COE till 12/2034) 418800.0
+07:00:04 INFO     [sgcarmart] Saved 1466973 — Rolls-Royce Ghost 1580000.0
+07:00:33 INFO     [sgcarmart] Saved 1324534 — Rolls-Royce Cullinan 6.75A V12 Black Badge 1680000.0
+07:00:58 INFO     [sgcarmart] Saved 1484471 — Rolls-Royce Spectre 2500000.0
+07:01:29 INFO     [sgcarmart] Saved 1466668 — Rolls-Royce Silver Spur (COE till 09/2035) 188888.0
+07:01:54 INFO     [sgcarmart] Saved 1449651 — Rolls-Royce Ghost Extended 1488888.0
+07:02:20 INFO     [sgcarmart] Saved 1199994 — Rolls-Royce Ghost (COE till 01/2031) 369000.0
+07:02:51 INFO     [sgcarmart] Saved 1447913 — Rolls-Royce Phantom EWB 1608800.0
+07:03:03 INFO     [sgcarmart] Saved 1480736 — Rolls-Royce Ghost (COE till 03/2033) 445888.0
+07:03:30 INFO     [sgcarmart] Saved 1262167 — Rolls-Royce Wraith 6.6A Black Badge 1030000.0
+07:04:00 INFO     [sgcarmart] Saved 1449483 — Rolls-Royce Cullinan 6.75A V12 1120000.0
+07:04:20 INFO     [sgcarmart] Saved 1392369 — Rolls-Royce Phantom EWB 1900000.0
+07:04:49 INFO     [sgcarmart] Saved 1431928 — Rolls-Royce Ghost 6.75A 999800.0
+07:05:18 INFO     [sgcarmart] Saved 1357687 — Rolls-Royce Phantom 1280000.0
+07:05:36 INFO     [sgcarmart] Saved 1176356 — Rolls-Royce Wraith 6.6A (COE till 09/2034) 788000.0
+07:05:58 INFO     [sgcarmart] Saved 1475848 — Rolls-Royce Ghost (COE till 05/2027) 108888.0
+07:06:15 INFO     [sgcarmart] Saved 1440815 — Rolls-Royce Silver Shadow 6.75A (COE till 10/2028) 95000.0
+07:06:33 INFO     [sgcarmart] Saved 1282044 — Rolls-Royce Silver Shadow II (COE till 10/2033) 55000.0
+07:07:15 INFO     [sgcarmart] Saved 1351391 — Rolls-Royce Cullinan 6.75A V12 1000000.0
+07:07:46 INFO     [sgcarmart] Saved 1479096 — Rolls-Royce Cullinan 6.75A 2288888.0
+07:08:07 INFO     [sgcarmart] Saved 1474682 — Rolls-Royce Ghost 6.75A 1288888.0
+07:08:31 INFO     [sgcarmart] Saved 1450754 — Rolls-Royce Cullinan 6.75A 1250000.0
+07:08:53 INFO     [sgcarmart] Saved 1386151 — Rolls-Royce Phantom EWB 1500000.0
+07:09:14 INFO     [sgcarmart] Saved 1360146 — Rolls-Royce Ghost 6.75A Extended 1300000.0
+07:09:29 INFO     [sgcarmart] Saved 1444625 — Rolls-Royce Silver Spirit (New 10-yr COE) 118888.0
+07:09:44 INFO     [sgcarmart] Saved 1295774 — Rolls-Royce Ghost (COE till 07/2030) 458000.0
+07:10:15 INFO     [sgcarmart] Saved 1461606 — Rolls-Royce Silver Spur (COE till 04/2027) 79000.0
+07:10:48 INFO     [sgcarmart] Saved 1399463 — Rolls-Royce Phantom 6.75A (COE till 03/2028) 330888.0
+07:11:17 INFO     [sgcarmart] Saved 1371173 — Rolls-Royce Wraith 6.6A (COE till 09/2035) 758000.0
+07:11:44 INFO     [sgcarmart] Saved 1477556 — Rolls-Royce Ghost 6.75A 1100000.0
+07:12:00 INFO     [sgcarmart] Saved 1296357 — Rolls-Royce Silver Shadow (COE till 02/2030) 88800.0
+07:12:16 INFO     [sgcarmart] Saved 1406650 — Rolls-Royce Phantom (COE till 06/2032) 659000.0
+07:12:44 INFO     [sgcarmart] Saved 1406769 — Rolls-Royce Cullinan 6.75A V12 1650000.0
+07:13:06 INFO     [sgcarmart] Saved 1344219 — Rolls-Royce Cullinan 6.75A V12 Black Badge 1780000.0
+07:13:24 INFO     [sgcarmart] Saved 1424373 — Rolls-Royce Ghost 688888.0
+07:13:49 INFO     [sgcarmart] Saved 1316395 — Rolls-Royce Spectre 2788000.0
+07:14:13 INFO     [sgcarmart] Saved 1298409 — Rolls-Royce Wraith 6.6A 1090000.0
+07:14:40 INFO     [sgcarmart] Saved 1476324 — Rolls-Royce Silver Spur (New 10-yr COE) 258800.0
+07:15:15 INFO     [sgcarmart] Saved 1442136 — Rolls-Royce Phantom EWB 1600000.0
+07:15:27 INFO     [sgcarmart] Saved 1048339 — Rolls-Royce Silver Spur (COE till 06/2028) 109000.0
+07:15:54 INFO     [sgcarmart] Saved 1441268 — Rolls-Royce Cullinan 6.75A 1590000.0
+07:16:12 INFO     [sgcarmart] Saved 1458952 — Rolls-Royce Ghost 2580000.0
+07:16:25 INFO     [sgcarmart] Saved 1441319 — Rolls-Royce Phantom 1290000.0
+07:16:42 INFO     [sgcarmart] Saved 1476189 — Rolls-Royce Phantom (COE till 02/2029) 388888.0
+07:17:33 INFO     [sgcarmart] Run finished: status=completed found=1559 new=1514 updated=45 errors=1
+07:17:33 INFO     --- sgcarmart done: new=1514 updated=45 ---
+07:17:33 INFO     --- Starting carousell ---
+07:17:33 INFO     [carousell] VPN confirmed (37.120.151.123)
+07:17:35 INFO     [carousell] Browser started
+07:17:35 INFO     [carousell] Searching: Ferrari F430
+07:17:42 INFO     [carousell] Page fully scrolled at scroll 1
+07:18:11 INFO     [carousell] Searching: Ferrari 430 Scuderia
+07:18:18 INFO     [carousell] Page fully scrolled at scroll 1
+07:18:28 INFO     [carousell] Searching: Ferrari California
+07:18:36 INFO     [carousell] Page fully scrolled at scroll 1
+07:18:47 INFO     [carousell] Searching: Ferrari 612 Scaglietti
+07:18:53 INFO     [carousell] Page fully scrolled at scroll 1
+07:19:07 INFO     [carousell] Searching: Ferrari Purosangue
+07:19:14 INFO     [carousell] Page fully scrolled at scroll 1
+07:19:34 INFO     [carousell] Searching: Lamborghini Huracan
+07:19:42 INFO     [carousell] Page fully scrolled at scroll 1
+07:19:53 INFO     [carousell] Searching: Lamborghini Gallardo
+07:20:00 INFO     [carousell] Page fully scrolled at scroll 1
+07:20:18 INFO     [carousell] Searching: Lamborghini Urus
+07:20:26 INFO     [carousell] Page fully scrolled at scroll 1
+07:20:53 INFO     [carousell] Searching: McLaren
+07:21:00 INFO     [carousell] Page fully scrolled at scroll 1
+07:21:16 INFO     [carousell] Searching: Porsche 911 GTS
+07:21:23 INFO     [carousell] Page fully scrolled at scroll 1
+07:21:52 INFO     [carousell] Searching: Porsche 911 Turbo
+07:21:58 INFO     [carousell] Page fully scrolled at scroll 1
+07:22:26 INFO     [carousell] Searching: Porsche Cayenne GTS
+07:22:31 INFO     [carousell] Page fully scrolled at scroll 1
+07:22:49 INFO     [carousell] Searching: Porsche Cayenne Turbo
+07:22:55 INFO     [carousell] Page fully scrolled at scroll 1
+07:23:04 INFO     [carousell] Searching: Porsche Panamera GTS
+07:23:11 INFO     [carousell] Page fully scrolled at scroll 1
+07:23:21 INFO     [carousell] Searching: Porsche Panamera Turbo
+07:23:28 INFO     [carousell] Page fully scrolled at scroll 1
+07:23:57 INFO     [carousell] Searching: Porsche Taycan Turbo
+07:24:04 INFO     [carousell] Page fully scrolled at scroll 1
+07:24:18 INFO     [carousell] Searching: Porsche Macan GTS
+07:24:24 INFO     [carousell] Page fully scrolled at scroll 1
+07:24:49 INFO     [carousell] Searching: Aston Martin Vantage
+07:24:55 INFO     [carousell] Page fully scrolled at scroll 1
+07:25:05 INFO     [carousell] Searching: Aston Martin DB11
+07:25:13 INFO     [carousell] Page fully scrolled at scroll 1
+07:25:31 INFO     [carousell] Searching: Aston Martin DBX707
+07:25:38 INFO     [carousell] Page fully scrolled at scroll 1
+07:25:59 INFO     [carousell] Searching: Bentley Continental GT
+07:26:05 INFO     [carousell] Page fully scrolled at scroll 1
+07:26:30 INFO     [carousell] Searching: Bentley Bentayga Speed
+07:26:39 INFO     [carousell] Page fully scrolled at scroll 1
+07:27:08 INFO     [carousell] Searching: BMW M2
+07:27:20 INFO     [carousell] Page fully scrolled at scroll 1
+07:27:45 INFO     [carousell] Searching: BMW M3
+07:27:53 INFO     [carousell] Page fully scrolled at scroll 1
+07:28:19 INFO     [carousell] Searching: BMW M4
+07:28:25 INFO     [carousell] Page fully scrolled at scroll 1
+07:28:34 INFO     [carousell] Searching: BMW M5
+07:28:41 INFO     [carousell] Page fully scrolled at scroll 1
+07:28:55 INFO     [carousell] Searching: BMW M6
+07:29:01 INFO     [carousell] Page fully scrolled at scroll 1
+07:29:20 INFO     [carousell] Searching: BMW M8
+07:29:28 INFO     [carousell] Page fully scrolled at scroll 1
+07:29:53 INFO     [carousell] Searching: BMW X5M
+07:30:01 INFO     [carousell] Page fully scrolled at scroll 1
+07:30:09 INFO     [carousell] Searching: BMW X6M
+07:30:16 INFO     [carousell] Page fully scrolled at scroll 1
+07:30:40 INFO     [carousell] Searching: BMW Z3
+07:30:47 INFO     [carousell] Page fully scrolled at scroll 1
+07:31:15 INFO     [carousell] Searching: BMW Z4
+07:31:22 INFO     [carousell] Page fully scrolled at scroll 1
+07:31:49 INFO     [carousell] Searching: BMW Z8
+07:31:57 INFO     [carousell] Page fully scrolled at scroll 1
+07:32:26 INFO     [carousell] Searching: BMW i8
+07:32:33 INFO     [carousell] Page fully scrolled at scroll 1
+07:32:50 INFO     [carousell] Searching: Audi R8
+07:32:57 INFO     [carousell] Page fully scrolled at scroll 1
+07:33:24 INFO     [carousell] Searching: Audi RS3
+07:33:31 INFO     [carousell] Page fully scrolled at scroll 1
+07:33:44 INFO     [carousell] Searching: Audi RS4
+07:33:52 INFO     [carousell] Page fully scrolled at scroll 1
+07:34:10 INFO     [carousell] Searching: Audi RS5
+07:34:17 INFO     [carousell] Page fully scrolled at scroll 1
+07:34:34 INFO     [carousell] Searching: Audi RS6
+07:34:41 INFO     [carousell] Page fully scrolled at scroll 1
+07:35:09 INFO     [carousell] Searching: Audi RS7
+07:35:16 INFO     [carousell] Page fully scrolled at scroll 1
+07:35:31 INFO     [carousell] Searching: Audi RSQ3
+07:35:38 INFO     [carousell] Page fully scrolled at scroll 1
+07:35:55 INFO     [carousell] Searching: Audi RSQ5
+07:36:03 INFO     [carousell] Page fully scrolled at scroll 1
+07:36:16 INFO     [carousell] Searching: Audi RSQ8
+07:36:22 INFO     [carousell] Page fully scrolled at scroll 1
+07:36:33 INFO     [carousell] Searching: Audi S3
+07:36:41 INFO     [carousell] Page fully scrolled at scroll 1
+07:36:57 INFO     [carousell] Searching: Audi S4
+07:37:03 INFO     [carousell] Page fully scrolled at scroll 1
+07:37:25 INFO     [carousell] Searching: Audi S5
+07:37:31 INFO     [carousell] Page fully scrolled at scroll 1
+07:38:00 INFO     [carousell] Searching: Audi S6
+07:38:07 INFO     [carousell] Page fully scrolled at scroll 1
+07:38:27 INFO     [carousell] Searching: Audi S7
+07:38:33 INFO     [carousell] Page fully scrolled at scroll 1
+07:38:59 INFO     [carousell] Searching: Audi S8
+07:39:06 INFO     [carousell] Page fully scrolled at scroll 1
+07:39:17 INFO     [carousell] Searching: Audi SQ5
+07:39:23 INFO     [carousell] Page fully scrolled at scroll 1
+07:39:39 INFO     [carousell] Searching: Audi SQ7
+07:39:46 INFO     [carousell] Page fully scrolled at scroll 1
+07:40:14 INFO     [carousell] Searching: Audi SQ8
+07:40:20 INFO     [carousell] Page fully scrolled at scroll 1
+07:40:30 INFO     [carousell] Searching: Maserati Levante Trofeo
+07:40:36 INFO     [carousell] Page fully scrolled at scroll 1
+07:41:02 INFO     [carousell] Searching: Mercedes-Benz AMG GT
+07:41:08 INFO     [carousell] Page fully scrolled at scroll 1
+07:41:19 INFO     [carousell] Searching: Mercedes-Benz C63
+07:41:26 INFO     [carousell] Page fully scrolled at scroll 1
+07:41:52 INFO     [carousell] Searching: Mercedes-Benz E63
+07:41:58 INFO     [carousell] Page fully scrolled at scroll 1
+07:42:18 INFO     [carousell] Searching: Mercedes-Benz G63
+07:42:23 INFO     [carousell] Page fully scrolled at scroll 1
+07:42:35 INFO     [carousell] Searching: Mercedes-Benz G500
+07:42:42 INFO     [carousell] Page fully scrolled at scroll 1
+07:42:57 INFO     [carousell] Searching: Mercedes-Benz S63
+07:43:03 INFO     [carousell] Page fully scrolled at scroll 1
+07:43:22 INFO     [carousell] Searching: Mercedes-Benz S65
+07:43:28 INFO     [carousell] Page fully scrolled at scroll 1
+07:43:55 INFO     [carousell] Searching: Mercedes-Benz SLS
+07:44:01 INFO     [carousell] Page fully scrolled at scroll 1
+07:44:22 INFO     [carousell] Searching: Mercedes-Benz GLE63
+07:44:28 INFO     [carousell] Page fully scrolled at scroll 1
+07:44:37 INFO     [carousell] Searching: Mercedes-Benz GLS63
+07:44:44 INFO     [carousell] Page fully scrolled at scroll 1
+07:45:14 INFO     [carousell] Searching: Rolls-Royce
+07:45:20 INFO     [carousell] Page fully scrolled at scroll 1
+07:45:44 INFO     [carousell] Run finished: status=completed found=0 new=0 updated=0 errors=0
+07:45:44 INFO     --- carousell done: new=0 updated=0 ---
+07:45:44 INFO     --- Starting carro ---
+07:45:45 INFO     [carro] VPN confirmed (37.120.151.123)
+07:45:45 INFO     [carro] Browser started
+07:45:45 INFO     [carro] Scraping make: Ferrari
+07:46:04 INFO     [carro] Scraping make: Lamborghini
+07:46:35 INFO     [carro] Scraping make: McLaren
+07:47:02 INFO     [carro] Scraping make: Porsche
+07:47:31 INFO     [carro] Scraping make: Aston-Martin
+07:48:00 INFO     [carro] Scraping make: Bentley
+07:48:37 INFO     [carro] Scraping make: BMW
+07:48:59 INFO     [carro] Scraping make: Audi
+07:49:19 INFO     [carro] Scraping make: Maserati
+07:49:47 INFO     [carro] Scraping make: Mercedes-Benz
+07:50:23 INFO     [carro] Scraping make: Rolls-Royce
+07:51:00 INFO     [carro] Run finished: status=completed found=0 new=0 updated=0 errors=0
+07:51:00 INFO     --- carro done: new=0 updated=0 ---
+07:51:00 INFO     [runner] Switching IVPN back to UK exit node...
+07:51:01 INFO     [ivpn] Switching: sg.wg.ivpn.net → gb.wg.ivpn.net
+[WireGuard] Connecting to: London, GB (United Kingdom) gb.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb.wg.ivpn.net [gb2.wg.ivpn.net], London (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.19.188.113
+    Server IP          : 185.59.221.225 (UDP:2049)
+    Connected          : 2026-04-21 07:51:05 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+07:51:17 INFO     [ivpn] Connected to gb.wg.ivpn.net — waited 12s
+07:51:17 INFO     [runner] IVPN back on UK exit node
+07:51:17 INFO     === Run complete in 38573s: 1514 new, 45 updated across 3 sources ===
+[db] Initialised at data/arbitrage.db
+[db] Initialised at data/arbitrage.db
+[db] Initialised at data/arbitrage.db
+
+Source              New  Updated
+--------------------------------
+sgcarmart          1514       45
+carousell             0        0
+carro                 0        0
+--------------------------------
+TOTAL              1514       45

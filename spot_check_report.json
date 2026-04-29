@@ -1,0 +1,389 @@
+{
+  "generated_at": "2026-04-18T20:59:17.252470",
+  "db_path": "data/arbitrage.db",
+  "rows_per_source": 10,
+  "results": [
+    {
+      "source": "pistonheads",
+      "listing_id": 883,
+      "url": "https://www.pistonheads.com/classifieds/20276339",
+      "label": "Bentley Continental GT 2007",
+      "status": "live_price_unknown",
+      "db_price": 23750.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 819,
+      "url": "https://www.pistonheads.com/classifieds/20275877",
+      "label": "McLaren 750S 2023",
+      "status": "live_price_unknown",
+      "db_price": 228900.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 818,
+      "url": "https://www.pistonheads.com/classifieds/20276273",
+      "label": "McLaren 720S Spider 2022",
+      "status": "live_price_unknown",
+      "db_price": 182000.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 817,
+      "url": "https://www.pistonheads.com/classifieds/20087495",
+      "label": "Lamborghini Urus 2023",
+      "status": "live_price_unknown",
+      "db_price": 214750.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 816,
+      "url": "https://www.pistonheads.com/classifieds/19727923",
+      "label": "Bentley Continental GTC 2008",
+      "status": "live_price_unknown",
+      "db_price": 24900.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 815,
+      "url": "https://www.pistonheads.com/classifieds/19897511",
+      "label": "Bentley Continental GT 2013",
+      "status": "live_price_unknown",
+      "db_price": 35000.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 814,
+      "url": "https://www.pistonheads.com/classifieds/20093631",
+      "label": "Bentley Continental GT 2021",
+      "status": "live_price_unknown",
+      "db_price": 134990.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 813,
+      "url": "https://www.pistonheads.com/classifieds/19616256",
+      "label": "Bentley Continental GT 2014",
+      "status": "live_price_unknown",
+      "db_price": 40489.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 812,
+      "url": "https://www.pistonheads.com/classifieds/20087221",
+      "label": "Bentley Continental GT 2018",
+      "status": "live_price_unknown",
+      "db_price": 98950.0,
+      "live_price": null
+    },
+    {
+      "source": "pistonheads",
+      "listing_id": 811,
+      "url": "https://www.pistonheads.com/classifieds/19731456",
+      "label": "Bentley Continental GTC 2008",
+      "status": "live_price_unknown",
+      "db_price": 24750.0,
+      "live_price": null
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 607,
+      "url": "https://www.carandclassic.com/car/C1999830",
+      "label": "Audi 2020  RS6 Avant 2020",
+      "status": "live",
+      "db_price": 68000.0,
+      "live_price": 68000.0
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 606,
+      "url": "https://www.carandclassic.com/car/C1538180",
+      "label": "Audi 2015  RS6, Ceramic Brakes, Dynamic Sport Suspension 2015",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 605,
+      "url": "https://www.carandclassic.com/car/C1988648",
+      "label": "Audi 2025  RS6 PERFORMANCE 2025",
+      "status": "live",
+      "db_price": 149900.0,
+      "live_price": 149900.0
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 604,
+      "url": "https://www.carandclassic.com/car/C2012507",
+      "label": "Audi 2022  RS6 Avant 4.0 mhev quattro tiptronic 2022",
+      "status": "live",
+      "db_price": 69850.0,
+      "live_price": 69850.0
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 603,
+      "url": "https://www.carandclassic.com/car/C1958331",
+      "label": "Audi 2023  RS6 RS6 Avant 4.0 mhev performance quattro tiptron 2023",
+      "status": "live",
+      "db_price": 119900.0,
+      "live_price": 119900.0
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 602,
+      "url": "https://www.carandclassic.com/car/C2009267",
+      "label": "Audi 2023  RS6 4.0 mhev quattro tiptronic 2023",
+      "status": "live",
+      "db_price": 85000.0,
+      "live_price": 85000.0
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 601,
+      "url": "https://www.carandclassic.com/car/C2014169",
+      "label": "Audi 2015  RS6 AVANT 2015",
+      "status": "live",
+      "db_price": 65000.0,
+      "live_price": 65000.0
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 600,
+      "url": "https://www.carandclassic.com/car/C2005598",
+      "label": "Audi 2021  RS6 TFSI quattro Dynamic Plus, Ceramic, BTW, Carbo 2021",
+      "status": "live",
+      "db_price": 89950.0,
+      "live_price": 89950.0
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 599,
+      "url": "https://www.carandclassic.com/car/C1960074",
+      "label": "Audi 2016  RS6Avant 4.0 TFSI quattro PERFORMANCE - VERA ABT 2016",
+      "status": "live",
+      "db_price": 46900.0,
+      "live_price": 46900.0
+    },
+    {
+      "source": "carandclassic",
+      "listing_id": 598,
+      "url": "https://www.carandclassic.com/car/C2014876",
+      "label": "Audi 2025  RS6 Performance 2025",
+      "status": "live",
+      "db_price": 127050.0,
+      "live_price": 127050.0
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 882,
+      "url": "https://www.ebay.co.uk/itm/226993848946?_skw=McLaren&itmmeta=01KPFN8ZB5EVHJXE0CSZT8E1JH&hash=item34d9e34272%3Ag%3ArZQAAeSwkNZpAgy7&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xANjRVqK%2FJjUwV84pOM4jDxy%2Fr%2BjWH%2BbDhkVeqOnwS0knCbC6hZdkSVfw9PR1SGcloXyFmEXun%2BkB9qRS6A2U2xvzaeW%2Fg4t4qe9MiQMTWQN0af0oNcpJFC62GHnRGGQC3ZU6dcUMC6Lz%2FHLXf2vNcSGIT3XmU%2BStl7HwO7Lax3rgdk21nuj4Gb5t8MyP%2FEk2C3C1nzLIARy7G8qodzbVCoQaBfDwqx1CXYKpLYHB%2FjkJ6uK34IL1xws%2BTaSFoLZLFSSLtZQzr5YwRYrhYxTP%2Bn275ZJnp5YpB7dIRltoiTNA%3D%3D%7Ctkp%3ABk9SR971o_WzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 881,
+      "url": "https://www.ebay.co.uk/itm/187687796755?_skw=McLaren&itmmeta=01KPFN8ZB5GK9TP8XXHXEW39ZE&hash=item2bb3108013%3Ag%3AY%7E4AAOSwvsJoOUyy&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCFNV5srCTfCF%2BRlsk7lzX7qcMD74Z77mdi7CfoUCNypyWoIaNilF73Ai0v6k1nvTtU2TVtW4GlIHao7HQ4gRKA3MxIofhGoXhXafzGvR1VqjKu13AkuWKQsx0kt6pDm50d7FjTlMhjeg2%2BdQeMPQmSB8aQKwT3fdMyJBbx7c5yRawzRwrsW%2BQKnjjPiEzRFFO8ChWyjGqNGiOF8SWJedJaNfJ9A%2FF7xsGlibKGSmWR78Tm15p%2FkxfeVUzp0apT3sU%3D%7Ctkp%3ABk9SR971o_WzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 880,
+      "url": "https://www.ebay.co.uk/itm/326836941990?_skw=McLaren&itmmeta=01KPFN8HF4KNBY61P5X8HC8AYS&hash=item4c18fff4a6%3Ag%3Ag08AAOSwVY9kqEet&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDNLNAdIjBEmPDOdxwxR5YcbPoC1NxFJW2zvVf9ssgbgiFzTu%2Bb1isC2nGuirY%2BQ7WkXs9Msp%2FblpIlNgBHCQeK7nmfrRVrEd9VtPTDYZKc9mPwMV%2B2BhhiLuR1h4cEorEy29ktpoX9rxl4JaDy%2Fxp1a1epxxdHcbiPqSwBGCWrIfA%2B7NAVBgXfBE130cf5eiQOaaIsXtdEWil2DzDHj5j83E953xqRUTD4NQWP3Cm851nIl9i7Hber0kmzCKem5Wo%3D%7Ctkp%3ABk9SR_CXovWzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 879,
+      "url": "https://www.ebay.co.uk/itm/306569759617?_skw=McLaren&itmmeta=01KPFN8HF4KDK4SXHK9J2RA9NA&hash=item4760fb4b81%3Ag%3AxWsAAeSw86lpzaEa&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAkZ6w%2B%2BWFO4F%2BfZYJQozPcKFb%2BjSkGhecpCGxAEOVKGtZzCR47nRMy1mo%2By3ahsh1mnqWuEuCoOAZIeMpcaolQeUVVnLM0mqIOI4XpUPlLnfh41ootYO0hv%2BIsUtvk1Jirp7iihu6B9j0q%2BqlT1A1NpHAdSm1UYzymVUaVltR53iJ6V3HjgAmFZcAlIG1XDMWRMQoXZKFUEzZo9uFs4lsw3oIbTFKaIBfRCp0Y%2FiuLxb4ImFF%2BM4j6qAHESi1RJ1U%3D%7Ctkp%3ABk9SR_CXovWzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 878,
+      "url": "https://www.ebay.co.uk/itm/389314272538?_skw=McLaren&itmmeta=01KPFN8HF461PXCJ5DWGTAXEAA&hash=item5aa4f05d1a%3Ag%3A9LsAAeSwaMJp0eoB&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCgOL%2BIg1Lr2Ri6hdfYn7I6CBCBAXhyP0Po41%2FS%2B3AEboJcB5X4lFIssxQf7ZYzhTxXwWO%2F9Iefm8bo7cRsicCbR5TG2Lk3h9dsqJ85TOCKuE%2BC9JVsYpdj19j%2BK50yOs%2F4nevRhGFO01JS0RtjuBAu%2Be%2Fj6CpGURR1W59eY1Ykw80UoUCH2tqkwDWOhxkHYHu7zxniiJN0p%2BdTyzrNLHbxKK5e1eewQnctwg0wY9gXJhi%2FzTD4ymjCheRJCK4wuyA%3D%7Ctkp%3ABk9SR_CXovWzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 877,
+      "url": "https://www.ebay.co.uk/itm/127571431121?_skw=McLaren&itmmeta=01KPFN8HF3ZAH6JWCFC4EKWGH5&hash=item1db3d98ed1%3Ag%3AzqIAAeSwKxdpRNu1&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAGDbxwMdMkfCJuGdyVhvcfZN2ugINVli%2Fo5xjMAAKJ%2B9X2azJQz1XnYpb993dFrI3PgsbuV4VDSFyDvR%2BEASEkW%2Bg3Yx2hbXIMygB10eNqdZruq6ErqB%2FTqV5Fan1yqYt8cml6U9h3ujD0EBNxoHTinsYCkVq5QCTtOkl0T5XN2KHJO%2FERkZ4Jsas3y8IN9eso2RVER%2FkRXUQmF6C5dmVcUgJSuy%2BbSdNEQmDxQD3HfwFPPLMruwrqQUZdnpYOAj8%3D%7Ctkp%3ABk9SR_CXovWzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 876,
+      "url": "https://www.ebay.co.uk/itm/127571849007?_skw=McLaren&itmmeta=01KPFN8HF3Y6BNNYV6F9NY1JBD&hash=item1db3dfef2f%3Ag%3Az6wAAeSwVbFpRSgc&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xCQO%2F3GVqJ3hWhcQyeVd9cOf2YKKxgX99ZeJAbIncUlGnKsUyQrVZoIb7Bt84ng9WBSTyjfPR4w2knwFHcd9wca%2BJH96UlHKRBWYBreaaScVUy25%2BDmCxYITtApxD%2FuWb23IippYtarg8HoX6NwGlyXUFo6M%2BPiOJfRgeT%2B3YgxWYf7RfapgylmdMh9nFksFToalWgVfS%2FOFCMx1AD6plz6QGyMoLnscYBCGqP7ZvxfCNp80EN%2FHfxbATYEB2Me46k%3D%7Ctkp%3ABk9SR_CXovWzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 875,
+      "url": "https://www.ebay.co.uk/itm/227177404757?_skw=McLaren&itmmeta=01KPFN8HF38Y09K86P0N8XANEA&hash=item34e4d41955%3Ag%3A-XEAAeSwPPBpatlz&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xAr3wwSC5tSv%2FCUpCu%2Fr8RxlGezr8VswdRhIy5FNG6F9QEYLDBzzHfQka9CWKfggczW7yMenc86Qsa2eXPpq%2FysOM%2Bf2C774bWeGBTDrcG17SoqctXU%2FvKS0sNHSgYvwoe5iq48Nf%2BHkZ0hH%2FLRIkTr%2BOWCPWBK54%2B3gFv77QzvF7LMfVl9xumRs%2FO8U%2BpygQmHgAkbqx2%2Bbho%2B0%2F8IuBqfbyr9B5j29CPr5HzapS7RxSJ6r91Ik%2BZSQZOP40azaww%3D%7Ctkp%3ABk9SR_CXovWzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 874,
+      "url": "https://www.ebay.co.uk/itm/326964805305?_skw=McLaren&itmmeta=01KPFN8HF31XREE4J2G8AWBDZJ&hash=item4c209efeb9%3Ag%3AXpoAAeSwZt9plLZO&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xDABUcq%2FNTUseMgazBcKFjlISYm8JZ9xatDAkjlDOBbk7JQacVi%2BXNL%2BDgmliYqkFieS6ye7VOwg8vII5D7IrT5zUTCDptDUGHukeMCjxDKIfcb3b8ab0uO7pceCH9Yn0YuKIh2U4WV0UBJRHxgWDY7Gr%2Bd0rrDVoXlA9T79MH1FGlcx%2FqDG0HdqfTHEqsNP%2B1i8VPENOFCR1496HdCcelNe2gvqLxXALeCxZx309YAY%2BuW9xsgaqkrkH2pVlImBpk%3D%7Ctkp%3ABk9SR_CXovWzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "ebay_motors",
+      "listing_id": 873,
+      "url": "https://www.ebay.co.uk/itm/117020613390?_skw=McLaren&itmmeta=01KPFN8HF3QS5ZEM3RT8M3ZQAR&hash=item1b3ef8db0e%3Ag%3A0p0AAeSwXVZphLIm&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xD0xTnU%2BaekJbGpxCCIl2v%2FuKGV2jaZI9uhZFpkj2AArwepLfrALnRwaitVv0EtN3bFDtqmtJ4Asqe9Ue3ebAEHct0eh8IBubU%2F1NXmRFfIHGRqtVS%2F2piBgDvP6fdnnGkPYDtaj%2F5lTAe0X6yLdM8hs6Sz%2FRHA1gbjcKgW8Y9VLSWRt5IAUspnu3mQBfdCyib0J31JJacBq7YfrFGeFfdRYhp%2Byis9Wy90lKpuzScmMT%2FVcJf%2B8BKFpYQkz2c1b8s%3D%7Ctkp%3ABk9SR_CXovWzZw&LH_ItemCondition=3000",
+      "label": "McLaren",
+      "status": "live_price_unknown",
+      "db_price": null,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 809,
+      "url": "https://www.autotrader.co.uk/car-details/202602260227508",
+      "label": "Audi RSQ8 2023",
+      "status": "live_price_unknown",
+      "db_price": 104990.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 808,
+      "url": "https://www.autotrader.co.uk/car-details/202603050442840",
+      "label": "Audi RSQ8 2026",
+      "status": "live_price_unknown",
+      "db_price": 99990.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 807,
+      "url": "https://www.autotrader.co.uk/car-details/202602069737282",
+      "label": "Audi RSQ8 2023",
+      "status": "live_price_unknown",
+      "db_price": 117900.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 806,
+      "url": "https://www.autotrader.co.uk/car-details/202603250997702",
+      "label": "Audi RSQ8 2024",
+      "status": "live_price_unknown",
+      "db_price": 87950.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 805,
+      "url": "https://www.autotrader.co.uk/car-details/202603250980738",
+      "label": "Audi RSQ8 2023",
+      "status": "live_price_unknown",
+      "db_price": 91990.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 804,
+      "url": "https://www.autotrader.co.uk/car-details/202601229344052",
+      "label": "Audi RSQ8 2023",
+      "status": "live_price_unknown",
+      "db_price": 99975.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 803,
+      "url": "https://www.autotrader.co.uk/car-details/202603020332844",
+      "label": "Audi RSQ8 2023",
+      "status": "live_price_unknown",
+      "db_price": 91991.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 802,
+      "url": "https://www.autotrader.co.uk/car-details/202603110616552",
+      "label": "Audi RSQ8 2022",
+      "status": "live_price_unknown",
+      "db_price": 69990.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 801,
+      "url": "https://www.autotrader.co.uk/car-details/202601149146413",
+      "label": "Audi RSQ8 2020",
+      "status": "live_price_unknown",
+      "db_price": 68494.0,
+      "live_price": null
+    },
+    {
+      "source": "autotrader",
+      "listing_id": 800,
+      "url": "https://www.autotrader.co.uk/car-details/202602139892338",
+      "label": "Audi RSQ8 2024",
+      "status": "live_price_unknown",
+      "db_price": 96990.0,
+      "live_price": null
+    }
+  ],
+  "dbx707_check": {
+    "db_count": 0,
+    "searched": "https://www.carandclassic.com/search?make=aston-martin&model=dbx707",
+    "http_status": 200,
+    "result": "absent_or_parse_failed",
+    "count": 0
+  },
+  "summary": {
+    "pistonheads": {
+      "live_price_unknown": 10
+    },
+    "carandclassic": {
+      "live": 9,
+      "live_price_unknown": 1
+    },
+    "ebay_motors": {
+      "live_price_unknown": 10
+    },
+    "autotrader": {
+      "live_price_unknown": 10
+    }
+  }
+}

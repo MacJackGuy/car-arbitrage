@@ -1,0 +1,8 @@
+playwright>=1.44
+anthropic>=0.28
+flask>=3.0
+requests>=2.31
+python-dotenv>=1.0
+schedule>=1.2
+pytest>=8.0
+rich>=13.7

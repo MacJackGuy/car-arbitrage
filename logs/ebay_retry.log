@@ -1,0 +1,264 @@
+<frozen runpy>:128: RuntimeWarning: 'scrapers.uk_runner' found in sys.modules after import of package 'scrapers', but prior to execution of 'scrapers.uk_runner'; this may result in unpredictable behaviour
+11:51:36 INFO     === UK scrape run starting [mode=full] ===
+11:51:37 INFO     [ivpn] Active server: gb-man.wg.ivpn.net (Manchester)
+11:51:37 INFO     --- Starting ebay_motors ---
+11:51:37 INFO     [ivpn] Rotating: gb-man.wg.ivpn.net → gb.wg.ivpn.net (London)
+[WireGuard] Connecting to: London, GB (United Kingdom) gb.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb.wg.ivpn.net [gb2.wg.ivpn.net], London (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.59.221.225 (UDP:2049)
+    Connected          : 2026-04-20 11:51:41 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+11:51:50 INFO     [ivpn] Connected to gb.wg.ivpn.net — waited 8s
+11:51:51 INFO     [ebay_motors] VPN confirmed (185.59.221.75)
+11:51:53 INFO     [ebay_motors] Browser started
+11:51:54 INFO     [ivpn] Rotating: gb.wg.ivpn.net → gb-man.wg.ivpn.net (Manchester)
+[WireGuard] Connecting to: Manchester, GB (United Kingdom) gb-man.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb-man.wg.ivpn.net [gb-man1.wg.ivpn.net], Manchester (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.195.202.23 (UDP:2049)
+    Connected          : 2026-04-20 11:52:00 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+11:52:10 INFO     [ivpn] Connected to gb-man.wg.ivpn.net — waited 10s
+11:52:11 INFO     [ebay] Searching Aston Martin (all models)
+11:53:34 INFO     [ebay] Reached page limit (5) for Aston Martin
+11:53:44 INFO     [ivpn] Rotating: gb-man.wg.ivpn.net → gb.wg.ivpn.net (London)
+[WireGuard] Connecting to: London, GB (United Kingdom) gb.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb.wg.ivpn.net [gb2.wg.ivpn.net], London (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.59.221.225 (UDP:2049)
+    Connected          : 2026-04-20 11:53:52 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+11:54:02 INFO     [ivpn] Connected to gb.wg.ivpn.net — waited 10s
+11:54:03 INFO     [ebay] Searching Audi (all models)
+11:55:10 INFO     [ebay] Reached page limit (5) for Audi
+11:55:21 INFO     [ivpn] Rotating: gb.wg.ivpn.net → gb-man.wg.ivpn.net (Manchester)
+[WireGuard] Connecting to: Manchester, GB (United Kingdom) gb-man.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb-man.wg.ivpn.net [gb-man1.wg.ivpn.net], Manchester (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.195.202.23 (UDP:2049)
+    Connected          : 2026-04-20 11:55:30 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+11:55:41 INFO     [ivpn] Connected to gb-man.wg.ivpn.net — waited 10s
+11:55:43 INFO     [ebay] Searching Bentley (all models)
+11:56:45 INFO     [ebay] Reached page limit (5) for Bentley
+11:57:06 INFO     [ivpn] Rotating: gb-man.wg.ivpn.net → gb.wg.ivpn.net (London)
+[WireGuard] Connecting to: London, GB (United Kingdom) gb.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb.wg.ivpn.net [gb1.wg.ivpn.net], London (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.59.221.140 (UDP:2049)
+    Connected          : 2026-04-20 11:57:11 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+11:57:21 INFO     [ivpn] Connected to gb.wg.ivpn.net — waited 10s
+11:57:22 INFO     [ebay] Searching BMW (all models)
+11:58:25 INFO     [ebay] Reached page limit (5) for BMW
+11:58:51 INFO     [ivpn] Rotating: gb.wg.ivpn.net → gb-man.wg.ivpn.net (Manchester)
+[WireGuard] Connecting to: Manchester, GB (United Kingdom) gb-man.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb-man.wg.ivpn.net [gb-man1.wg.ivpn.net], Manchester (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.195.202.23 (UDP:2049)
+    Connected          : 2026-04-20 11:58:56 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+11:59:07 INFO     [ivpn] Connected to gb-man.wg.ivpn.net — waited 10s
+11:59:07 INFO     [ebay] Searching Ferrari (all models)
+12:00:31 INFO     [ivpn] Rotating: gb-man.wg.ivpn.net → gb.wg.ivpn.net (London)
+[WireGuard] Connecting to: London, GB (United Kingdom) gb.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb.wg.ivpn.net [gb1.wg.ivpn.net], London (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.59.221.140 (UDP:2049)
+    Connected          : 2026-04-20 12:00:34 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+12:00:44 INFO     [ivpn] Connected to gb.wg.ivpn.net — waited 10s
+12:00:45 INFO     [ebay] Searching Lamborghini (all models)
+12:02:14 INFO     [ebay] Reached page limit (5) for Lamborghini
+12:02:27 INFO     [ivpn] Rotating: gb.wg.ivpn.net → gb-man.wg.ivpn.net (Manchester)
+[WireGuard] Connecting to: Manchester, GB (United Kingdom) gb-man.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb-man.wg.ivpn.net [gb-man1.wg.ivpn.net], Manchester (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.195.202.23 (UDP:2049)
+    Connected          : 2026-04-20 12:02:30 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+12:02:40 INFO     [ivpn] Connected to gb-man.wg.ivpn.net — waited 10s
+12:02:41 INFO     [ebay] Searching Maserati (all models)
+12:03:47 INFO     [ebay] Reached page limit (5) for Maserati
+12:03:59 INFO     [ivpn] Rotating: gb-man.wg.ivpn.net → gb.wg.ivpn.net (London)
+[WireGuard] Connecting to: London, GB (United Kingdom) gb.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb.wg.ivpn.net [gb2.wg.ivpn.net], London (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.59.221.225 (UDP:2049)
+    Connected          : 2026-04-20 12:04:02 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+12:04:12 INFO     [ivpn] Connected to gb.wg.ivpn.net — waited 10s
+12:04:13 INFO     [ebay] Searching McLaren (all models)
+12:04:32 INFO     [ivpn] Rotating: gb.wg.ivpn.net → gb-man.wg.ivpn.net (Manchester)
+[WireGuard] Connecting to: Manchester, GB (United Kingdom) gb-man.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb-man.wg.ivpn.net [gb-man1.wg.ivpn.net], Manchester (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.195.202.23 (UDP:2049)
+    Connected          : 2026-04-20 12:04:37 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+12:04:47 INFO     [ivpn] Connected to gb-man.wg.ivpn.net — waited 10s
+12:04:48 INFO     [ebay] Searching Mercedes-Benz (all models)
+12:05:51 INFO     [ebay] Reached page limit (5) for Mercedes-Benz
+12:06:11 INFO     [ivpn] Rotating: gb-man.wg.ivpn.net → gb.wg.ivpn.net (London)
+[WireGuard] Connecting to: London, GB (United Kingdom) gb.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb.wg.ivpn.net [gb2.wg.ivpn.net], London (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.59.221.225 (UDP:2049)
+    Connected          : 2026-04-20 12:06:15 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+12:06:25 INFO     [ivpn] Connected to gb.wg.ivpn.net — waited 10s
+12:06:26 INFO     [ebay] Searching Porsche (all models)
+12:07:46 INFO     [ebay] Reached page limit (5) for Porsche
+12:08:07 INFO     [ivpn] Rotating: gb.wg.ivpn.net → gb-man.wg.ivpn.net (Manchester)
+[WireGuard] Connecting to: Manchester, GB (United Kingdom) gb-man.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb-man.wg.ivpn.net [gb-man1.wg.ivpn.net], Manchester (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.195.202.23 (UDP:2049)
+    Connected          : 2026-04-20 12:08:12 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+12:08:22 INFO     [ivpn] Connected to gb-man.wg.ivpn.net — waited 10s
+12:08:23 INFO     [ebay] Searching Rolls-Royce (all models)
+12:09:42 INFO     [ebay] Reached page limit (5) for Rolls-Royce
+12:09:56 INFO     [ebay_motors] Run finished: status=completed found=2924 new=2924 updated=0 errors=0
+12:09:56 INFO     --- ebay_motors done: new=2924 updated=0 ---
+12:09:56 INFO     === UK run complete in 1100s: 2924 new, 0 updated across 1 sources ===
+[db] Initialised at data/arbitrage.db
+
+Source                New  Updated
+----------------------------------
+ebay_motors          2924        0
+----------------------------------
+TOTAL                2924        0

@@ -1,0 +1,276 @@
+<frozen runpy>:128: RuntimeWarning: 'scrapers.uk_runner' found in sys.modules after import of package 'scrapers', but prior to execution of 'scrapers.uk_runner'; this may result in unpredictable behaviour
+22:39:57 INFO     === UK scrape run starting [mode=full] ===
+22:39:58 INFO     [ivpn] Active server: gb.wg.ivpn.net (London)
+22:39:58 INFO     --- Starting carandclassic ---
+22:39:59 INFO     [carandclassic] VPN confirmed (185.59.221.75)
+22:40:00 INFO     [carandclassic] Browser started
+22:40:00 INFO     [c&c] Searching Aston Martin (all models)
+22:42:00 INFO     [c&c] Searching Audi (all models)
+22:43:35 INFO     [c&c] Searching Bentley (all models)
+22:45:52 INFO     [c&c] Searching BMW (all models)
+22:48:55 INFO     [c&c] Searching Ferrari (all models)
+22:50:34 INFO     [c&c] Searching Lamborghini (all models)
+22:51:03 INFO     [c&c] Searching Maserati (all models)
+22:51:34 INFO     [c&c] Searching McLaren (all models)
+22:51:53 INFO     [c&c] Searching Mercedes-Benz (all models)
+22:51:57 WARNING  [c&c] No Inertia JSON at https://www.carandclassic.com/search?make=mercedes-benz&country[0]=GB&listing_type_ex=advert&vehicle_type=cars&steering_position=rhd
+22:52:18 INFO     [c&c] Searching Porsche (all models)
+22:55:56 INFO     [c&c] Searching Rolls-Royce (all models)
+22:57:29 INFO     [carandclassic] Run finished: status=completed found=3916 new=319 updated=3597 errors=0
+22:57:29 INFO     --- carandclassic done: new=319 updated=3597 ---
+22:57:29 INFO     --- Starting pistonheads ---
+22:57:30 INFO     [pistonheads] VPN confirmed (185.59.221.75)
+22:57:30 INFO     [pistonheads] Browser started
+22:57:30 INFO     [ph] Aston Martin — discovering model sub-pages
+22:57:38 INFO     [ph] aston-martin model pages: ['https://www.pistonheads.com/buy/aston-martin/db11', 'https://www.pistonheads.com/buy/aston-martin/db7', 'https://www.pistonheads.com/buy/aston-martin/db9-coupe', 'https://www.pistonheads.com/buy/aston-martin/dbx', 'https://www.pistonheads.com/buy/aston-martin/v12-vantage', 'https://www.pistonheads.com/buy/aston-martin/v8-vantage-coupe', 'https://www.pistonheads.com/buy/aston-martin/v8-vantage-roadster', 'https://www.pistonheads.com/buy/aston-martin/vanquish']
+22:57:38 INFO     [ph] Aston Martin — 8 model pages found
+22:57:43 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for aston-martin/db11
+22:58:01 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for aston-martin/db7
+22:58:17 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for aston-martin/db9-coupe
+22:58:31 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for aston-martin/dbx
+22:58:47 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for aston-martin/v12-vantage
+22:59:04 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for aston-martin/v8-vantage-coupe
+22:59:22 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for aston-martin/v8-vantage-roadster
+22:59:39 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for aston-martin/vanquish
+22:59:43 INFO     [ph] Aston Martin — make-level sweep https://www.pistonheads.com/buy/search?make-id=14
+22:59:46 INFO     [ph] Aston Martin make-level sweep done (16 adverts examined)
+23:00:21 INFO     [ph] Audi — discovering model sub-pages
+23:00:30 INFO     [ph] audi model pages: ['https://www.pistonheads.com/buy/audi/e-tron', 'https://www.pistonheads.com/buy/audi/rs3', 'https://www.pistonheads.com/buy/audi/rs4', 'https://www.pistonheads.com/buy/audi/rs6', 'https://www.pistonheads.com/buy/audi/s3', 'https://www.pistonheads.com/buy/audi/sq5', 'https://www.pistonheads.com/buy/audi/tt-mk2-07-14', 'https://www.pistonheads.com/buy/audi/tt-mk3-15-current']
+23:00:30 INFO     [ph] Audi — 8 model pages found
+23:00:34 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for audi/e-tron
+23:00:53 INFO     [ph] Page 3 IDs match page 2 — pagination exhausted for audi/rs3
+23:01:08 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for audi/rs4
+23:01:23 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for audi/rs6
+23:01:41 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for audi/s3
+23:01:57 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for audi/sq5
+23:02:04 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/audi/tt-mk2-07-14
+23:02:18 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for audi/tt-mk3-15-current
+23:02:23 INFO     [ph] Audi — make-level sweep https://www.pistonheads.com/buy/search?make-id=15
+23:02:25 INFO     [ph] Audi make-level sweep done (16 adverts examined)
+23:02:50 INFO     [ph] Bentley — discovering model sub-pages
+23:02:58 INFO     [ph] bentley model pages: ['https://www.pistonheads.com/buy/bentley/arnage', 'https://www.pistonheads.com/buy/bentley/azure', 'https://www.pistonheads.com/buy/bentley/bentayga', 'https://www.pistonheads.com/buy/bentley/continental', 'https://www.pistonheads.com/buy/bentley/continental-gt', 'https://www.pistonheads.com/buy/bentley/continental-gtc', 'https://www.pistonheads.com/buy/bentley/flying-spur', 'https://www.pistonheads.com/buy/bentley/mulsanne']
+23:02:58 INFO     [ph] Bentley — 8 model pages found
+23:03:06 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bentley/arnage
+23:03:16 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/bentley/azure
+23:03:24 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/bentley/bentayga
+23:03:35 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/bentley/continental
+23:03:40 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/bentley/continental-gt
+23:03:48 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/bentley/continental-gtc
+23:03:56 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/bentley/flying-spur
+23:04:02 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/bentley/mulsanne
+23:04:10 INFO     [ph] Bentley — make-level sweep https://www.pistonheads.com/buy/search?make-id=16
+23:04:11 WARNING  [ph] No Apollo state on make search https://www.pistonheads.com/buy/search?make-id=16
+23:05:07 INFO     [ph] BMW — discovering model sub-pages
+23:05:15 INFO     [ph] bmw model pages: ['https://www.pistonheads.com/buy/bmw/ix', 'https://www.pistonheads.com/buy/bmw/m135i', 'https://www.pistonheads.com/buy/bmw/m2', 'https://www.pistonheads.com/buy/bmw/m235i', 'https://www.pistonheads.com/buy/bmw/g80-m3-post-21', 'https://www.pistonheads.com/buy/bmw/g82-m4', 'https://www.pistonheads.com/buy/bmw/m5', 'https://www.pistonheads.com/buy/bmw/x5m']
+23:05:15 INFO     [ph] BMW — 8 model pages found
+23:05:22 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bmw/ix
+23:05:34 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bmw/m135i
+23:05:49 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bmw/m2
+23:06:06 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bmw/m235i
+23:06:21 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bmw/g80-m3-post-21
+23:06:37 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bmw/g82-m4
+23:06:49 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bmw/m5
+23:07:02 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for bmw/x5m
+23:07:09 INFO     [ph] BMW — make-level sweep https://www.pistonheads.com/buy/search?make-id=17
+23:07:12 INFO     [ph] BMW make-level sweep done (16 adverts examined)
+23:07:33 INFO     [ph] Ferrari — discovering model sub-pages
+23:07:40 INFO     [ph] ferrari model pages: []
+23:07:40 INFO     [ph] Ferrari — 0 model pages found
+23:07:40 INFO     [ph] Ferrari — make-level sweep https://www.pistonheads.com/buy/search?make-id=23
+23:07:41 WARNING  [ph] No Apollo state on make search https://www.pistonheads.com/buy/search?make-id=23
+23:08:20 INFO     [ph] Lamborghini — discovering model sub-pages
+23:08:27 INFO     [ph] lamborghini model pages: ['https://www.pistonheads.com/buy/lamborghini/aventador', 'https://www.pistonheads.com/buy/lamborghini/countach', 'https://www.pistonheads.com/buy/lamborghini/diablo', 'https://www.pistonheads.com/buy/lamborghini/gallardo', 'https://www.pistonheads.com/buy/lamborghini/huracan', 'https://www.pistonheads.com/buy/lamborghini/huracan-evo', 'https://www.pistonheads.com/buy/lamborghini/revuelto', 'https://www.pistonheads.com/buy/lamborghini/urus']
+23:08:27 INFO     [ph] Lamborghini — 8 model pages found
+23:08:33 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for lamborghini/aventador
+23:09:13 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/lamborghini/huracan?page=2
+23:09:19 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/lamborghini/huracan-evo
+23:09:28 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/lamborghini/revuelto
+23:09:40 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/lamborghini/urus
+23:09:52 INFO     [ph] Lamborghini — make-level sweep https://www.pistonheads.com/buy/search?make-id=28
+23:09:53 WARNING  [ph] No Apollo state on make search https://www.pistonheads.com/buy/search?make-id=28
+23:10:28 INFO     [ph] Maserati — discovering model sub-pages
+23:10:35 INFO     [ph] maserati model pages: ['https://www.pistonheads.com/buy/maserati/3200', 'https://www.pistonheads.com/buy/maserati/ghibli', 'https://www.pistonheads.com/buy/maserati/grancabrio', 'https://www.pistonheads.com/buy/maserati/gransport', 'https://www.pistonheads.com/buy/maserati/granturismo', 'https://www.pistonheads.com/buy/maserati/levante', 'https://www.pistonheads.com/buy/maserati/quattroporte', 'https://www.pistonheads.com/buy/maserati/spyder']
+23:10:35 INFO     [ph] Maserati — 8 model pages found
+23:10:55 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for maserati/ghibli
+23:11:18 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for maserati/gransport
+23:11:31 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for maserati/granturismo
+23:11:56 INFO     [ph] Page 3 IDs match page 2 — pagination exhausted for maserati/levante
+23:12:20 INFO     [ph] Maserati — make-level sweep https://www.pistonheads.com/buy/search?make-id=78
+23:12:22 INFO     [ph] Maserati make-level sweep done (16 adverts examined)
+23:13:19 INFO     [ph] McLaren — discovering model sub-pages
+23:13:27 INFO     [ph] mclaren model pages: ['https://www.pistonheads.com/buy/mclaren/12c', 'https://www.pistonheads.com/buy/mclaren/570s', 'https://www.pistonheads.com/buy/mclaren/570s-spider', 'https://www.pistonheads.com/buy/mclaren/600lt', 'https://www.pistonheads.com/buy/mclaren/720s', 'https://www.pistonheads.com/buy/mclaren/artura', 'https://www.pistonheads.com/buy/mclaren/gt', 'https://www.pistonheads.com/buy/mclaren/p1']
+23:13:27 INFO     [ph] McLaren — 8 model pages found
+23:14:01 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for mclaren/720s
+23:14:26 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/mclaren/p1
+23:14:37 INFO     [ph] McLaren — make-level sweep https://www.pistonheads.com/buy/search?make-id=119
+23:14:39 WARNING  [ph] No Apollo state on make search https://www.pistonheads.com/buy/search?make-id=119
+23:15:24 INFO     [ph] Mercedes-Benz — discovering model sub-pages
+23:15:31 INFO     [ph] mercedes-benz model pages: ['https://www.pistonheads.com/buy/mercedes-benz/a-class-amg', 'https://www.pistonheads.com/buy/mercedes-benz/amg-gt', 'https://www.pistonheads.com/buy/mercedes-benz/c-class-amg', 'https://www.pistonheads.com/buy/mercedes-benz/cla-amg', 'https://www.pistonheads.com/buy/mercedes-benz/e-class-amg', 'https://www.pistonheads.com/buy/mercedes-benz/g-class-amg', 'https://www.pistonheads.com/buy/mercedes-benz/gle-amg', 'https://www.pistonheads.com/buy/mercedes-benz/sl-class-amg']
+23:15:31 INFO     [ph] Mercedes-Benz — 8 model pages found
+23:15:37 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for mercedes-benz/a-class-amg
+23:15:51 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/mercedes-benz/amg-gt?page=2
+23:15:56 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/mercedes-benz/c-class-amg
+23:16:05 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/mercedes-benz/cla-amg
+23:16:12 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/mercedes-benz/e-class-amg
+23:16:19 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/mercedes-benz/g-class-amg
+23:16:28 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/mercedes-benz/gle-amg
+23:16:46 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for mercedes-benz/sl-class-amg
+23:16:55 INFO     [ph] Mercedes-Benz — make-level sweep https://www.pistonheads.com/buy/search?make-id=35
+23:16:58 INFO     [ph] Mercedes-Benz make-level sweep done (16 adverts examined)
+23:17:40 INFO     [ph] Porsche — discovering model sub-pages
+23:17:47 INFO     [ph] porsche model pages: ['https://www.pistonheads.com/buy/porsche/911-carrera-992', 'https://www.pistonheads.com/buy/porsche/cayenne', 'https://www.pistonheads.com/buy/porsche/cayman', 'https://www.pistonheads.com/buy/porsche/macan', 'https://www.pistonheads.com/buy/porsche/macan-gts', 'https://www.pistonheads.com/buy/porsche/macan-s', 'https://www.pistonheads.com/buy/porsche/panamera', 'https://www.pistonheads.com/buy/porsche/taycan']
+23:17:47 INFO     [ph] Porsche — 8 model pages found
+23:17:56 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for porsche/911-carrera-992
+23:18:05 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/porsche/cayenne
+23:18:13 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/porsche/cayman
+23:18:19 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/porsche/macan
+23:18:28 WARNING  [ph] No Apollo state at https://www.pistonheads.com/buy/porsche/macan-gts
+23:18:38 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for porsche/macan-s
+23:18:56 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for porsche/panamera
+23:19:07 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for porsche/taycan
+23:19:18 INFO     [ph] Porsche — make-level sweep https://www.pistonheads.com/buy/search?make-id=43
+23:19:20 INFO     [ph] Porsche make-level sweep done (16 adverts examined)
+23:20:08 INFO     [ph] Rolls-Royce — discovering model sub-pages
+23:20:16 INFO     [ph] rolls-royce model pages: ['https://www.pistonheads.com/buy/rolls-royce/corniche', 'https://www.pistonheads.com/buy/rolls-royce/cullinan', 'https://www.pistonheads.com/buy/rolls-royce/dawn', 'https://www.pistonheads.com/buy/rolls-royce/ghost', 'https://www.pistonheads.com/buy/rolls-royce/phantom', 'https://www.pistonheads.com/buy/rolls-royce/silver-cloud', 'https://www.pistonheads.com/buy/rolls-royce/silver-shadow', 'https://www.pistonheads.com/buy/rolls-royce/wraith']
+23:20:16 INFO     [ph] Rolls-Royce — 8 model pages found
+23:20:33 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for rolls-royce/cullinan
+23:20:43 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for rolls-royce/dawn
+23:20:56 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for rolls-royce/ghost
+23:21:11 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for rolls-royce/phantom
+23:21:35 INFO     [ph] Page 2 IDs match page 1 — pagination exhausted for rolls-royce/wraith
+23:21:46 INFO     [ph] Rolls-Royce — make-level sweep https://www.pistonheads.com/buy/search?make-id=46
+23:21:49 INFO     [ph] Rolls-Royce make-level sweep done (16 adverts examined)
+23:22:09 INFO     [pistonheads] Run finished: status=completed found=981 new=618 updated=363 errors=0
+23:22:09 INFO     --- pistonheads done: new=618 updated=363 ---
+23:22:09 INFO     --- Starting autotrader ---
+23:22:10 INFO     [autotrader] VPN confirmed (185.59.221.75)
+23:22:10 INFO     [autotrader] Browser started
+23:22:10 INFO     [autotrader] Searching Ferrari / F430
+23:22:22 INFO     [autotrader] Searching Ferrari / 430 Scuderia
+23:22:39 INFO     [autotrader] No cards on page 1 — stopping
+23:22:48 INFO     [autotrader] Searching Ferrari / California
+23:23:07 INFO     [autotrader] Searching Ferrari / 612 Scaglietti
+23:23:24 INFO     [autotrader] No cards on page 1 — stopping
+23:23:35 INFO     [autotrader] Searching Ferrari / Purosangue
+23:24:03 INFO     [autotrader] Searching Lamborghini / Huracan
+23:24:30 INFO     [autotrader] Searching Lamborghini / Gallardo
+23:24:57 INFO     [autotrader] Searching Lamborghini / Urus
+23:25:17 INFO     [autotrader] Searching McLaren / all
+23:25:35 INFO     [autotrader] Searching Porsche / 911
+23:26:02 INFO     [autotrader] Searching Porsche / Cayenne
+23:26:14 INFO     [autotrader] Searching Porsche / Panamera
+23:26:44 INFO     [autotrader] Searching Porsche / Taycan
+23:27:11 INFO     [autotrader] Searching Porsche / Macan
+23:27:23 INFO     [autotrader] Searching Aston Martin / Vantage
+23:27:55 INFO     [autotrader] Searching Aston Martin / DB11
+23:28:14 INFO     [autotrader] Searching Aston Martin / DBX
+23:28:35 INFO     [autotrader] Searching Bentley / Continental
+23:28:47 INFO     [autotrader] Searching Bentley / Bentayga
+23:29:11 INFO     [autotrader] Searching BMW / M2
+23:29:35 INFO     [autotrader] Searching BMW / M3
+23:29:58 INFO     [autotrader] Searching BMW / M4
+23:30:14 INFO     [autotrader] Searching BMW / M5
+23:30:43 INFO     [autotrader] Searching BMW / M6
+23:31:06 INFO     [autotrader] Searching BMW / M8
+23:31:38 INFO     [autotrader] Searching BMW / X5 M
+23:32:03 INFO     [autotrader] Searching BMW / X6 M
+23:32:30 INFO     [autotrader] Searching BMW / Z3
+23:32:46 INFO     [autotrader] Searching BMW / Z4
+23:33:17 INFO     [autotrader] Searching BMW / Z8
+23:33:40 INFO     [autotrader] Searching BMW / i8
+23:34:02 INFO     [autotrader] Searching Audi / R8
+23:34:24 INFO     [autotrader] Searching Audi / RS3
+23:34:49 INFO     [autotrader] Searching Audi / RS4
+23:35:06 INFO     [autotrader] Searching Audi / RS5
+23:35:36 INFO     [autotrader] Searching Audi / RS6
+23:36:03 INFO     [autotrader] Searching Audi / RS7
+23:36:14 INFO     [autotrader] Searching Audi / RSQ3
+23:36:31 INFO     [autotrader] No cards on page 1 — stopping
+23:36:50 INFO     [autotrader] Searching Audi / RSQ5
+23:37:07 INFO     [autotrader] No cards on page 1 — stopping
+23:37:23 INFO     [autotrader] Searching Audi / RSQ8
+23:37:37 INFO     [autotrader] Searching Audi / S3
+23:37:56 INFO     [autotrader] Searching Audi / S4
+23:38:13 INFO     [autotrader] Searching Audi / S5
+23:38:34 INFO     [autotrader] Searching Audi / S6
+23:38:51 INFO     [autotrader] No cards on page 1 — stopping
+23:39:05 INFO     [autotrader] Searching Audi / S7
+23:39:21 INFO     [autotrader] Searching Audi / S8
+23:39:32 INFO     [autotrader] Searching Audi / SQ5
+23:39:56 INFO     [autotrader] Searching Audi / SQ7
+23:40:23 INFO     [autotrader] Searching Audi / SQ8
+23:40:51 INFO     [autotrader] Searching Maserati / Levante
+23:41:07 INFO     [autotrader] Searching Mercedes-Benz / AMG GT
+23:41:33 INFO     [autotrader] Searching Mercedes-Benz / C Class
+23:42:05 INFO     [autotrader] Searching Mercedes-Benz / E Class
+23:42:16 INFO     [autotrader] Searching Mercedes-Benz / G Class
+23:42:43 INFO     [autotrader] Searching Mercedes-Benz / S Class
+23:42:57 INFO     [autotrader] Searching Mercedes-Benz / SLS AMG
+23:43:13 INFO     [autotrader] No cards on page 1 — stopping
+23:43:39 INFO     [autotrader] Searching Mercedes-Benz / GLE Class
+23:43:56 INFO     [autotrader] No cards on page 1 — stopping
+23:44:09 INFO     [autotrader] Searching Mercedes-Benz / GLS Class
+23:44:26 INFO     [autotrader] No cards on page 1 — stopping
+23:44:34 INFO     [autotrader] Searching Rolls-Royce / all
+23:44:54 INFO     [autotrader] Run finished: status=completed found=1073 new=737 updated=336 errors=0
+23:44:54 INFO     --- autotrader done: new=737 updated=336 ---
+23:44:54 INFO     --- Starting ebay_motors ---
+23:44:55 INFO     [ivpn] Rotating: gb.wg.ivpn.net → gb-man.wg.ivpn.net (Manchester)
+[WireGuard] Connecting to: Manchester, GB (United Kingdom) gb-man.wg.ivpn.net UDP:2049...
+Default config : AntiTracker Enabled (block list: 'Basic')
+Connecting...
+VPN                    : CONNECTED
+                         gb-man.wg.ivpn.net [gb-man1.wg.ivpn.net], Manchester (GB), United Kingdom
+    Protocol           : WireGuard
+    Local IP           : 172.27.108.208
+    Server IP          : 185.195.202.23 (UDP:2049)
+    Connected          : 2026-04-19 23:44:57 +0800 +08
+AntiTracker            : Enabled (block list: 'Basic')
+Firewall               : Enabled
+    Allow LAN          : false
+    Allow IVPN servers : true
+
+Tips:
+ ivpn disconnect         Stop current VPN connection
+
+23:45:06 INFO     [ivpn] Connected to gb-man.wg.ivpn.net — waited 8s
+23:45:07 INFO     [ebay_motors] VPN confirmed (185.195.202.22)
+23:45:08 INFO     [ebay_motors] Browser started
+23:45:08 INFO     [ebay] Searching Aston Martin (all models)
+23:54:14 INFO     [ebay] Reached page limit (20) for Aston Martin
+23:54:36 INFO     [ebay] Searching Audi (all models)
+23:58:57 INFO     [ebay] Searching Bentley (all models)
+23:59:03 INFO     [ebay] No cards on page 1 — stopping
+23:59:13 INFO     [ebay] Searching BMW (all models)
+23:59:18 INFO     [ebay] No cards on page 1 — stopping
+23:59:38 INFO     [ebay] Searching Ferrari (all models)
+23:59:43 INFO     [ebay] No cards on page 1 — stopping
+23:59:54 INFO     [ebay] Searching Lamborghini (all models)
+23:59:59 ERROR    [ebay_motors] eBay card extraction: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+23:59:59 INFO     [ebay] No cards on page 1 — stopping
+00:00:08 INFO     [ebay] Searching Maserati (all models)
+00:00:14 INFO     [ebay] No cards on page 1 — stopping
+00:00:28 INFO     [ebay] Searching McLaren (all models)
+00:00:33 INFO     [ebay] No cards on page 1 — stopping
+00:00:41 INFO     [ebay] Searching Mercedes-Benz (all models)
+00:00:47 INFO     [ebay] No cards on page 1 — stopping
+00:01:11 INFO     [ebay] Searching Porsche (all models)
+00:01:16 INFO     [ebay] No cards on page 1 — stopping
+00:01:46 INFO     [ebay] Searching Rolls-Royce (all models)
+00:01:52 INFO     [ebay] No cards on page 1 — stopping
+00:02:11 INFO     [ebay_motors] Run finished: status=completed found=1873 new=1873 updated=0 errors=1
+00:02:11 INFO     --- ebay_motors done: new=1873 updated=0 ---
+00:02:11 INFO     === UK run complete in 4934s: 3547 new, 4296 updated across 4 sources ===
+[db] Initialised at data/arbitrage.db
+[db] Initialised at data/arbitrage.db
+[db] Initialised at data/arbitrage.db
+[db] Initialised at data/arbitrage.db
+
+Source                New  Updated
+----------------------------------
+carandclassic         319     3597
+pistonheads           618      363
+autotrader            737      336
+ebay_motors          1873        0
+----------------------------------
+TOTAL                3547     4296

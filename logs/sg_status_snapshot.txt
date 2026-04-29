@@ -1,0 +1,135 @@
+======================================================================
+SG SCRAPER STATUS SNAPSHOT — 2026-04-20
+======================================================================
+
+━━━  DATABASE COUNTS  ━━━
+  SG total listings : 0
+  UK total listings : 15004
+
+  By source:
+    UK   autotrader             1182
+    UK   carandclassic          3947
+    UK   ebay_motors            8665
+    UK   pistonheads            1210
+
+  ⚠  SG DB IS EMPTY — scrapers have never been run.
+
+━━━  SCRAPER 1: sgCarMart  ━━━
+  Site        : sgcarmart.com (server-side PHP, no JS required)
+  Access      : Playwright + domcontentloaded; visits search page then
+                each listing's detail page individually for rich data
+  Search URL  : /used_cars/listing.php?BRSR={offset}&RPG=100&VT=U&AVL=1
+                &MAKE={make}[&MDL={model}]
+  Filters     : VT=U (used), AVL=1 (available)
+  Pagination  : BRSR offset +100 per page; stops on known ID or <100 results
+  Data source : Detail page (info.php?ID=N) — spec table, COE, OMV, ARF, PARF
+  Targets     :
+    Ferrari             →  Ferrari / ALL
+    Lamborghini         →  Lamborghini / ALL
+    McLaren             →  McLaren / ALL
+    Porsche             →  Porsche / ALL
+    Aston Martin        →  Aston+Martin / ALL
+    Bentley             →  Bentley / ALL
+    BMW                 →  BMW / M3, BMW / M2
+    Audi                →  Audi / R8, Audi / TT RS, Audi / RS6, Audi / RSQ8
+    Maserati            →  Maserati / Levante
+
+  COVERAGE GAPS:
+    Missing makes entirely : Mercedes-Benz, Rolls-Royce
+    BMW only M2+M3         (TARGET_VEHICLES has M2-M8, X5M, X6M, Z3, Z4, Z8, i8)
+    Audi only R8/TT RS/RS6/RSQ8  (missing RS3-RS7, all S-models, SQ5/7/8)
+    Maserati searches 'Levante' not 'Levante Trofeo' — still catches it
+    No is_target_model filter — saves ALL listings found for each search
+
+━━━  SCRAPER 2: Carousell  ━━━
+  Site        : carousell.sg (React SPA, JS required)
+  Access      : Playwright; XHR interception primary, DOM fallback
+  Search URL  : /categories/cars-on-carousell-60/
+                ?q={make}+{model}&sort_by=3&condition_v2=USED
+                sort_by=3 = newest first (critical for delta)
+  Pagination  : Infinite scroll — up to 15 scrolls (~300 listings) per query
+  Data source : XHR JSON payloads intercepted from internal API
+                Falls back to detail page scraping if XHR misses
+  Targets     : All 11 makes from config.TARGET_VEHICLES
+    Ferrari             →  5 queries: 'Ferrari F430', 'Ferrari 430 Scuderia', 'Ferrari California'…
+    Lamborghini         →  3 queries: 'Lamborghini Huracan', 'Lamborghini Gallardo', 'Lamborghini Urus'
+    McLaren             →  1 query: 'McLaren' (all models)
+    Porsche             →  8 queries: 'Porsche 911 GTS', 'Porsche 911 Turbo', 'Porsche Cayenne GTS'…
+    Aston Martin        →  3 queries: 'Aston Martin Vantage', 'Aston Martin DB11', 'Aston Martin DBX707'
+    Bentley             →  2 queries: 'Bentley Continental GT', 'Bentley Bentayga Speed'
+    BMW                 →  12 queries: 'BMW M2', 'BMW M3', 'BMW M4'…
+    Audi                →  18 queries: 'Audi R8', 'Audi RS3', 'Audi RS4'…
+    Maserati            →  1 queries: 'Maserati Levante Trofeo'
+    Mercedes-Benz       →  10 queries: 'Mercedes-Benz AMG GT', 'Mercedes-Benz C63', 'Mercedes-Benz E63'…
+    Rolls-Royce         →  1 query: 'Rolls-Royce' (all models)
+
+  COVERAGE GAPS:
+    None — covers all 11 makes including Mercedes-Benz and Rolls-Royce
+    No is_target_model filter — saves ALL results for each query
+    XHR structure may change (Carousell deploys frequently); DOM fallback
+    is in place but returns less structured data (no COE/OMV/ARF)
+
+━━━  SCRAPER 3: Carro  ━━━
+  Site        : carro.co/sg/en/buy (Next.js SPA)
+  Access      : Playwright; XHR interception primary, DOM + __NEXT_DATA__ fallback
+  Search URL  : /sg/en/buy?makes[]={carro_make}
+  Pagination  : Scroll + 'Next page' click, up to 20 pages
+  Data source : XHR JSON payloads; falls back to __NEXT_DATA__ + DOM
+  Seller type : Always 'dealer' (Carro is a dealer-only platform)
+  Targets     : 9 makes (hardcoded _MAKE_MAP):
+    ✓  Ferrari
+    ✓  Lamborghini
+    ✓  McLaren
+    ✓  Porsche
+    ✓  Aston Martin
+    ✓  Bentley
+    ✓  BMW
+    ✓  Audi
+    ✓  Maserati
+    ✗  Mercedes-Benz
+    ✗  Rolls-Royce
+
+  COVERAGE GAPS:
+    Missing makes: Mercedes-Benz, Rolls-Royce
+    No is_target_model filter — saves ALL models for each make
+    Carro typically lists dealer-only certified used cars; inventory is
+    smaller than sgCarMart but data quality is higher
+
+━━━  CROSS-SCRAPER SUMMARY  ━━━
+  Make                  sgCarMart  Carousell  Carro
+  --------------------  ---------  ---------  -----
+  Ferrari               ✓          ✓          ✓
+  Lamborghini           ✓          ✓          ✓
+  McLaren               ✓          ✓          ✓
+  Porsche               ✓          ✓          ✓
+  Aston Martin          ✓          ✓          ✓
+  Bentley               ✓          ✓          ✓
+  BMW                   ✓          ✓          ✓
+  Audi                  ✓          ✓          ✓
+  Maserati              ✓          ✓          ✓
+  Mercedes-Benz         ✗ MISSING  ✓          ✗ MISSING
+  Rolls-Royce           ✗ MISSING  ✓          ✗ MISSING
+
+━━━  KNOWN ISSUES & BUGS  ━━━
+  1. SG scrapers have NEVER been run — DB is empty for SG market.
+  2. sgCarMart and Carro both missing Mercedes-Benz and Rolls-Royce.
+  3. sgCarMart BMW coverage is partial (M2+M3 only).
+  4. sgCarMart Audi coverage is partial (4 of 19 target models).
+  5. Carousell XHR response structure may be stale — no recent test run
+     to confirm interception is working.
+  6. Carro _MAKE_MAP uses 'Aston-Martin' (hyphen) — verify this matches
+     the actual URL parameter used by carro.co.
+  7. No VPN country check for SG scrapers — BaseScraper.__aenter__ calls
+     require_vpn(expected_country='GB') which will FAIL for SG scrapes
+     unless the VPN is switched to a SG exit node first.
+
+━━━  RECOMMENDATIONS  ━━━
+  1. Add Mercedes-Benz and Rolls-Royce to sgCarMart _SEARCH_TARGETS.
+  2. Add Mercedes-Benz and Rolls-Royce to Carro _MAKE_MAP.
+  3. Expand sgCarMart BMW and Audi model lists to match TARGET_VEHICLES,
+     OR switch to make-only search (MDL=None) for BMW and Audi.
+  4. Fix require_vpn() country check — SG scrapers need SG or no-country
+     enforcement; currently wired to expect GB which blocks SG scrapes.
+  5. Run a full SG scrape once the above are fixed.
+
+======================================================================
