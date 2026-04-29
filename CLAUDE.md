@@ -130,3 +130,11 @@ See `.env.example`. Required for live use:
 ## VPN requirement
 
 `utils/vpn.require_vpn()` must be called before every scrape run. Detects IVPN by checking the `org` field in the ipinfo.io response. Raises `RuntimeError` if not active — do not bypass this check.
+
+## Session behaviour rules
+
+- Do not ask for approval on individual file edits — make the change directly
+- Read TASKS.md at session start if it exists
+- Commit working code before moving to the next task
+- Do not change the stack or add new dependencies without explaining why first
+- Current priority: Phase 3 (UK scrapers)
